@@ -228,6 +228,6 @@ Cada patrón de integración en Oracle Integration Cloud ofrece características
 
 Estas comparaciones proporcionan una visión general de las diferencias clave entre los diferentes patrones de integración y pueden ayudar a determinar cuál es el más adecuado para un caso de uso específico.
 
-## Demo 📺:  creación de una integración
+## Demo: creación de una integración
 
 ### [Ver el siguiente video a partir del minuto 4:00](https://www.youtube.com/watch?v=eya4Nz0FFT4&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=3)

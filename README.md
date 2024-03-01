@@ -37,7 +37,7 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 - <a href="./OIC/3_Patrones_Int.md/#enrutamiento-básico">Enrutamiento Básico</a>
 - <a href="./OIC/3_Patrones_Int.md/#publicar-en-oracle-integration-cloud">Publicar en Oracle Integration Cloud</a>
 - <a href="./OIC/3_Patrones_Int.md/#suscribirse-a-oracle-integration-cloud">Suscribirse a Oracle Integration Cloud</a>
-- <a href="./OIC/3_Patrones_Int.md/#demo-📺-creación-de-una-integración">Demo 📺: creación de una integración</a>
+- <a href="./OIC/3_Patrones_Int.md/#demo-creación-de-una-integración">Demo 📺: creación de una integración</a>
 
 ## Oracle DataBase
 
