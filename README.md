@@ -12,6 +12,8 @@
 
 Oracle OIC es un servicio de paga dentro de la nube de Oracle, cuando creamos una cuenta nueva tenemos acceso a casi todas sus funcionalidades y herramientas por `un año`, pero en el caso de `OIC` este tiempo es considerablemente menor, solo se nos ofrecen **_`30 días de prueba`_**. Así que recomiendo que si se quieren hacer pruebas y practicar con la herramienta se debe tomar muy en cuenta esta restricción.
 
+Por lo mismo muchas partes prácticas seran tomadas directamente de videos de youtube que ejemplifiquen/complementen el tema visto.
+
 # Índice
 
 ## Oracle OIC
@@ -35,6 +37,7 @@ Oracle OIC es un servicio de paga dentro de la nube de Oracle, cuando creamos un
 - <a href="./OIC/3_Patrones_Int.md/#enrutamiento-básico">Enrutamiento Básico</a>
 - <a href="./OIC/3_Patrones_Int.md/#publicar-en-oracle-integration-cloud">Publicar en Oracle Integration Cloud</a>
 - <a href="./OIC/3_Patrones_Int.md/#suscribirse-a-oracle-integration-cloud">Suscribirse a Oracle Integration Cloud</a>
+- <a href="./OIC/3_Patrones_Int.md/#demo-📺-creación-de-una-integración">Demo 📺: creación de una integración</a>
 
 ## Oracle DataBase
 

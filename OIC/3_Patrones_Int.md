@@ -227,3 +227,7 @@ Cada patrón de integración en Oracle Integration Cloud ofrece características
 | Suscribirse a OIC              | Permite que aplicaciones externas se suscriban a eventos generados por OIC para su procesamiento.                                                                                         | Integración con sistemas externos, gestión de flujos de trabajo, notificaciones y alertas.                                         |
 
 Estas comparaciones proporcionan una visión general de las diferencias clave entre los diferentes patrones de integración y pueden ayudar a determinar cuál es el más adecuado para un caso de uso específico.
+
+## Demo 📺:  creación de una integración
+
+### [Ver el siguiente video a partir del minuto 4:00](https://www.youtube.com/watch?v=eya4Nz0FFT4&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=3)
