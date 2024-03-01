@@ -27,6 +27,15 @@ Oracle OIC es un servicio de paga dentro de la nube de Oracle, cuando creamos un
 - <a href="./OIC/2_Componentes.md/#bibliotecas-paquetes-y-javascript-en-oic">Bibliotecas y Paquetes</a>
 - <a href="./OIC/2_Componentes.md/#integraciones-en-oracle-integration-cloud-oic">Integraciones</a>
 
+### 3. <a href="./OIC/3_Patrones_Int.md">Patrones de Integración en OIC</a>
+
+- <a href="./OIC/3_Patrones_Int.md/#orquestación-impulsada-por-aplicaciones">Orquestación Impulsada por Aplicaciones</a>
+- <a href="./OIC/3_Patrones_Int.md/#orquestación-programada">Orquestación Programada</a>
+- <a href="./OIC/3_Patrones_Int.md/#transferencia-de-archivos">Transferencia de Archivos</a>
+- <a href="./OIC/3_Patrones_Int.md/#enrutamiento-básico">Enrutamiento Básico</a>
+- <a href="./OIC/3_Patrones_Int.md/#publicar-en-oracle-integration-cloud">Publicar en Oracle Integration Cloud</a>
+- <a href="./OIC/3_Patrones_Int.md/#suscribirse-a-oracle-integration-cloud">Suscribirse a Oracle Integration Cloud</a>
+
 ## Oracle DataBase
 
 ## SQL
