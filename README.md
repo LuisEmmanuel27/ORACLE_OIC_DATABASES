@@ -18,30 +18,30 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ## Oracle OIC: Gen 2
 
-### 1. <a href="./OIC/1_Introduccion.md">Introducción</a>
+### 1. <a href="./OIC_GEN_2/1_Introduccion.md">Introducción</a>
 
-### 2. <a href="./OIC/2_Componentes.md">Componentes en OIC</a>
+### 2. <a href="./OIC_GEN_2/2_Componentes.md">Componentes en OIC</a>
 
-- <a href="./OIC/2_Componentes.md/#adaptadores-en-oic">Adaptadores</a>
-- <a href="./OIC/2_Componentes.md/#agentes-en-oic">Agentes</a>
-- <a href="./OIC/2_Componentes.md/#conexiones-en-oic">Conexiones</a>
-- <a href="./OIC/2_Componentes.md/#lookups-en-oic">Lookups</a>
-- <a href="./OIC/2_Componentes.md/#bibliotecas-paquetes-y-javascript-en-oic">Bibliotecas y Paquetes</a>
-- <a href="./OIC/2_Componentes.md/#integraciones-en-oracle-integration-cloud-oic">Integraciones</a>
+- <a href="./OIC_GEN_2/2_Componentes.md/#adaptadores-en-oic">Adaptadores</a>
+- <a href="./OIC_GEN_2/2_Componentes.md/#agentes-en-oic">Agentes</a>
+- <a href="./OIC_GEN_2/2_Componentes.md/#conexiones-en-oic">Conexiones</a>
+- <a href="./OIC_GEN_2/2_Componentes.md/#lookups-en-oic">Lookups</a>
+- <a href="./OIC_GEN_2/2_Componentes.md/#bibliotecas-paquetes-y-javascript-en-oic">Bibliotecas y Paquetes</a>
+- <a href="./OIC_GEN_2/2_Componentes.md/#integraciones-en-oracle-integration-cloud-oic">Integraciones</a>
 
-### 3. <a href="./OIC/3_Patrones_Int.md">Patrones de Integración en OIC</a>
+### 3. <a href="./OIC_GEN_2/3_Patrones_Int.md">Patrones de Integración en OIC</a>
 
-- <a href="./OIC/3_Patrones_Int.md/#orquestación-impulsada-por-aplicaciones">Orquestación Impulsada por Aplicaciones</a>
-- <a href="./OIC/3_Patrones_Int.md/#orquestación-programada">Orquestación Programada</a>
-- <a href="./OIC/3_Patrones_Int.md/#transferencia-de-archivos">Transferencia de Archivos</a>
-- <a href="./OIC/3_Patrones_Int.md/#enrutamiento-básico">Enrutamiento Básico</a>
-- <a href="./OIC/3_Patrones_Int.md/#publicar-en-oracle-integration-cloud">Publicar en Oracle Integration Cloud</a>
-- <a href="./OIC/3_Patrones_Int.md/#suscribirse-a-oracle-integration-cloud">Suscribirse a Oracle Integration Cloud</a>
-- <a href="./OIC/3_Patrones_Int.md/#demo-creación-de-una-integración">Demo 📺: creación de una integración</a>
+- <a href="./OIC_GEN_2/3_Patrones_Int.md/#orquestación-impulsada-por-aplicaciones">Orquestación Impulsada por Aplicaciones</a>
+- <a href="./OIC_GEN_2/3_Patrones_Int.md/#orquestación-programada">Orquestación Programada</a>
+- <a href="./OIC_GEN_2/3_Patrones_Int.md/#transferencia-de-archivos">Transferencia de Archivos</a>
+- <a href="./OIC_GEN_2/3_Patrones_Int.md/#enrutamiento-básico">Enrutamiento Básico</a>
+- <a href="./OIC_GEN_2/3_Patrones_Int.md/#publicar-en-oracle-integration-cloud">Publicar en Oracle Integration Cloud</a>
+- <a href="./OIC_GEN_2/3_Patrones_Int.md/#suscribirse-a-oracle-integration-cloud">Suscribirse a Oracle Integration Cloud</a>
+- <a href="./OIC_GEN_2/3_Patrones_Int.md/#demo-creación-de-una-integración">Demo 📺: creación de una integración</a>
 
-### 4. <a href="./OIC/4_Como_ej_int_prog_app.md">¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones</a>
+### 4. <a href="./OIC_GEN_2/4_Como_ej_int_prog_app.md">¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones</a>
 
-### 5. <a href="./OIC/5_Como_cre_con_uti_ag_con.md">¿Cómo crear una conexión en OIC? ¿Cuándo utilizar el Agente en Conexión?</a>
+### 5. <a href="./OIC_GEN_2/5_Como_cre_con_uti_ag_con.md">¿Cómo crear una conexión en OIC? ¿Cuándo utilizar el Agente en Conexión?</a>
 
 ## Oracle OIC: Gen 3
 
