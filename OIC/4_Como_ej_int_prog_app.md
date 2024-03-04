@@ -1,6 +1,6 @@
 # ¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones
 
-> NOTE
+> [!NOTE]
 > Como se menciona en el índice de esta serie de notas, debido a que OIC es de paga, nos apoyaremos de ahora en adelante de videos de YouTube para poder ver como funciona y aprender más al respecto antes de que decidas tomar los 30 días gratis que ofrece Oracle.
 
 ## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=CkN0EqqxdQ0&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=4)
