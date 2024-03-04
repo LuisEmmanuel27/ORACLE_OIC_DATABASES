@@ -7,3 +7,7 @@
 # enlaces
 
 <a href="./OIC/1_Introduccion.md">Introducción</a>
+
+# video
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=CkN0EqqxdQ0&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=4)

@@ -35,6 +35,6 @@ Las pruebas en Oracle Integration Cloud son acciones realizadas para verificar e
 
 Las pruebas en Oracle Integration Cloud son una parte esencial del proceso de desarrollo e implementación de integraciones, ya que garantizan la calidad y la fiabilidad de las soluciones integradas. Al realizar pruebas exhaustivas y analizar los resultados de manera efectiva, los usuarios pueden asegurar que sus integraciones funcionen correctamente y cumplan con los requisitos del negocio.
 
-## Otros conceptos vistos
+## Otros conceptos
 
 ### [Componente Logger](./0_Definiciones.md/#componente-logger)
