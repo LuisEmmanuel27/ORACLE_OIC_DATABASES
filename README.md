@@ -39,6 +39,8 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 - <a href="./OIC/3_Patrones_Int.md/#suscribirse-a-oracle-integration-cloud">Suscribirse a Oracle Integration Cloud</a>
 - <a href="./OIC/3_Patrones_Int.md/#demo-creación-de-una-integración">Demo 📺: creación de una integración</a>
 
+### 4. <a href="./OIC/4_Como_ej_int_prog_app.md">¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones</a>
+
 ## Oracle DataBase
 
 ## SQL
