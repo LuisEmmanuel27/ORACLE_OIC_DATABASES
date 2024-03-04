@@ -43,6 +43,8 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ### 5. <a href="./OIC_GEN_2/5_Como_cre_con_uti_ag_con.md">¿Cómo crear una conexión en OIC? ¿Cuándo utilizar el Agente en Conexión?</a>
 
+### 6. <a href="./OIC_GEN_2/6_Adap_paq_bib_ag_loo.md">Adaptador, paquete, bibliotecas, agente y lookup en OIC</a>
+
 ## Oracle OIC: Gen 3
 
 ## Oracle DataBase
