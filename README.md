@@ -49,6 +49,12 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ### 8. <a href="./OIC_GEN_2/8_Ejemplo_Practico_5.md">Cree su primera integración de orquestación de horarios en OIC | Crear integración en OIC</a>
 
+### 9. <a href="./OIC_GEN_2/9_Ejemplo_Practico_6.md">Cree su primera integración de orquestación basada en aplicaciones | Crear integración en OIC</a>
+
+### 10. <a href="./OIC_GEN_2/10_Ejemplo_Practico_7.md">Crear integración con parámetro | Cómo crear una integración impulsada por aplicaciones con parámetros</a>
+
+### 11. <a href="./OIC_GEN_2/11_Ejemplo_Practico_8.md">Crear integración con request payload | Cómo crear una integración impulsada por aplicaciones con solicitud</a>
+
 ### <a href="./OIC_GEN_2/0_Definiciones.md">Glosario de Componentes</a>
 
 ---

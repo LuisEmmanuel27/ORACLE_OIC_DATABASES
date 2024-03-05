@@ -10,4 +10,8 @@
 
 # video
 
-## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=CkN0EqqxdQ0&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=4)
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=T-N58b5y6-s&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=10)
+
+# conceptos
+
+### [Adaptador REST](./0_Definiciones.md/#adaptador-rest)

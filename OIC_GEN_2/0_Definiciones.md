@@ -159,3 +159,27 @@ El componente "Stage File" en Oracle Integration Cloud (OIC) es una herramienta 
 - El componente "Stage File" se puede integrar fácilmente en los flujos de integración de OIC a través de la interfaz de usuario de desarrollo. Los usuarios pueden agregar componentes de manejo de archivos a los flujos de integración y configurarlos mediante una interfaz intuitiva y basada en reglas.
 
 - Además, "Stage File" se puede utilizar en combinación con otros componentes y adaptadores en OIC para construir flujos de integración completos y robustos que incluyan funcionalidades de lectura, escritura y procesamiento de archivos. Esto permite a los usuarios diseñar y desarrollar soluciones de integración flexibles y escalables que satisfagan las necesidades específicas de manejo de archivos en sus organizaciones.
+
+---
+
+# Adaptador REST
+
+El adaptador REST en Oracle Integration Cloud (OIC) es una herramienta esencial que permite la integración con servicios web basados en el protocolo REST (Representational State Transfer). Este adaptador ofrece funcionalidades avanzadas para consumir y exponer servicios web RESTful, lo que facilita la integración de sistemas y aplicaciones que siguen este modelo arquitectónico. A continuación, se detallan en profundidad las características y capacidades del adaptador REST:
+
+## Funcionalidades del Adaptador REST:
+
+1. **Consumo de Servicios Web RESTful:** El adaptador REST permite consumir servicios web RESTful externos desde flujos de integración de OIC. Esto incluye la capacidad de enviar solicitudes HTTP (GET, POST, PUT, DELETE, etc.) a endpoints REST y procesar las respuestas recibidas, lo que permite interactuar con aplicaciones y sistemas externos que exponen servicios RESTful.
+
+2. **Exposición de Servicios RESTful:** Además de consumir servicios web RESTful, el adaptador REST también permite exponer servicios propios como endpoints REST en OIC. Esto facilita la creación de APIs RESTful personalizadas que pueden ser consumidas por otras aplicaciones y sistemas externos, lo que permite compartir datos y funcionalidades de manera segura y eficiente.
+
+3. **Configuración de Operaciones y Recursos:** El adaptador REST ofrece flexibilidad en la configuración de operaciones y recursos, lo que permite definir endpoints, métodos HTTP, parámetros de solicitud y respuestas esperadas de manera intuitiva y basada en reglas. Esto simplifica el proceso de integración al permitir a los usuarios configurar y personalizar el comportamiento del adaptador según sus necesidades específicas.
+
+4. **Mapeo de Datos y Transformaciones:** El adaptador REST facilita el mapeo de datos entre las estructuras de datos de origen y destino, lo que permite adaptar y transformar los datos según los requisitos de los servicios web RESTful. Esto incluye la capacidad de realizar conversiones de formato, filtrado de datos, enriquecimiento y normalización de datos, entre otras operaciones de transformación.
+
+5. **Gestión de Seguridad:** El adaptador REST incorpora mecanismos de seguridad avanzados para garantizar la confidencialidad, integridad y autenticidad de los datos intercambiados entre OIC y los servicios web RESTful. Esto incluye la autenticación mediante tokens de acceso, el cifrado de datos en tránsito y la gestión de autorizaciones basada en roles y permisos.
+
+## Implementación del Adaptador REST en OIC:
+
+- El adaptador REST se puede integrar fácilmente en los flujos de integración de OIC a través de la interfaz de usuario de desarrollo. Los usuarios pueden agregar componentes de adaptador REST a los flujos de integración y configurarlos mediante una interfaz intuitiva y basada en reglas.
+
+- Además, el adaptador REST se puede utilizar en combinación con otros componentes y adaptadores en OIC para construir flujos de integración completos y robustos que incluyan funcionalidades de consumo y exposición de servicios web RESTful. Esto permite a los usuarios diseñar y desarrollar soluciones de integración flexibles y escalables que satisfagan las necesidades específicas de integración con servicios RESTful en sus organizaciones.
