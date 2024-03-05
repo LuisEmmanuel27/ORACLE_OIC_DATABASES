@@ -55,6 +55,8 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ### 11. <a href="./OIC_GEN_2/11_Ejemplo_Practico_8.md">Crear integración con request payload | Cómo crear una integración impulsada por aplicaciones con solicitud</a>
 
+### 12. <a href="./OIC_GEN_2/12_Ejemplo_Practico_9.md">Crear integración en oic para obtener solicitud y devolver la respuesta | Solicitud y Respuesta en OIC</a>
+
 ### <a href="./OIC_GEN_2/0_Definiciones.md">Glosario de Componentes</a>
 
 ---
