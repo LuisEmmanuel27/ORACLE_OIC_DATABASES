@@ -67,6 +67,12 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ## Oracle DataBase
 
+### Become An Oracle Cloud Data Management Foundations Associate (2023)
+
+#### 1. <a href="./ORACLE DB/1_COUD_DATA_MANAGEMENT_FOUNDATIONS/1_Notas_1.md">Oracle´s Data Managment Strategy</a>
+
+#### 2. <a href="./ORACLE DB/1_COUD_DATA_MANAGEMENT_FOUNDATIONS/2_Notas_2.md">Oracle Database Offerings</a>
+
 ---
 
 ## SQL
