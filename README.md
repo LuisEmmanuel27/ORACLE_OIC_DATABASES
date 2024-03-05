@@ -39,14 +39,26 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 - <a href="./OIC_GEN_2/3_Patrones_Int.md/#suscribirse-a-oracle-integration-cloud">Suscribirse a Oracle Integration Cloud</a>
 - <a href="./OIC_GEN_2/3_Patrones_Int.md/#demo-creación-de-una-integración">Demo 📺: creación de una integración</a>
 
-### 4. <a href="./OIC_GEN_2/4_Como_ej_int_prog_app.md">¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones</a>
+### 4. <a href="./OIC_GEN_2/4_Ejemplo_Practico_1.md">¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones</a>
 
-### 5. <a href="./OIC_GEN_2/5_Como_cre_con_uti_ag_con.md">¿Cómo crear una conexión en OIC? ¿Cuándo utilizar el Agente en Conexión?</a>
+### 5. <a href="./OIC_GEN_2/5_Ejemplo_Practico_2.md">¿Cómo crear una conexión en OIC? ¿Cuándo utilizar el Agente en Conexión?</a>
 
-### 6. <a href="./OIC_GEN_2/6_Adap_paq_bib_ag_loo.md">Adaptador, paquete, bibliotecas, agente y lookup en OIC</a>
+### 6. <a href="./OIC_GEN_2/6_Ejemplo_Practico_3.md">Adaptador, paquete, bibliotecas, agente y lookup en OIC</a>
+
+### 7. <a href="./OIC_GEN_2/7_Ejemplo_Practico_4.md">Descripción general de la página de integración de Oracle | Elementos de la integración de Oracle | ¿Cómo manejar la excepción?</a>
+
+### 8. <a href="./OIC_GEN_2/8_Ejemplo_Practico_5.md">Cree su primera integración de orquestación de horarios en OIC | Crear integración en OIC</a>
+
+### <a href="./OIC_GEN_2/0_Definiciones.md">Glosario de Componentes</a>
+
+---
 
 ## Oracle OIC: Gen 3
 
+---
+
 ## Oracle DataBase
+
+---
 
 ## SQL
