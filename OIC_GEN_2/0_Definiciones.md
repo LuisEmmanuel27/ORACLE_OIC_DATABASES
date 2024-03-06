@@ -229,3 +229,27 @@ Las variables globales en Oracle Integration Cloud (OIC) son elementos esenciale
 El componente Data Stitch en OIC se utiliza para realizar operaciones de asignación y transformación de datos dentro de un flujo de integración. Este componente permite manipular los valores de las variables, realizar cálculos, aplicar lógica condicional y realizar otras operaciones de transformación para adaptar y modificar los datos según los requisitos específicos del flujo de integración.
 
 La relación entre las variables globales y el componente Data Stitch radica en que las variables globales pueden ser utilizadas como fuentes o destinos de datos dentro de las expresiones y operaciones definidas en Data Stitch. Esto significa que los valores almacenados en las variables globales pueden ser accedidos, modificados y utilizados en las operaciones de transformación realizadas por Data Stitch, lo que permite integrar y procesar datos de manera dinámica y flexible dentro de los flujos de integración en OIC.
+
+---
+
+# Componente Switch
+
+El componente "Switch" en Oracle Integration Cloud (OIC) es una herramienta poderosa que permite dirigir el flujo de ejecución de un proceso de integración en función de condiciones específicas evaluadas durante la ejecución. Este componente es fundamental para implementar lógica condicional dentro de los flujos de integración, permitiendo tomar decisiones y realizar acciones diferentes según los valores de datos proporcionados. A continuación, se detallan las características y capacidades clave del componente "Switch" en OIC:
+
+## Funcionalidades del Componente "Switch":
+
+1. **Evaluación de Condiciones:** El componente "Switch" permite evaluar una expresión o condición específica y dirigir el flujo de ejecución a diferentes ramas según el resultado de la evaluación. Esto facilita la implementación de lógica condicional en los flujos de integración, donde se pueden definir múltiples casos o escenarios diferentes a ser considerados.
+
+2. **Múltiples Ramas de Ejecución:** El componente "Switch" permite definir múltiples ramas de ejecución, cada una asociada a una condición específica. Esto permite dirigir el flujo de ejecución a diferentes partes del flujo de integración según los valores de datos proporcionados o las condiciones evaluadas durante la ejecución.
+
+3. **Gestión de Casos:** Dentro de cada rama del componente "Switch", se pueden definir acciones específicas a realizar en función del caso o escenario evaluado. Esto incluye la capacidad de ejecutar operaciones de asignación, invocar servicios externos, realizar transformaciones de datos u otras acciones relevantes para el caso particular.
+
+4. **Compatibilidad con Tipos de Datos:** El componente "Switch" es compatible con una amplia variedad de tipos de datos, lo que permite evaluar condiciones basadas en valores numéricos, cadenas de texto, fechas, booleanos u otros tipos de datos compatibles. Esto proporciona flexibilidad en la implementación de lógica condicional basada en diferentes tipos de criterios.
+
+5. **Facilidad de Configuración:** Configurar un componente "Switch" en un flujo de integración es simple e intuitivo. Los usuarios pueden definir las condiciones y ramas de ejecución utilizando una interfaz gráfica fácil de entender, lo que facilita la configuración y mantenimiento de la lógica condicional dentro del flujo de integración.
+
+## Implementación del Componente "Switch" en OIC:
+
+- El componente "Switch" se puede agregar y configurar fácilmente en los flujos de integración de OIC a través de la interfaz de usuario de desarrollo. Los usuarios pueden arrastrar y soltar el componente "Switch" en el lienzo de diseño y configurarlo mediante una interfaz intuitiva y basada en reglas.
+
+- Además, el componente "Switch" se puede utilizar en combinación con otros componentes y adaptadores en OIC para construir flujos de integración completos y robustos. Esto permite a los usuarios diseñar y desarrollar soluciones de integración que respondan dinámicamente a diferentes escenarios y condiciones, optimizando así el proceso de integración y mejorando la eficiencia operativa.

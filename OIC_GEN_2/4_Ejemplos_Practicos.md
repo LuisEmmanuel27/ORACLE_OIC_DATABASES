@@ -122,7 +122,7 @@ El componente "Mapper" en OIC facilita el mapeo de datos entre diferentes format
 
 ---
 
-# Cree su primera integración de orquestación de horarios en OIC | Crear integración en OIC
+# Cree su primera integración de orquestación programada en OIC | Crear integración en OIC
 
 ## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=kfA_osmbNf8&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=8)
 
@@ -206,4 +206,14 @@ Este video explica cómo crear y asignar variables globales y locales en Oracle 
 
 ---
 
-# 
+# Switch en OIC | Crear integración para comprobar que no es positivo o negativo | if else
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=oWTRFiPgwGU&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=16)
+
+## Resumen
+
+Este video explica cómo usar el elemento switch en Oracle Integration para implementar la lógica condicional de un servicio web que recibe un número y devuelve si es positivo, negativo o cero. El video muestra los pasos para crear el servicio, configurar las variables, definir las condiciones, asignar los valores y probar el resultado.
+
+## Profundizando en...
+
+### [Componente Switch](./0_Definiciones.md/#componente-switch)
