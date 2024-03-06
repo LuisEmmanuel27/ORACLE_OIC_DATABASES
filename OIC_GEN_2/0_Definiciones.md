@@ -78,22 +78,6 @@ El componente "Mapper" en Oracle Integration Cloud (OIC) es una herramienta esen
 
 ---
 
-# Componente Global Fault
-
-El componente "Global Fault" en Oracle Integration Cloud (OIC) es una característica fundamental que permite manejar excepciones y errores durante la ejecución de integraciones. Este componente ofrece una serie de funcionalidades y capacidades diseñadas para garantizar la confiabilidad y la robustez de los flujos de integración, incluso en situaciones adversas o inesperadas. A continuación, se detallan algunos aspectos importantes sobre el componente "Global Fault":
-
-## Funcionalidades del Componente Global Fault:
-
-1. **Gestión de Excepciones y Errores:** El componente "Global Fault" permite definir acciones y estrategias para manejar situaciones de error durante la ejecución de integraciones. Esto incluye la capacidad de capturar excepciones, identificar errores y tomar medidas correctivas para mitigar el impacto de los fallos en el proceso de integración.
-
-2. **Configuración de Políticas de Reintento:** "Global Fault" ofrece la posibilidad de configurar políticas de reintento automáticas para manejar errores transitorios o temporales. Esto permite establecer criterios para volver a intentar la ejecución de integraciones en caso de fallo, lo que aumenta la probabilidad de éxito y la fiabilidad de los flujos de integración.
-
-3. **Registro y Notificación de Errores:** El componente "Global Fault" facilita el registro y la notificación de errores para mantener un registro detallado de las excepciones y problemas encontrados durante la ejecución de integraciones. Esto permite a los usuarios realizar un seguimiento de los errores, diagnosticar problemas y tomar medidas correctivas para mejorar la calidad y el rendimiento de los flujos de integración.
-
-4. **Recuperación y Continuidad del Proceso:** "Global Fault" proporciona mecanismos de recuperación y continuidad del proceso para garantizar la integridad y la coherencia de los datos durante las operaciones de integración. Esto incluye la capacidad de revertir cambios, restaurar estados anteriores y reiniciar flujos de integración en caso de error o interrupción.
-
----
-
 # Componente Data Stitch
 
 El componente "Data Stitch" en Oracle Integration Cloud (OIC) es una herramienta poderosa que permite la transformación y manipulación de datos durante la ejecución de integraciones. Este componente ofrece una serie de funcionalidades y características diseñadas para facilitar la manipulación y el enriquecimiento de datos en tiempo real, permitiendo a los usuarios adaptar los datos según los requisitos específicos de sus flujos de integración. A continuación, se detallan algunos aspectos importantes sobre el componente "Data Stitch":

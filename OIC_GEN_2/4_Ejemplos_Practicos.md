@@ -116,8 +116,6 @@ El componente "Mapper" en OIC facilita el mapeo de datos entre diferentes format
 
 ### [Componente Mapper](./0_Definiciones.md/#componente-mapper)
 
-### [Componente Global fault](./0_Definiciones.md/#componente-global-fault)
-
 ### [Componente Data Stitch](./0_Definiciones.md/#componente-data-stitch)
 
 ---
