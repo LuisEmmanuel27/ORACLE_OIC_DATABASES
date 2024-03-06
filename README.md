@@ -50,8 +50,9 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 - <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-con-parámetro--cómo-crear-una-integración-impulsada-por-aplicaciones-con-parámetros">Crear integración con parámetro | Cómo crear una integración impulsada por aplicaciones con parámetros</a>
 - <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-con-request-payload--cómo-crear-una-integración-impulsada-por-aplicaciones-con-solicitud">Crear integración con request payload | Cómo crear una integración impulsada por aplicaciones con solicitud</a>
 - <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-en-oic-para-obtener-solicitud-y-devolver-la-respuesta--solicitud-y-respuesta-en-oic">Crear integración en oic para obtener solicitud y devolver la respuesta | Solicitud y Respuesta en OIC
-- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-una-integración-para-obtener-dos-números-como-solicitud-y-devolver-la-suma-de-ambos-num-en-respuesta">Cree una integración para obtener dos números como solicitud y devolver la suma de ambos num. en respuesta
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-una-integración-para-obtener-dos-números-como-solicitud-y-devolver-la-suma-de-ambos-num-en-respuesta">Cree una integración para obtener dos números como solicitud y devolver la suma de ambos num en respuesta
 </a>
+---
 - <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#assing-en-oracle-integration-cómo-crear-una-variable-en-oic--crear-variable-local-en-oic">Assing en Oracle Integration: cómo crear una variable en oic | Crear variable local en oic
 </a>
 - <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#data-stitch-en-oracle-integration-cómo-crear-una-variable-global-en-oic--variable-global-en-oic">Data Stitch en Oracle Integration: cómo crear una variable global en oic | Variable global en oic
