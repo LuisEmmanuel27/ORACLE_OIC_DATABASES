@@ -217,3 +217,69 @@ Este video explica cómo usar el elemento switch en Oracle Integration para impl
 ## Profundizando en...
 
 ### [Componente Switch](./0_Definiciones.md/#componente-switch)
+
+---
+
+# Crear integración de calculadora usando Switch en la integración de Oracle | Implementar if else en oic
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=z810flZQbLc&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=17)
+
+## Resumen
+
+Este video explica cómo usar la declaración switch en Oracle Integration para implementar la lógica condicional en una integración que recibe tres parámetros: dos números y una operación. El video muestra cómo crear variables, asignar valores, agregar condiciones y usar funciones para realizar operaciones aritméticas. También menciona el manejo de excepciones y el uso de mensajes de registro.
+
+---
+
+# Scope: Manejo de excepciones en la integración de Oracle | Cómo manejar la excepción
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=DiaomsMRjlQ&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=18)
+
+## Resumen
+
+Este video explica cómo manejar las excepciones en las integraciones de Oracle Integration Cloud (OIC) usando el Scope. El video muestra un ejemplo de una integración que realiza una división de dos números y cómo evitar el error de dividir por cero.
+
+## Profundizando en...
+
+### [Componente Scope](./0_Definiciones.md/#componente-scope)
+
+---
+
+# Global Fault Handler: manejo de excepciones en la integración de Oracle | Cómo manejar la excepción en oic
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=Fha_w36cIMk&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=19)
+
+## Resumen
+
+Este video explica cómo manejar las excepciones globales en una integración de Oracle usando el controlador de fallas global. El video muestra cómo generar una excepción al asignar un valor de fecha a una variable de cadena, y cómo usar el controlador de fallas global para devolver una respuesta personalizada en lugar de un error. El video también muestra cómo mapear los valores de la respuesta y cómo probar la integración.
+
+## Profundizando en...
+
+### [Global Fault Handler](./0_Definiciones.md/#global-fault-handler)
+
+---
+
+# While Loop: declaración de bucle en Oracle Integration | Cómo usar el bucle while en oic
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=tBlE_4fwXWM&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=20)
+
+## Resumen
+
+Este video explica cómo usar el bucle while en una integración de Oracle Integration Cloud (OIC). El video muestra los pasos para crear una integración que recibe un número como parámetro y ejecuta el bucle while ese número de veces, imprimiendo un mensaje de registro en cada iteración. El video también muestra cómo probar la integración con diferentes valores de entrada y ver los resultados en el registro.
+
+## Profundizando en...
+
+### [Componente While](./0_Definiciones.md/#componente-while)
+
+---
+
+# For Each Loop: declaración de bucle en Oracle Integration | Cómo usar para cada bucle en oic
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=-6w5fbNQVT4&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=21)
+
+## Resumen
+
+Este video explica cómo crear y usar un bucle for each en una integración de Oracle Integration Cloud (OIC). El video muestra los pasos para configurar un punto final REST que recibe un cuerpo de solicitud JSON con un arreglo de datos de usuario, y luego usa un bucle for each para iterar sobre cada elemento del arreglo e imprimir los detalles del usuario en un mensaje de registro. El video también explica cómo usar la función concat para combinar valores de cadena y cómo validar la sintaxis de las expresiones.
+
+## Profundizando en...
+
+### [Componente For Each](./0_Definiciones.md/#componente-for-each)

@@ -54,6 +54,11 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 11. [Assing en Oracle Integration: cómo crear una variable en oic | Crear variable local en oic](./OIC_GEN_2/4_Ejemplos_Practicos.md/#assing-en-oracle-integration-cómo-crear-una-variable-en-oic--crear-variable-local-en-oic)
 12. [Data Stitch en Oracle Integration: cómo crear una variable global en oic | Variable global en oic](./OIC_GEN_2/4_Ejemplos_Practicos.md/#data-stitch-en-oracle-integration-cómo-crear-una-variable-global-en-oic--variable-global-en-oic)
 13. [Switch en OIC | Crear integración para comprobar que no es positivo o negativo | if else](./OIC_GEN_2/4_Ejemplos_Practicos.md/#switch-en-oic--crear-integración-para-comprobar-que-no-es-positivo-o-negativo--if-else)
+14. [Crear integración de calculadora usando Switch en la integración de Oracle | Implementar if else en oic](./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-de-calculadora-usando-switch-en-la-integración-de-oracle--implementar-if-else-en-oic)
+15. [Scope: Manejo de excepciones en la integración de Oracle | Cómo manejar la excepción](./OIC_GEN_2/4_Ejemplos_Practicos.md/#scope-manejo-de-excepciones-en-la-integración-de-oracle--cómo-manejar-la-excepción)
+16. [Global Fault Handler: manejo de excepciones en la integración de Oracle | Cómo manejar la excepción en oic](./OIC_GEN_2/4_Ejemplos_Practicos.md/#global-fault-handler-manejo-de-excepciones-en-la-integración-de-oracle--cómo-manejar-la-excepción-en-oic)
+17. [While Loop: declaración de bucle en Oracle Integration | Cómo usar el bucle while en oic](./OIC_GEN_2/4_Ejemplos_Practicos.md/#while-loop-declaración-de-bucle-en-oracle-integration--cómo-usar-el-bucle-while-en-oic)
+18. [For Each Loop: declaración de bucle en Oracle Integration | Cómo usar para cada bucle en oic](./OIC_GEN_2/4_Ejemplos_Practicos.md/#for-each-loop-declaración-de-bucle-en-oracle-integration--cómo-usar-para-cada-bucle-en-oic)
 
 ### <a href="./OIC_GEN_2/0_Definiciones.md">Glosario de Componentes</a>
 
