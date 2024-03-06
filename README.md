@@ -39,23 +39,18 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 - <a href="./OIC_GEN_2/3_Patrones_Int.md/#suscribirse-a-oracle-integration-cloud">Suscribirse a Oracle Integration Cloud</a>
 - <a href="./OIC_GEN_2/3_Patrones_Int.md/#demo-creación-de-una-integración">Demo 📺: creación de una integración</a>
 
-### 4. <a href="./OIC_GEN_2/4_Ejemplo_Practico_1.md">¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones</a>
+### 4. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md">Ejemplos Practicos</a>
 
-### 5. <a href="./OIC_GEN_2/5_Ejemplo_Practico_2.md">¿Cómo crear una conexión en OIC? ¿Cuándo utilizar el Agente en Conexión?</a>
-
-### 6. <a href="./OIC_GEN_2/6_Ejemplo_Practico_3.md">Adaptador, paquete, bibliotecas, agente y lookup en OIC</a>
-
-### 7. <a href="./OIC_GEN_2/7_Ejemplo_Practico_4.md">Descripción general de la página de integración de Oracle | Elementos de la integración de Oracle | ¿Cómo manejar la excepción?</a>
-
-### 8. <a href="./OIC_GEN_2/8_Ejemplo_Practico_5.md">Cree su primera integración de orquestación de horarios en OIC | Crear integración en OIC</a>
-
-### 9. <a href="./OIC_GEN_2/9_Ejemplo_Practico_6.md">Cree su primera integración de orquestación basada en aplicaciones | Crear integración en OIC</a>
-
-### 10. <a href="./OIC_GEN_2/10_Ejemplo_Practico_7.md">Crear integración con parámetro | Cómo crear una integración impulsada por aplicaciones con parámetros</a>
-
-### 11. <a href="./OIC_GEN_2/11_Ejemplo_Practico_8.md">Crear integración con request payload | Cómo crear una integración impulsada por aplicaciones con solicitud</a>
-
-### 12. <a href="./OIC_GEN_2/12_Ejemplo_Practico_9.md">Crear integración en oic para obtener solicitud y devolver la respuesta | Solicitud y Respuesta en OIC</a>
+1. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#¿cómo-ejecutar-la-integración-integración-de-programación-y-basada-en-aplicaciones">¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones</a>
+2. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#¿cómo-crear-una-conexión-en-oic-¿cuándo-utilizar-el-agente-en-conexión">¿Cómo crear una conexión en OIC? ¿Cuándo utilizar el Agente en Conexión?</a>
+3. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#adaptador-paquete-bibliotecas-agente-y-lookup-en-oic">Adaptador, paquete, bibliotecas, agente y lookup en OIC</a>
+4. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#descripción-general-de-la-página-de-integración-de-oracle--elementos-de-la-integración-de-oracle--¿cómo-manejar-la-excepción">Descripción general de la página de integración de Oracle | Elementos de la integración de Oracle | ¿Cómo manejar la excepción?</a>
+5. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-su-primera-integración-de-orquestación-de-horarios-en-oic--crear-integración-en-oic">Cree su primera integración de orquestación de horarios en OIC | Crear integración en OIC</a>
+6. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-su-primera-integración-de-orquestación-basada-en-aplicaciones--crear-integración-en-oic">Cree su primera integración de orquestación basada en aplicaciones | Crear integración en OIC</a>
+7. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-con-parámetro--cómo-crear-una-integración-impulsada-por-aplicaciones-con-parámetros">Crear integración con parámetro | Cómo crear una integración impulsada por aplicaciones con parámetros</a>
+8. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-con-request-payload--cómo-crear-una-integración-impulsada-por-aplicaciones-con-solicitud">Crear integración con request payload | Cómo crear una integración impulsada por aplicaciones con solicitud</a>
+9. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-en-oic-para-obtener-solicitud-y-devolver-la-respuesta--solicitud-y-respuesta-en-oic">Crear integración en oic para obtener solicitud y devolver la respuesta | Solicitud y Respuesta en OIC
+</a>
 
 ### <a href="./OIC_GEN_2/0_Definiciones.md">Glosario de Componentes</a>
 
