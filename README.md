@@ -41,20 +41,20 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ### 4. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md">Ejemplos Practicos</a>
 
-1. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#¿cómo-ejecutar-la-integración-integración-de-programación-y-basada-en-aplicaciones">¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones</a>
-2. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#¿cómo-crear-una-conexión-en-oic-¿cuándo-utilizar-el-agente-en-conexión">¿Cómo crear una conexión en OIC? ¿Cuándo utilizar el Agente en Conexión?</a>
-3. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#adaptador-paquete-bibliotecas-agente-y-lookup-en-oic">Adaptador, paquete, bibliotecas, agente y lookup en OIC</a>
-4. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#descripción-general-de-la-página-de-integración-de-oracle--elementos-de-la-integración-de-oracle--¿cómo-manejar-la-excepción">Descripción general de la página de integración de Oracle | Elementos de la integración de Oracle | ¿Cómo manejar la excepción?</a>
-5. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-su-primera-integración-de-orquestación-de-horarios-en-oic--crear-integración-en-oic">Cree su primera integración de orquestación de horarios en OIC | Crear integración en OIC</a>
-6. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-su-primera-integración-de-orquestación-basada-en-aplicaciones--crear-integración-en-oic">Cree su primera integración de orquestación basada en aplicaciones | Crear integración en OIC</a>
-7. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-con-parámetro--cómo-crear-una-integración-impulsada-por-aplicaciones-con-parámetros">Crear integración con parámetro | Cómo crear una integración impulsada por aplicaciones con parámetros</a>
-8. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-con-request-payload--cómo-crear-una-integración-impulsada-por-aplicaciones-con-solicitud">Crear integración con request payload | Cómo crear una integración impulsada por aplicaciones con solicitud</a>
-9. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-en-oic-para-obtener-solicitud-y-devolver-la-respuesta--solicitud-y-respuesta-en-oic">Crear integración en oic para obtener solicitud y devolver la respuesta | Solicitud y Respuesta en OIC
-10. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-una-integración-para-obtener-dos-números-como-solicitud-y-devolver-la-suma-de-ambos-num-en-respuesta">Cree una integración para obtener dos números como solicitud y devolver la suma de ambos num. en respuesta
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#¿cómo-ejecutar-la-integración-integración-de-programación-y-basada-en-aplicaciones">¿Cómo ejecutar la integración? Integración de programación y basada en aplicaciones</a>
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#¿cómo-crear-una-conexión-en-oic-¿cuándo-utilizar-el-agente-en-conexión">¿Cómo crear una conexión en OIC? ¿Cuándo utilizar el Agente en Conexión?</a>
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#adaptador-paquete-bibliotecas-agente-y-lookup-en-oic">Adaptador, paquete, bibliotecas, agente y lookup en OIC</a>
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#descripción-general-de-la-página-de-integración-de-oracle--elementos-de-la-integración-de-oracle--¿cómo-manejar-la-excepción">Descripción general de la página de integración de Oracle | Elementos de la integración de Oracle | ¿Cómo manejar la excepción?</a>
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-su-primera-integración-de-orquestación-de-horarios-en-oic--crear-integración-en-oic">Cree su primera integración de orquestación de horarios en OIC | Crear integración en OIC</a>
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-su-primera-integración-de-orquestación-basada-en-aplicaciones--crear-integración-en-oic">Cree su primera integración de orquestación basada en aplicaciones | Crear integración en OIC</a>
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-con-parámetro--cómo-crear-una-integración-impulsada-por-aplicaciones-con-parámetros">Crear integración con parámetro | Cómo crear una integración impulsada por aplicaciones con parámetros</a>
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-con-request-payload--cómo-crear-una-integración-impulsada-por-aplicaciones-con-solicitud">Crear integración con request payload | Cómo crear una integración impulsada por aplicaciones con solicitud</a>
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#crear-integración-en-oic-para-obtener-solicitud-y-devolver-la-respuesta--solicitud-y-respuesta-en-oic">Crear integración en oic para obtener solicitud y devolver la respuesta | Solicitud y Respuesta en OIC
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#cree-una-integración-para-obtener-dos-números-como-solicitud-y-devolver-la-suma-de-ambos-num-en-respuesta">Cree una integración para obtener dos números como solicitud y devolver la suma de ambos num. en respuesta
 </a>
-11. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#assing-en-oracle-integration-cómo-crear-una-variable-en-oic--crear-variable-local-en-oic">Assing en Oracle Integration: cómo crear una variable en oic | Crear variable local en oic
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#assing-en-oracle-integration-cómo-crear-una-variable-en-oic--crear-variable-local-en-oic">Assing en Oracle Integration: cómo crear una variable en oic | Crear variable local en oic
 </a>
-12. <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#data-stitch-en-oracle-integration-cómo-crear-una-variable-global-en-oic--variable-global-en-oic">Data Stitch en Oracle Integration: cómo crear una variable global en oic | Variable global en oic
+- <a href="./OIC_GEN_2/4_Ejemplos_Practicos.md/#data-stitch-en-oracle-integration-cómo-crear-una-variable-global-en-oic--variable-global-en-oic">Data Stitch en Oracle Integration: cómo crear una variable global en oic | Variable global en oic
 </a>
 
 ### <a href="./OIC_GEN_2/0_Definiciones.md">Glosario de Componentes</a>
