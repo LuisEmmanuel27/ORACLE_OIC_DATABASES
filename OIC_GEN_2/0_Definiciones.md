@@ -183,3 +183,49 @@ El adaptador REST en Oracle Integration Cloud (OIC) es una herramienta esencial 
 - El adaptador REST se puede integrar fácilmente en los flujos de integración de OIC a través de la interfaz de usuario de desarrollo. Los usuarios pueden agregar componentes de adaptador REST a los flujos de integración y configurarlos mediante una interfaz intuitiva y basada en reglas.
 
 - Además, el adaptador REST se puede utilizar en combinación con otros componentes y adaptadores en OIC para construir flujos de integración completos y robustos que incluyan funcionalidades de consumo y exposición de servicios web RESTful. Esto permite a los usuarios diseñar y desarrollar soluciones de integración flexibles y escalables que satisfagan las necesidades específicas de integración con servicios RESTful en sus organizaciones.
+
+---
+
+# Componente Assign
+
+El componente "Assign" en Oracle Integration Cloud (OIC) es una herramienta fundamental que permite la manipulación y transformación de datos durante la ejecución de flujos de integración. Este componente ofrece una interfaz intuitiva y poderosa para asignar valores a variables, realizar operaciones de transformación de datos y controlar el flujo de ejecución en los flujos de integración. A continuación, se detallan las características y capacidades clave del componente "Assign" en OIC:
+
+## Funcionalidades del Componente "Assign":
+
+1. **Asignación de Valores a Variables:** El componente "Assign" permite asignar valores a variables durante la ejecución de flujos de integración. Esto incluye la capacidad de asignar valores estáticos, valores dinámicos obtenidos de otras fuentes de datos o resultados de operaciones de transformación de datos.
+
+2. **Manipulación de Datos:** Además de la asignación de valores, el componente "Assign" ofrece funcionalidades avanzadas para la manipulación de datos. Esto incluye la capacidad de realizar operaciones aritméticas, concatenación de cadenas, conversión de tipos de datos y otras operaciones de transformación para adaptar y modificar los datos según los requisitos específicos del flujo de integración.
+
+3. **Control de Flujo:** El componente "Assign" también puede utilizarse para controlar el flujo de ejecución en los flujos de integración. Esto incluye la capacidad de definir condiciones y expresiones lógicas basadas en el valor de las variables, lo que permite implementar lógica condicional y ramificaciones en los flujos de integración.
+
+4. **Gestión de Variables:** El componente "Assign" facilita la gestión de variables dentro de los flujos de integración. Esto incluye la capacidad de crear nuevas variables, modificar valores de variables existentes y eliminar variables según sea necesario durante la ejecución del flujo de integración.
+
+5. **Transformación de Datos Compleja:** El componente "Assign" permite realizar transformaciones de datos complejas y personalizadas utilizando expresiones y funciones avanzadas. Esto incluye la capacidad de aplicar lógica empresarial específica y realizar manipulaciones detalladas en los datos para satisfacer requisitos específicos de integración.
+
+## Implementación del Componente "Assign" en OIC:
+
+- El componente "Assign" se puede agregar y configurar fácilmente en los flujos de integración de OIC a través de la interfaz de usuario de desarrollo. Los usuarios pueden arrastrar y soltar el componente "Assign" en el lienzo de diseño y configurarlo mediante una interfaz intuitiva y basada en reglas.
+
+- Además, el componente "Assign" se puede utilizar en combinación con otros componentes y adaptadores en OIC para construir flujos de integración completos y robustos. Esto permite a los usuarios diseñar y desarrollar soluciones de integración flexibles y escalables que aprovechan al máximo el poder y la flexibilidad del componente "Assign" para manipular y transformar datos de manera eficiente y efectiva.
+
+---
+
+# Variables Globales
+
+Las variables globales en Oracle Integration Cloud (OIC) son elementos esenciales que permiten almacenar datos de forma persistente y global, accesibles desde cualquier punto dentro de un flujo de integración. Estas variables ofrecen una forma conveniente de compartir y gestionar información entre diferentes etapas y componentes de un flujo de integración, lo que facilita la implementación de lógica empresarial compleja y la comunicación entre diferentes partes de un proceso de integración. A continuación, se detallan las características y la relación entre las variables globales y el componente Data Stitch en OIC:
+
+## Funcionalidades de las Variables Globales:
+
+1. **Almacenamiento Persistente de Datos:** Las variables globales en OIC permiten almacenar datos de forma persistente a lo largo de la ejecución de un flujo de integración. Esto significa que los valores asignados a estas variables se conservan entre las diferentes invocaciones del flujo de integración, lo que facilita el seguimiento y la gestión de la información a lo largo del tiempo.
+
+2. **Acceso Global:** Las variables globales son accesibles desde cualquier punto dentro de un flujo de integración. Esto permite a los usuarios compartir datos entre diferentes etapas y componentes del flujo de integración sin la necesidad de pasar explícitamente los datos como parámetros entre ellos.
+
+3. **Persistencia entre Invocaciones:** La persistencia de las variables globales entre las invocaciones del flujo de integración permite mantener el estado y la coherencia de los datos a lo largo del tiempo. Esto es especialmente útil en escenarios donde se requiere mantener información relevante entre ejecuciones consecutivas del flujo de integración.
+
+4. **Gestión Centralizada:** Las variables globales se pueden gestionar de forma centralizada a través de la interfaz de usuario de OIC. Los usuarios pueden crear, modificar y eliminar variables globales según sea necesario, lo que facilita la administración y la organización de los datos utilizados en los flujos de integración.
+
+## Relación con Data Stitch:
+
+El componente Data Stitch en OIC se utiliza para realizar operaciones de asignación y transformación de datos dentro de un flujo de integración. Este componente permite manipular los valores de las variables, realizar cálculos, aplicar lógica condicional y realizar otras operaciones de transformación para adaptar y modificar los datos según los requisitos específicos del flujo de integración.
+
+La relación entre las variables globales y el componente Data Stitch radica en que las variables globales pueden ser utilizadas como fuentes o destinos de datos dentro de las expresiones y operaciones definidas en Data Stitch. Esto significa que los valores almacenados en las variables globales pueden ser accedidos, modificados y utilizados en las operaciones de transformación realizadas por Data Stitch, lo que permite integrar y procesar datos de manera dinámica y flexible dentro de los flujos de integración en OIC.

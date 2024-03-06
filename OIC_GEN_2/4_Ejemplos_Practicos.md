@@ -35,7 +35,7 @@ Las pruebas en Oracle Integration Cloud son acciones realizadas para verificar e
 
 Las pruebas en Oracle Integration Cloud son una parte esencial del proceso de desarrollo e implementación de integraciones, ya que garantizan la calidad y la fiabilidad de las soluciones integradas. Al realizar pruebas exhaustivas y analizar los resultados de manera efectiva, los usuarios pueden asegurar que sus integraciones funcionen correctamente y cumplan con los requisitos del negocio.
 
-## Otros conceptos
+## Profundizando en...
 
 ### [Componente Logger](./0_Definiciones.md/#componente-logger)
 
@@ -66,7 +66,7 @@ En Oracle Integration Cloud (OIC), la creación y configuración de una conexió
 
 Al seguir estos pasos, los usuarios pueden crear y configurar conexiones en Oracle Integration Cloud de manera efectiva, lo que les permite establecer la comunicación con aplicaciones externas y construir flujos de integración robustos y eficientes.
 
-## Otros Conceptos
+## Profundizando en...
 
 ### [Componente Oracle Database](./0_Definiciones.md/#componente-oracle-database)
 
@@ -110,7 +110,7 @@ El componente "Mapper" en OIC facilita el mapeo de datos entre diferentes format
 
 "Global Fault" es un componente utilizado para manejar excepciones y errores durante la ejecución de integraciones en OIC. Permite definir acciones y estrategias para manejar situaciones de error, como reintentos automáticos, notificaciones de errores, registro de eventos y acciones de recuperación. Con "Global Fault", los usuarios pueden implementar prácticas de manejo de excepciones robustas para garantizar la confiabilidad y la disponibilidad de las integraciones, incluso en situaciones adversas o inesperadas.
 
-## Información extra
+## Profundizando en...
 
 ### [Componente Notification](./0_Definiciones.md/#componente-notification)
 
@@ -136,7 +136,7 @@ El componente "Mapper" en OIC facilita el mapeo de datos entre diferentes format
 
 Este video proporciona una guía paso a paso para crear una integración de orquestación programada en Oracle Integration Cloud (OIC), abordando problemas comunes y demostrando cómo iniciar la integración con un adaptador REST.
 
-## Otros Conceptos
+## Profundizando en...
 
 ### [Adaptador REST](./0_Definiciones.md/#adaptador-rest)
 
@@ -167,3 +167,43 @@ Este video enseña cómo crear una integración de aplicación con un payload, u
 ## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=sjJGPMb-pIA&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=12)
 
 ---
+
+# Cree una integración para obtener dos números como solicitud y devolver la suma de ambos num en respuesta
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=oU_vAVLl_yI&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=13)
+
+## Resumen
+
+Este video es sobre cómo crear una integración básica en Oracle Integration Cloud (OIC) que toma dos valores numéricos como entrada y devuelve la suma de esos valores como salida. El video muestra los pasos para configurar un adaptador REST, crear una variable para almacenar el resultado, asignar los valores de entrada y salida, y probar la integración.
+
+## Profundizando en...
+
+### [Componente Assing](./0_Definiciones.md/#componente-assign)
+
+---
+
+# Assing en Oracle Integration: cómo crear una variable en oic | Crear variable local en oic
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=quC4bMjIoBQ&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=14)
+
+## Resumen
+
+Este video explica cómo crear y usar variables en una integración usando la herramienta de asignación. El video muestra cómo crear un punto final que recibe dos números y una operación como entrada y devuelve la suma o resta de los números como salida. El video también enseña cómo convertir cadenas en números usando la función número y cómo mapear las variables con el mensaje de respuesta.
+
+---
+
+# Data Stitch en Oracle Integration: cómo crear una variable global en oic | Variable global en oic
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=TrGxxdaAy80&list=PL3X62LScvI_IQ-5ji5SQGx3Zc0IhZB3jZ&index=15)
+
+## Resumen
+
+Este video explica cómo crear y asignar variables globales y locales en Oracle Integration Cloud (OIC) usando las actividades de asignación y costura de datos. El video muestra un ejemplo de una integración que recibe dos números como parámetros de entrada, los almacena en variables globales, los suma y los devuelve como resultado en una variable local.
+
+## Profundizando en...
+
+### [Variables Globales](./0_Definiciones.md/#variables-globales)
+
+---
+
+# 
