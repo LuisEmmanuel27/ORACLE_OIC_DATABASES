@@ -1,7 +1,7 @@
 # Oracle Database Offerings
 
 <div align="center">
-    <img src="../../IMG/OracleDB/Oracle_1/pic_1.png" alt="capture" width="500">
+    <img src="../../../IMG/OracleDB/Oracle_1/pic_1.png" alt="capture" width="500">
 </div>
 
 La imagen proporciona una comparación de los diferentes tipos de servicios de bases de datos ofrecidos por Oracle:
@@ -17,7 +17,7 @@ Oracle ofrece una gama de servicios de bases de datos, desde soluciones locales 
 ---
 
 <div align="center">
-    <img src="../../IMG/OracleDB/Oracle_1/pic_2.png" alt="capture" width="500">
+    <img src="../../../IMG/OracleDB/Oracle_1/pic_2.png" alt="capture" width="500">
 </div>
 
 La imagen describe los pasos para la migración manual a Oracle Autonomous Database:
@@ -32,7 +32,7 @@ Además, hay una nota que dice que los administradores de bases de datos pueden 
 ---
 
 <div align="center">
-    <img src="../../IMG/OracleDB/Oracle_1/pic_3.png" alt="capture" width="500">
+    <img src="../../../IMG/OracleDB/Oracle_1/pic_3.png" alt="capture" width="500">
 </div>
 
 Esta imagen contiene información sobre la "Migración automatizada a Oracle Autónoma Database":
@@ -46,13 +46,13 @@ Esta imagen contiene información sobre la "Migración automatizada a Oracle Aut
 ---
 
 <div align="center">
-    <img src="../../IMG/OracleDB/Oracle_1/pic_4.png" alt="capture" width="500">
+    <img src="../../../IMG/OracleDB/Oracle_1/pic_4.png" alt="capture" width="500">
 </div>
 
 ---
 
 <div align="center">
-    <img src="../../IMG/OracleDB/Oracle_1/pic_5.png" alt="capture" width="500">
+    <img src="../../../IMG/OracleDB/Oracle_1/pic_5.png" alt="capture" width="500">
 </div>
 
 La imagen proporciona información sobre el uso de la base de datos autónoma de Oracle para construir aplicaciones de bajo código con APEX:
@@ -68,13 +68,13 @@ La imagen proporciona información sobre el uso de la base de datos autónoma de
 ---
 
 <div align="center">
-    <img src="../../IMG/OracleDB/Oracle_1/pic_6.png" alt="capture" width="500">
+    <img src="../../../IMG/OracleDB/Oracle_1/pic_6.png" alt="capture" width="500">
 </div>
 
 ---
 
 <div align="center">
-    <img src="../../IMG/OracleDB/Oracle_1/pic_7.png" alt="capture" width="500">
+    <img src="../../../IMG/OracleDB/Oracle_1/pic_7.png" alt="capture" width="500">
 </div>
 
 La imagen proporcionada contiene información sobre la base de datos autónoma de Oracle y los servicios relacionados:
