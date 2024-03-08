@@ -281,3 +281,15 @@ Este video explica cómo crear y usar un bucle for each en una integración de O
 ## Profundizando en...
 
 ### [Componente For Each](./0_Definiciones.md/#componente-for-each)
+
+---
+
+# Cómo importar y exportar una integración | Cómo realizar una copia de seguridad de la integración | Migración de integración
+
+## [VIDEO DE YOUTUBE](https://www.youtube.com/watch?v=UfB07nGnfw8)
+
+## Resumen
+
+Este video explica cómo exportar e importar una integración en OIC. El proceso de exportación e importación permite migrar una integración de una instancia de prueba a una instancia de producción sin tener que recrearla. El video muestra los pasos para exportar una integración como un archivo IAR, importarla en otra instancia y configurar las conexiones, los certificados, las búsquedas y las bibliotecas necesarias.
+
+---

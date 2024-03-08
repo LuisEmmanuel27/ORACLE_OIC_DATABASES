@@ -59,6 +59,7 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 16. [Global Fault Handler: manejo de excepciones en la integración de Oracle | Cómo manejar la excepción en oic](./OIC_GEN_2/4_Ejemplos_Practicos.md/#global-fault-handler-manejo-de-excepciones-en-la-integración-de-oracle--cómo-manejar-la-excepción-en-oic)
 17. [While Loop: declaración de bucle en Oracle Integration | Cómo usar el bucle while en oic](./OIC_GEN_2/4_Ejemplos_Practicos.md/#while-loop-declaración-de-bucle-en-oracle-integration--cómo-usar-el-bucle-while-en-oic)
 18. [For Each Loop: declaración de bucle en Oracle Integration | Cómo usar para cada bucle en oic](./OIC_GEN_2/4_Ejemplos_Practicos.md/#for-each-loop-declaración-de-bucle-en-oracle-integration--cómo-usar-para-cada-bucle-en-oic)
+19. [Cómo importar y exportar una integración | Cómo realizar una copia de seguridad de la integración | Migración de integración](./OIC_GEN_2/4_Ejemplos_Practicos.md/#cómo-importar-y-exportar-una-integración--cómo-realizar-una-copia-de-seguridad-de-la-integración--migración-de-integración)
 
 ### <a href="./OIC_GEN_2/0_Definiciones.md">Glosario de Componentes</a>
 
