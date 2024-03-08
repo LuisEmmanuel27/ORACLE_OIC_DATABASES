@@ -242,7 +242,7 @@ Los paquetes de integraci√≥n de Oracle OIC se pueden personalizar y ampliar seg√
     <img src="../../IMG/OIC/ORA_UNI/pic_22.png" alt="oic" width="700">
 </div>
 
-#### Integration VErsioning
+#### Integration Versioning
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/pic_23.png" alt="oic" width="700">
@@ -251,3 +251,5 @@ Los paquetes de integraci√≥n de Oracle OIC se pueden personalizar y ampliar seg√
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/pic_23_2.png" alt="oic" width="700">
 </div>
+
+# [Parte 2](./Notas_2.md)

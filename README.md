@@ -73,7 +73,8 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ### OIC
 
-#### [Become An Application Integration Professional (2023)](./ORACLE_UNI_NOTES/OIC/Notas_1.md)
+#### [Become An Application Integration Professional (2023) - Parte 1](./ORACLE_UNI_NOTES/OIC/Notas_1.md)
+#### [Become An Application Integration Professional (2023) - Parte 2](./ORACLE_UNI_NOTES/OIC/Notas_2.md)
 
 ### Become An Oracle Cloud Data Management Foundations Associate (2023)
 
