@@ -121,3 +121,7 @@
 - Hasta pic 28
 
 ### Creating OIC Adapter Connections - Exploring Additional Adapter Connections
+
+- Hasta pic 36
+
+### Creating OIC Adapter Connections - Using the On-Premises Connectivity Agent
