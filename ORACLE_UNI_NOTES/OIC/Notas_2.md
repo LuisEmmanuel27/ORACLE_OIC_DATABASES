@@ -114,3 +114,10 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_15_3.png" alt="oic" width="700">
 </div>
+
+### Creating OIC Adapter Connections - Defining OIC Adapter Connections
+
+- **Para la Pic 23**: [Documentacion de adaptadores OIC Gen 3](https://docs.oracle.com/en/cloud/paas/application-integration/find-adapters.html), [Documentacion de adaptadores OIC Gen 2](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html)
+- Hasta pic 28
+
+### Creating OIC Adapter Connections - Exploring Additional Adapter Connections
