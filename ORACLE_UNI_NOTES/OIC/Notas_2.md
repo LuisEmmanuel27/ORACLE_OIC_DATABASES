@@ -117,11 +117,216 @@
 
 ### Creating OIC Adapter Connections - Defining OIC Adapter Connections
 
-- **Para la Pic 23**: [Documentacion de adaptadores OIC Gen 3](https://docs.oracle.com/en/cloud/paas/application-integration/find-adapters.html), [Documentacion de adaptadores OIC Gen 2](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html)
-- Hasta pic 28
+#### Oracle Adapters: Benefits
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_16.png" alt="oic" width="700">
+</div>
+
+#### Oracle Cloud Adapters: Supported Features
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_17.png" alt="oic" width="700">
+</div>
+
+#### Aviable OIC Adapters
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_18.png" alt="oic" width="700">
+</div>
+
+#### OIC Connections Review
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_19.png" alt="oic" width="700">
+</div>
+
+#### Whats Is a Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_20.png" alt="oic" width="700">
+</div>
+
+#### Creating a Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_21.png" alt="oic" width="700">
+</div>
+
+#### Getting Started (Review)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_22.png" alt="oic" width="700">
+</div>
+
+#### Providing Basic Connection Information (Review)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_22_2.png" alt="oic" width="700">
+</div>
+
+#### Defining Connection and Security Properties
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_23.png" alt="oic" width="700">
+</div>
+
+- [Documentacion de adaptadores OIC Gen 3](https://docs.oracle.com/en/cloud/paas/application-integration/find-adapters.html)
+- [Documentacion de adaptadores OIC Gen 2](https://docs.oracle.com/en/cloud/paas/integration-cloud/find-adapters.html)
+
+#### 1. Oracle Service Cloud Adapter Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_24.png" alt="oic" width="700">
+</div>
+
+#### 2. Oracle Engagement Cloud Adapter Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_25.png" alt="oic" width="700">
+</div>
+
+#### 3. Oracle ERP Cloud Adapter Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_26.png" alt="oic" width="700">
+</div>
+
+#### 4. Oracle HCM Cloud Adapter Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_27.png" alt="oic" width="700">
+</div>
+
+#### 5. Salesforce Adapter Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_28.png" alt="oic" width="700">
+</div>
 
 ### Creating OIC Adapter Connections - Exploring Additional Adapter Connections
 
-- Hasta pic 36
+#### 6. Oracle ATP/ADW Adapter Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_29.png" alt="oic" width="700">
+</div>
+
+#### 7. Oracle Siebel Adapter Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_30.png" alt="oic" width="700">
+</div>
+
+#### 8. Oracle E-Business Suite Adapter Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_31.png" alt="oic" width="700">
+</div>
+
+#### FTP Adapter Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_32.png" alt="oic" width="700">
+</div>
+
+#### SOAP Adapter Connection (Trigger) & (Invoke)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_33.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_33_2.png" alt="oic" width="700">
+</div>
+
+#### REST Adapter Connection (Trigger) & (Invoke)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_34.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_34_2.png" alt="oic" width="700">
+</div>
+
+#### Testing the Connection
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_35.png" alt="oic" width="700">
+</div>
+
+#### Uploading SSL Certificates
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_36.png" alt="oic" width="700">
+</div>
 
 ### Creating OIC Adapter Connections - Using the On-Premises Connectivity Agent
+
+#### On.Premises Connectivity Agent Framework
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_37.png" alt="oic" width="700">
+</div>
+
+#### Agent Runetime Behavior
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_38.png" alt="oic" width="700">
+</div>
+
+#### Available Ada ters for On-Premises Use Cases
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_39.png" alt="oic" width="700">
+</div>
+
+#### Deployment Topology
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_40.png" alt="oic" width="700">
+</div>
+
+#### Workflow For Using the Connectivity Agent
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_41.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_41_2.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_41_3.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_41_4.png" alt="oic" width="700">
+</div>
+
+#### Preparing to Run the Connectivity Agent Installer
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_42.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_42_2.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_42_3.png" alt="oic" width="700">
+</div>
+
+#### Executing the Connectivity Agent Installer
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_43.png" alt="oic" width="700">
+</div>
+
+#### Post-lnstallation: Examining the Files
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_44.png" alt="oic" width="700">
+</div>
