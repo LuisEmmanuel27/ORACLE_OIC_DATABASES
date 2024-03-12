@@ -330,3 +330,5 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_2/pic_44.png" alt="oic" width="700">
 </div>
+
+# [Parte 3](./Notas_3.md)
