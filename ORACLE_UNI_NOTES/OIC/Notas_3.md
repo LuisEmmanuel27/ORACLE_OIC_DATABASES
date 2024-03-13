@@ -152,3 +152,118 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_2.png" alt="oic" width="700">
 </div>
+
+#### Getting Started—lnvoke Connections (Review)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_29.png" alt="oic" width="700">
+</div>
+
+#### Basic Info Page (Review)
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_30.png" alt="oic" width="700">
+</div>
+
+#### 1. Oracle Service Cloud (RightNow)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_31.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_32.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_33.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_34.png" alt="oic" width="700">
+</div>
+
+#### 2. Oracle Engagement Cloud
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_35.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_36.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_37.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_38.png" alt="oic" width="700">
+</div>
+
+#### 3. Oracle ERP Cloud
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_39.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_40.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_41.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_42.png" alt="oic" width="700">
+</div>
+
+#### 4. Oracle HCM Cloud
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_43.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_44.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_45.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_46.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_47.png" alt="oic" width="700">
+</div>
+
+#### 5. Oracle ATP/ADW Databases
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_48.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_49.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_50.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_51.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_52.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_53.png" alt="oic" width="700">
+</div>
+
+# [Parte 4](./Notas_4.md)
