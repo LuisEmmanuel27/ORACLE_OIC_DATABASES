@@ -84,3 +84,63 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_15.png" alt="oic" width="700">
 </div>
+
+### Configuring Trigger Connections - Configuring Integration Triggers (Technology Adapters)
+
+#### Request and Response Pages: Business Objects
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_16.png" alt="oic" width="700">
+</div>
+
+#### 4. (Generic) SOAP Adapter
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_17.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_18.png" alt="oic" width="700">
+</div>
+
+#### 5. (Generic) REST Adapter
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_19.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_20.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_21.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_22.png" alt="oic" width="700">
+</div>
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_23.png" alt="oic" width="700">
+</div>
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_24.png" alt="oic" width="700">
+</div>
+
+#### 6. File Adapter
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_25.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_26.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_27.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_28.png" alt="oic" width="700">
+</div>
