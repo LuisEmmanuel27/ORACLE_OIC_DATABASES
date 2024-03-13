@@ -144,3 +144,11 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_28.png" alt="oic" width="700">
 </div>
+
+### Configuring Invoke Connections - Using the Configuration Wizard (SaaS & DB Adapters)
+
+#### Message Exchange Patterns (Revisited)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_2.png" alt="oic" width="700">
+</div>
