@@ -221,3 +221,105 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_41.png" alt="oic" width="700">
 </div>
+
+### Data Mapping - Configuring Transformations & Lookups
+
+#### Creating Transformations Outside of OIC
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_42.png" alt="oic" width="700">
+</div>
+
+#### Preparing for XSL Export
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_43.png" alt="oic" width="700">
+</div>
+
+#### Exporting the XSL File
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_44.png" alt="oic" width="700">
+</div>
+
+#### Setting Up JDEveloper to Edit the XSL File
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_45.png" alt="oic" width="700">
+</div>
+
+#### Using the XSLT Editor
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_46.png" alt="oic" width="700">
+</div>
+
+#### Import the Edited XSL File into OIC
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_47.png" alt="oic" width="700">
+</div>
+
+#### Using Custom JavaScript Functions
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_48.png" alt="oic" width="700">
+</div>
+
+#### Adding JavaScript Libraries
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_49.png" alt="oic" width="700">
+</div>
+
+#### Using Custom XPath Functions in the OIC Mapper
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_50.png" alt="oic" width="700">
+</div>
+
+#### Executing Orchestation JavaScript Functions
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_51.png" alt="oic" width="700">
+</div>
+
+#### The Challenge
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_52.png" alt="oic" width="700">
+</div>
+
+#### OIC Lookups
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_53.png" alt="oic" width="700">
+</div>
+
+#### Getting Started
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_54.png" alt="oic" width="700">
+</div>
+
+#### Creating Lookups
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_55.png" alt="oic" width="700">
+</div>
+
+#### Editing Lookups
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_56.png" alt="oic" width="700">
+</div>
+
+#### Referincing Lookups in the OIC Dta Mapper
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_57.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_58.png" alt="oic" width="700">
+</div>
