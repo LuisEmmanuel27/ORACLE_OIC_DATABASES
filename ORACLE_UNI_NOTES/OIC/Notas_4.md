@@ -75,3 +75,6 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_17.png" alt="oic" width="700">
 </div>
+
+### Data Mapping - Using the OIC Data Mapper
+
