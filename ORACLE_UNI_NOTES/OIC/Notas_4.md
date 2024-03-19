@@ -78,3 +78,146 @@
 
 ### Data Mapping - Using the OIC Data Mapper
 
+#### Integration Development (Review)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_18.png" alt="oic" width="700">
+</div>
+
+#### OIC Data Mapping
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_19.png" alt="oic" width="700">
+</div>
+
+#### Supported Features
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_20.png" alt="oic" width="700">
+</div>
+
+#### Launching the OIC Mapper (Review)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_21.png" alt="oic" width="700">
+</div>
+
+#### OIC Data Mapper: Designer View
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_22.png" alt="oic" width="700">
+</div>
+
+#### Schema Support
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_23.png" alt="oic" width="700">
+</div>
+
+#### Data Structure View Options
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_24.png" alt="oic" width="700">
+</div>
+
+#### Basic Field Mapping: Drag & Drop
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_25.png" alt="oic" width="700">
+</div>
+
+#### Basic Field Mapping: Using the Expression Builder
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_26.png" alt="oic" width="700">
+</div>
+
+#### Using the Set Text Mode
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_27.png" alt="oic" width="700">
+</div>
+
+#### Search Data Fields
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_28.png" alt="oic" width="700">
+</div>
+
+#### Filter the Source or Target Data Structures
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_29.png" alt="oic" width="700">
+</div>
+
+#### Using XPath Functions and Operators
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_30.png" alt="oic" width="700">
+</div>
+
+#### Working With XSLT Statements
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_31.png" alt="oic" width="700">
+</div>
+
+#### Automaticall Create for-each Statements
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_32.png" alt="oic" width="700">
+</div>
+
+#### Repeat a Target Element to Map to Different Sources
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_33.png" alt="oic" width="700">
+</div>
+
+#### Accessing the XSL Stylesheet
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_34.png" alt="oic" width="700">
+</div>
+
+#### Testing Your Mappings
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_35.png" alt="oic" width="700">
+</div>
+
+#### Data Mapping Recommendations
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_36.png" alt="oic" width="700">
+</div>
+
+#### Enabling the Oracle Recommendations Engine
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_37.png" alt="oic" width="700">
+</div>
+
+#### Launching the Mapper Recommendations
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_38.png" alt="oic" width="700">
+</div>
+
+#### Displaying By Strength
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_39.png" alt="oic" width="700">
+</div>
+
+#### Selecting and Accepting Recommendations
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_40.png" alt="oic" width="700">
+</div>
+
+#### Complete the Data Mapping
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_4/pic_41.png" alt="oic" width="700">
+</div>
