@@ -227,3 +227,5 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_39.png" alt="oic" width="700">
 </div>
+
+# [Parte 6](./Notas_6.md)
