@@ -111,3 +111,119 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_20.png" alt="oic" width="700">
 </div>
+
+### Orchestration Integration Actions - Using Orchestration Actions (Part 2)
+
+#### Call Section
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_21.png" alt="oic" width="700">
+</div>
+
+#### Invoking JavaScript Functions (Review)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_22.png" alt="oic" width="700">
+</div>
+
+#### Invoking Local Integrations
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_23.png" alt="oic" width="700">
+</div>
+
+#### Local Integration Selection Wizard
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_24.png" alt="oic" width="700">
+</div>
+
+#### Invoking a Local OIC Process
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_25.png" alt="oic" width="700">
+</div>
+
+#### Collection Section
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_26.png" alt="oic" width="700">
+</div>
+
+#### For-Each Loop
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_27.png" alt="oic" width="700">
+</div>
+
+#### While Loop
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_28.png" alt="oic" width="700">
+</div>
+
+#### Switch Branches
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_29.png" alt="oic" width="700">
+</div>
+
+#### General Section
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_30.png" alt="oic" width="700">
+</div>
+
+#### Logger Action
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_31.png" alt="oic" width="700">
+</div>
+
+#### Note Action
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_32.png" alt="oic" width="700">
+</div>
+
+#### Notification Action
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_33.png" alt="oic" width="700">
+</div>
+
+#### Wait Action
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_34.png" alt="oic" width="700">
+</div>
+
+#### End Section
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_35.png" alt="oic" width="700">
+</div>
+
+#### Return Action
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_36.png" alt="oic" width="700">
+</div>
+
+#### Callback Action
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_37.png" alt="oic" width="700">
+</div>
+
+#### Stop Action
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_38.png" alt="oic" width="700">
+</div>
+
+#### Actions Menu (Review)
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_5/pic_39.png" alt="oic" width="700">
+</div>
