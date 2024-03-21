@@ -2,7 +2,7 @@
 
 ## Application Integration on Oracle Cloud
 
-### File Handling Concepts and Options
+### File Handling Concepts and Options - Leveraging Options for Handling Files
 
 #### Integration Style Options
 
@@ -68,4 +68,12 @@
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_7/pic_11.png" alt="oic" width="700">
+</div>
+
+### File Handling Concepts and Options - Reviewing Example Solutions for Files
+
+#### 
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_7/pic_12.png" alt="oic" width="700">
 </div>
