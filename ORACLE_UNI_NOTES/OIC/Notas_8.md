@@ -137,3 +137,66 @@
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_22.png" alt="oic" width="700">
 </div>
+
+### Orchestration Scopes and Fault Handling - OIC Integration Best Practices
+
+#### OIC Integration Antipatterns
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_23.png" alt="oic" width="700">
+</div>
+
+#### Chatty Integrations
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_24.png" alt="oic" width="700">
+</div>
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_25.png" alt="oic" width="700">
+</div>
+
+#### Long Running Jobs
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_26.png" alt="oic" width="700">
+</div>
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_27.png" alt="oic" width="700">
+</div>
+
+#### Complex Synchronous Integrations
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_28.png" alt="oic" width="700">
+</div>
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_29.png" alt="oic" width="700">
+</div>
+
+#### Duplicate Connection Components
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_30.png" alt="oic" width="700">
+</div>
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_31.png" alt="oic" width="700">
+</div>
+
+#### Reading Too Much Data
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_32.png" alt="oic" width="700">
+</div>
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_33.png" alt="oic" width="700">
+</div>
+
+#### Requirement Changes Impact
+
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_34.png" alt="oic" width="700">
+</div>
+<div align="center">
+    <img src="../../IMG/OIC/ORA_UNI/PT_8/pic_35.png" alt="oic" width="700">
+</div>
