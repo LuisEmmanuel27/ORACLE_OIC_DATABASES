@@ -402,17 +402,60 @@ Ingresa una descripción opcional de las responsabilidades de la conexión.
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_31.png" alt="oic" width="700">
 </div>
 
+Admite el lenguaje de consulta de objetos RightNow (ROQL) para consultar información de metadatos cuando el Adaptador de Oracle Service Cloud (RightNow) está configurado en la dirección de invocación.
+
+Admite atributos personalizados (nuevo concepto de atributos personalizados de Oracle Service Cloud (RightNow) y campos personalizados con el paquete C predeterminado) en objetos de negocio para aprovechar el soporte de Oracle Service Cloud (RightNow) para atributos personalizados.
+
+Maneja automáticamente los detalles de la política de seguridad necesarios para conectarse a la aplicación Oracle Service Cloud (RightNow).
+
+Proporciona capacidades estándar de manejo de errores.
+
+Permite realizar operaciones CRUD (crear, obtener, actualizar y eliminar) contra objetos de negocio en la aplicación Oracle Service Cloud (RightNow). Te permite cargar un archivo como un adjunto a Oracle Service Cloud (RightNow) o puedes mapear los datos en la solicitud del cuerpo SOAP.
+
+Te permite descargar un archivo como un adjunto de Oracle Service Cloud (RightNow) a Oracle Integration. Después de que se descarga el archivo, el Adaptador de Oracle Service Cloud (RightNow) expone la referencia del archivo en el mapeador para su uso por Otros adaptadores para su procesamiento adicional. La siguiente funcionalidad es compatible:
+
+- Puedes descargar un solo archivo a la vez.
+- Puedes descargar cualquier archivo de Oracle Service Cloud (RightNow).
+- El archivo descargado se expone como una referencia de archivo del sistema de archivos virtual (VFS).
+
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_32.png" alt="oic" width="700">
 </div>
+
+**CRUD:** Representa las operaciones de crear, leer, actualizar, eliminar o destruir que se deben realizar en los objetos de negocio de Oracle Service Cloud (RightNow). Cada letra se asigna a una declaración SQL estándar, método HTTP u operación de DOS. Selecciona la operación CRUD para realizar en el objeto de negocio: Crear, Destruir, Obtener o Actualizar.
+
+Si seleccionas **Crear** o **Actualizar**, puedes seleccionar un objeto de negocio que admita adjuntos de archivos. Esto te permite cargar archivos en Oracle Service Cloud (RightNow).
+
+Selecciona para habilitar aspectos del procesamiento en el servidor. De forma predeterminada, no se selecciona ninguna opción. Cuando hayas terminado, haz clic en Aceptar.
+
+- **Suprimir Eventos Externos:** Selecciona para evitar que la aplicación Oracle Service Cloud (RightNow) procese cualquier evento externo generado después de la finalización de las operaciones de creación, actualización o eliminación.
+- **Suprimir Reglas:** Selecciona para evitar que se ejecuten reglas de negocio después de la finalización de las operaciones de creación, actualización o eliminación. Las reglas de negocio son herramientas para simplificar y automatizar tareas comerciales comunes. Consulta la documentación de Oracle Service Cloud (RightNow) para obtener más información.
+- **Suprimir Respuesta:** Selecciona para evitar que la operación CRUD de Crear devuelva un ID de respuesta. Si esta casilla de verificación está desactivada, la operación de Crear devuelve un ID del objeto creado.
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_33.png" alt="oic" width="700">
 </div>
 
+**Adjunto de Archivo/File Attachment:** Selecciona para descargar un archivo como un adjunto desde Oracle Service Cloud (RightNow) a Oracle Integration. Después de seleccionar **Adjunto de Archivo**, se te pedirá seleccionar el objeto de negocio desde el cual descargar el adjunto de archivo en la tabla **Seleccionar un Objeto de Negocio del cual te gustaría descargar el adjunto/Select a Bussines Object you would like to download the attachment**. Después de descargar el archivo, el Adaptador de Oracle Service Cloud (RightNow) expone la referencia del archivo en el mapeador para su uso por otros adaptadores para un procesamiento adicional.
+
+**ROQL:** (RightNow Object Query Language) te permite definir una consulta basada en ROQL para enviarla como una solicitud para ejecutar en la aplicación Oracle Service Cloud (RightNow). Si seleccionas esta opción, la página se actualiza para mostrar un campo para ingresar una consulta.
+
+**Probar Mi Consulta/Test My Query:** Haz clic para validar completamente la consulta contra la aplicación Oracle Service Cloud (RightNow). Los resultados de la consulta se muestran. Si ocurren errores, recibirás resultados sobre cómo corregir la consulta. Si no validas completamente tu consulta presionando este botón, todavía se valida cuando presionas *Siguiente/Next*, pero con limitaciones potenciales basadas en cómo se escribió la consulta.
+
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_34.png" alt="oic" width="700">
 </div>
+
+**Operación por Lote/Batch Operation:** Selecciona para configurar múltiples operaciones en un lote. Esto te permite ejecutar múltiples operaciones en una secuencia definida.
+
+Al seleccionar esta opción, la página se actualiza para mostrar una opción para lo siguiente:
+
+**Hacer clic para agregar una operación a la lista:** Haz clic para crear una lista de operaciones por lotes y sus objetos de negocio. Las operaciones se realizan en el orden en que aparecen en la lista (de arriba hacia abajo). Cuando completes, haz clic en **Aceptar/OK**.
+
+Cuando completes la configuración del Adaptador de Oracle Service Cloud (RightNow) y hagas clic en Siguiente para acceder a la página de Resumen, puedes realizar las siguientes tareas de operaciones por lotes:
+
+- Icono de Edición: Haz clic para editar una fila de operaciones en la tabla o cambiar el orden de las operaciones por lotes.
+- Icono de Eliminación: Haz clic para eliminar una fila de operación seleccionada en la tabla.
 
 #### 2. Oracle Engagement Cloud
 
@@ -420,23 +463,101 @@ Ingresa una descripción opcional de las responsabilidades de la conexión.
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_35.png" alt="oic" width="700">
 </div>
 
+El Adaptador de Oracle Engagement Cloud proporciona las siguientes capacidades:
+
+Genera un mapeo automático al objeto de negocio, servicio o recurso de API REST de Oracle Fusion Applications expuesto que seleccionas durante la configuración del adaptador:
+
+- **Objeto de negocio:** Representa un documento de negocio autónomo que puede ser actuado por la integración. Una integración puede enviar solicitudes para crear un nuevo registro para ese objeto de negocio. También pueden enviar una solicitud para actualizar o eliminar un registro existente para un objeto de negocio. Las integraciones también pueden enviar solicitudes para recuperar información sobre uno o más registros que representan ese objeto de negocio.
+- **API de negocio (REST):** Representa un recurso de API REST de Oracle Fusion Applications. Puedes seleccionar recursos de negocio principales y sus recursos de negocio secundarios correspondientes. El soporte se proporciona en la dirección de invocación (saliente).
+
+Te permite ver anotaciones en los elementos del Adaptador de Oracle Engagement Cloud en el mapeador.
+
+Invoca dinámicamente un punto final/URL REST en tiempo de ejecución sin requerir que configures ninguna conexión de invocación adicional o detalles de salida REST.
+
+Maneja automáticamente los detalles de la política de seguridad requeridos para conectarse a la aplicación Oracle Engagement Cloud.
+
+Proporciona capacidades estándar de manejo de errores.
+
+Te permite mapear objetos de negocio que tienen estructuras de datos polimórficas.
+
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_36.png" alt="oic" width="700">
 </div>
+
+**Objetos de Negocio:** Selecciona para navegar por objeto de negocio.
+
+Selecciona para filtrar la visualización de objetos de negocio y luego selecciona el objeto de negocio a utilizar.
+
+- **Todos**
+- **Activos**
+- **Personalizados**
+- **Obsoletos**
+- **Estándar**
+
+Selecciona la operación a realizar en el objeto de negocio seleccionado. Las operaciones disponibles para selección se basan en el objeto de negocio que seleccionaste.
+
+El Ciclo de Vida muestra el estado del objeto de negocio seleccionado. Obsoleto indica que el documento de negocio está cerca del final de su uso y debe utilizarse con precaución.
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_37.png" alt="oic" width="700">
 </div>
 
+**Servicios:** Selecciona para navegar por servicio. Hay una correspondencia uno a uno entre el objeto de negocio y el servicio. El servicio actúa sobre el documento de negocio.
+Selecciona para filtrar la visualización de servicios y luego selecciona el servicio a utilizar.
+
+- **Activos**
+- **Obsoletos**
+- **Estándar**
+
+Selecciona la operación a realizar en el servicio seleccionado. Las operaciones disponibles para selección se basan en el servicio que seleccionaste.
+
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_38.png" alt="oic" width="700">
 </div>
+
+Recurso de Negocio (REST): Selecciona para navegar por una lista de los recursos de API REST de Oracle Fusion Applications disponibles.
+
+> [!NOTE]
+> El Adaptador de Oracle Engagement Cloud actualmente extrae todos los recursos expuestos por el catálogo de interfaces y los muestra para su selección.
+
+Selecciona la aplicación de servicio para ver los recursos de negocio definidos en la aplicación.
+
+Selecciona para filtrar la visualización de recursos de negocio y luego selecciona el recurso de negocio a utilizar.
+
+- Todos
+- Estándar
+
+Selecciona la operación a realizar en el recurso de negocio (REST) seleccionado. Las operaciones disponibles para selección se basan en el recurso de negocio que seleccionaste.
+
+También puedes hacer clic en **Examinar y configurar un recurso secundario/Browse and configure child resource** para seleccionar los recursos de negocio secundarios correspondientes a ese padre para utilizar. Haz clic para acceder a una página para seleccionar lo siguiente:
+
+- Los recursos de negocio secundarios del recurso de negocio principal seleccionado.
+- La operación a realizar en los recursos de negocio secundarios.
+
+Después de hacer clic en **Ok**, el nombre del enlace cambia a **Ver y editar la configuración de un recurso secundario/View and edit the configuration of a child resource**. Tanto el recurso de negocio principal como los secundarios se muestran en la página de Resumen.
 
 #### 3. Oracle ERP Cloud
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_39.png" alt="oic" width="700">
 </div>
+
+El Adaptador de Oracle ERP Cloud proporciona los siguientes beneficios:
+
+Genera mapeo automático a los objetos de negocio expuestos, la suscripción a eventos o la API de negocio (REST) que selecciones durante la configuración del adaptador:
+
+- **Objeto de negocio:** Representa un documento de negocio autocontenido en el que se puede actuar mediante la integración. Una integración puede enviar solicitudes para crear un nuevo registro para ese objeto de negocio. También pueden enviar una solicitud para actualizar o eliminar un registro existente de un objeto de negocio. Las integraciones también pueden enviar solicitudes para recuperar información sobre uno o más registros que representan ese objeto de negocio.
+
+- **API de negocio (REST):** Representa un recurso de API REST de Oracle Fusion Applications. Puedes seleccionar recursos de negocio principales y sus correspondientes recursos de negocio secundarios. El soporte se proporciona en la dirección de invocación (salida).
+
+Invoca dinámicamente un punto final/URL REST en tiempo de ejecución sin requerir que configures ninguna conexión de invocación adicional o detalles de salida REST.
+
+Maneja automáticamente los detalles de la política de seguridad requeridos para conectarse a la aplicación de Oracle ERP Cloud.
+
+Proporciona capacidades estándar de manejo de errores.
+Expone eventos y servicios web de Supply Chain Management (SCM) Cloud.
+
+Te permite cargar un archivo en una ubicación FTP segura. El archivo es identificado y proporcionado a Oracle ERP Cloud para que los datos puedan ser cargados en las tablas de negocio de Oracle ERP Cloud.
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_40.png" alt="oic" width="700">
@@ -446,15 +567,51 @@ Ingresa una descripción opcional de las responsabilidades de la conexión.
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_41.png" alt="oic" width="700">
 </div>
 
+Realizar operaciones masivas compatibles con FBDI, como la importación de arrendamientos de activos, entradas de diario, extractos bancarios, facturas por pagar, tareas de proyecto, pedidos de ventas y transacciones de envío. También puedes configurar notificaciones de eventos y devoluciones de llamada en estas operaciones.
+
+Selecciona el nombre del trabajo a importar. Los trabajos de importación son los trabajos en segundo plano que se ejecutan en Oracle ERP Cloud para realizar operaciones de carga de datos. El nombre del trabajo que selecciones se utiliza para importar datos. La lista de trabajos de importación se obtiene invocando ErplcsIntegrationService en el WSDL del servicio de catálogo de servicios.
+
+La siguiente información se obtiene con cada trabajo:
+
+- **Nombre de visualización del trabajo:** Para ser mostrado en la interfaz de usuario.
+- **ID de interfaz:** La clave del trabajo de importación.
+- **Cuenta de UCM:** La cuenta con la que cargar el archivo.
+
+Selecciona el tipo de datos de registro para que Oracle ERP Cloud extraiga mientras procesa el archivo de datos:
+
+- **Todos:** Todos los registros fallidos con archivos de proceso de carga e importación de soporte.
+- **Error:** Registros que no se pudieron cargar e importar.
+- **Registro:** Archivos de registro para procesos de carga e importación.
+- **Salida:** Archivos de salida para procesos de carga e importación.
+- **Ninguno:** Ninguno.
+
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_42.png" alt="oic" width="700">
 </div>
+
+Selecciona para cargar archivos en Oracle WebCenter Content (Universal Content Manager) en formato cifrado o no cifrado. Ten en cuenta que una vez que los archivos se carguen, necesitarás agregar una acción separada en tu flujo de integración para invocar el proceso programado o la API apropiada en ERP Cloud para procesar el archivo. Utiliza esta opción solo cuando no puedas utilizar la opción de Importar Datos Masivos, que se encarga automáticamente de todo esto.
+
+Selecciona el grupo de seguridad en el que cargar el archivo. Un grupo de seguridad es un conjunto de archivos agrupados bajo un nombre único. Cada archivo en el repositorio del servidor de contenido pertenece a un grupo de seguridad. El acceso a los grupos de seguridad está controlado por permisos asignados a roles en el servidor de contenido. Los roles se asignan a usuarios donde se mantienen en Oracle Fusion Applications. El grupo de seguridad predeterminado en Fusion Applications es FAFusionImportExport.
+
+Selecciona la cuenta de documento para asignar al archivo. En Fusion Applications, cada elemento de contenido tiene una cuenta asignada. Debes tener los permisos apropiados para la cuenta, como leer y/o escribir. El acceso al documento es la intersección entre los permisos de la cuenta y los permisos del grupo de seguridad. Hay varias cuentas de Fusion Applications.
+
+Selecciona la casilla de verificación para cifrar el archivo antes de cargarlo en UCM. Para seleccionar esta casilla de verificación, debes haber seleccionado cifrar el archivo al configurar la conexión del Adaptador de Oracle ERP Cloud en la página de Conexiones.
 
 #### 4. Oracle HCM Cloud
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_43.png" alt="oic" width="700">
 </div>
+
+El Adaptador de Oracle HCM Cloud proporciona los siguientes beneficios:
+
+- Una integración puede enviar solicitudes para crear un nuevo registro para ese objeto de negocio. También pueden enviar una solicitud para actualizar o eliminar un registro existente para un objeto de negocio. Las integraciones también pueden enviar solicitudes para recuperar información sobre uno o más registros que representan ese objeto de negocio.
+- Expone la API de Recursos Empresariales (REST), que representa un recurso de la API de Oracle Fusion Applications REST. Puedes seleccionar recursos empresariales principales y sus recursos empresariales secundarios correspondientes. Se proporciona soporte en la dirección de invocación (salida).
+- Admite el consumo de la API REST de Oracle HCM Cloud. Esto permite que el Adaptador de Oracle HCM Cloud consuma servicios REST bajo Oracle HCM Cloud cuando está configurado como una conexión de invocación.
+- Maneja automáticamente los detalles de la política de seguridad requeridos para conectarse a la aplicación Oracle HCM Cloud.
+- Te permite mapear objetos de negocio que tienen estructuras de datos polimórficas.
+- Admite la suscripción al feed Atom de HCM. Los feeds Atom te permiten realizar un seguimiento de los cambios realizados en los recursos habilitados para feed en Oracle Global Human Resources Cloud. Para cualquier actualización de interés para las aplicaciones descendentes, como nuevas contrataciones, terminaciones, transferencias de empleados y promociones, Oracle Global Human Resources Cloud publica feeds Atom.
+- Te permite cargar archivos en Oracle WebCenter Content (Universal Content Manager) en formato cifrado o no cifrado.
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_44.png" alt="oic" width="700">
@@ -464,6 +621,21 @@ Ingresa una descripción opcional de las responsabilidades de la conexión.
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_45.png" alt="oic" width="700">
 </div>
 
+Este recurso proporciona una herramienta flexible para generar archivos de datos e informes. El Adaptador de Oracle HCM Cloud funciona como una herramienta de extracción de descubrimiento en Oracle HCM Cloud. El proceso de extracción de datos se automatiza de acuerdo con los siguientes pasos:
+
+- Invocación del extracto de datos HCM dado por el cliente fuera del Adaptador de Oracle HCM Cloud
+- Descubrimiento del extracto tal como se entrega en Oracle WebCenter Content
+- Recuperación de la salida del extracto en su formato tal como se entrega a Oracle WebCenter Content y persistencia del extracto en el almacenamiento provisional de Oracle Integration
+- Definición del esquema XML por parte del usuario para la salida del extracto para la transformación usando una Acción de Archivo de Etapa que está disponible en una integración orquestada
+
+Selecciona las acciones a realizar en el extracto:
+
+- **Descifrar el extracto:** El extracto se descifra si está en forma cifrada y la información PGP está presente en la configuración de la conexión.
+- **Descomprimir el extracto:** El extracto se descomprime si está en formato comprimido.
+
+Las acciones seleccionadas se realizan en el extracto después de que se descarga en Oracle Integration.
+Más información sobre la gestión de Extractos HCM está disponible aquí: [enlace](https://docs.oracle.com/en/cloud/saas/human-resources/24a/faihm/index.html#COPYRIGHT_0000)
+
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_46.png" alt="oic" width="700">
 </div>
@@ -472,30 +644,149 @@ Ingresa una descripción opcional de las responsabilidades de la conexión.
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_47.png" alt="oic" width="700">
 </div>
 
+Selecciona el grupo de seguridad en el que deseas cargar el archivo. Un grupo de seguridad es un conjunto de archivos agrupados bajo un nombre único. Cada archivo en el repositorio del servidor de contenido pertenece a un grupo de seguridad. El acceso a los grupos de seguridad está controlado por los permisos asignados a roles en el servidor de contenido. Los roles se asignan a usuarios donde se mantienen en las aplicaciones de Fusion de Oracle. El grupo de seguridad predeterminado en las aplicaciones de Fusion es...
+
+Selecciona la cuenta de documento para asignar al archivo. En las aplicaciones de Fusion, cada elemento de contenido tiene una cuenta asignada. Debes tener los permisos adecuados para la cuenta, como leer y/o escribir. El acceso al documento es la intersección entre los permisos de la cuenta y los permisos del grupo de seguridad. Hay varias cuentas de aplicaciones de Fusion.
+
+Selecciona la casilla de verificación para cifrar el archivo antes de cargarlo en UCM. Para seleccionar esta casilla de verificación, debes haber seleccionado cifrar el archivo al configurar la conexión del Adaptador de Oracle HCM Cloud en la página de Conexiones.
+
 #### 5. Oracle ATP/ADW Databases
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_48.png" alt="oic" width="700">
 </div>
 
+Los adaptadores de Oracle ATP/ADW ofrecen las siguientes capacidades:
+
+- **Conectividad Directa:** Soporte para conectarse directamente a las bases de datos Oracle ATP y ADW sin necesidad de utilizar un agente de conectividad local. Este tipo de conexión es adecuado únicamente para conexiones de invocación y no se puede configurar como una conexión de activación. Los escenarios de sondeo entrante deben implementarse utilizando patrones de integración de orquestación programada.
+
+- **Integración con Bases de Datos Alojadas en Privado:** Capacidad para integrar bases de datos Oracle ATP o ADW alojadas en privado con Oracle Integration utilizando el agente de conectividad local.
+
+- **Invocación de Procedimientos Almacenados:** Soporte para invocar procedimientos almacenados en la base de datos Oracle.
+
+- **Tipos de Datos No-JDBC:** Soporte para tipos de datos no-JDBC como registros PL/SQL y tablas PL/SQL en invocaciones salientes de procedimientos almacenados.
+
+- **Ejecución de Sentencias DML y Consultas SQL:** Soporte para ejecutar sentencias de Lenguaje de Manipulación de Datos (DML) y consultas SQL, incluidas operaciones Select, Insert, Update y Delete.
+
+- **Operaciones en Lote:** Soporte para actualizar o insertar múltiples registros en una sola solicitud, mejorando el rendimiento y la eficiencia.
+
+- **Operaciones SELECT:** Soporte para realizar operaciones SELECT contra tablas de bases de datos para recuperar datos.
+
+- **Funcionalidad de Operaciones en una Tabla:** Esta función permite modelar sentencias SQL utilizando el Asistente de Configuración de Puntos de Extremo del Adaptador. También admite el manejo de múltiples registros en una sola solicitud, proporcionando flexibilidad y optimización en las interacciones con la base de datos.
+
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_49.png" alt="oic" width="700">
 </div>
+
+Selecciona un esquema de base de datos de la lista. Esta acción refresca la página para mostrar campos para seleccionar un paquete o procedimiento a invocar. Los caracteres especiales (por ejemplo, #) no son compatibles en los nombres de esquema.
+
+Selecciona el paquete de base de datos. Esta acción refresca la página para mostrar los procedimientos disponibles para el paquete. Cuando se importa un paquete de integración predefinido que contiene procedimientos almacenados PLS o SQL, el paquete envolvente no se recrea en la base de datos de destino. Para agregar el paquete envolvente, confirma que JPublisher está instalado en la base de datos de destino y define el procedimiento almacenado original. Después de confirmar que JPublisher está instalado y que se ha definido el procedimiento almacenado, abre la utilidad PL/SQL Wrapper y ejecuta el comando add scripts para agregar los scripts incluidos en los archivos de inventario exportados (IAR).
+
+Seleccionar Procedimiento muestra los parámetros de entrada (in), salida (out) y entrada/salida (in/out) para el procedimiento seleccionado.
+
+**Nota**
+
+- Los procedimientos almacenados devuelven objetos binarios grandes (por ejemplo, tipos de datos de base de datos BLOB) como tipos base64Binary en XML. Dependiendo de los casos de uso, estos pueden ser decodificados durante la transformación usando funciones incorporadas como decodeBase64 o pueden ser pasados tal cual para el procesamiento posterior.
+- Los parámetros de entrada/salida del adaptador están definidos en función de los parámetros IN/OUT del procedimiento almacenado. El parámetro IN corresponde a la solicitud y el parámetro OUT se traduce como la respuesta.
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_50.png" alt="oic" width="700">
 </div>
 
+La página Ejecutar una Declaración SQL aparece cuando se selecciona Ejecutar una Declaración SQL como la acción a realizar en la página Información Básica.
+
+No utilice nombres de esquema/base de datos en las consultas SQL. Configure los detalles en la conexión. Por ejemplo:
+
+```sql
+Update HR.employee set HR. employee. first_name = 'Name' 
+where HR . employee .employee_id = '1'
+```
+
+puede cambiarse a una consulta simple, como:
+
+```sql
+Update employee set first name  = 'Name' where employee_id = '1'
+```
+
+donde HR se utiliza en los detalles de conexión. Esto restringe a un usuario con privilegios específicos a un esquema/base de datos particular.
+
+Asegúrese de proporcionar espacios adecuados entre las palabras clave para una declaración SQL pura. Por ejemplo, la siguiente declaración falla durante la activación de la integración porque no hay un espacio en blanco entre VALUES y (#.
+
+```sql
+INSERT INTO table_name VALUES (#EMPNO,  #EMPNAME)
+```
+
+Agregue un espacio en blanco entre VALUES y (#, y la declaración se procesa correctamente.
+
+```sql
+INSERT INTO table_name VALUES (#EMPNO, #EMPNAME)
+```
+
+Defina todos los parámetros de enlace en el mismo orden y defina los parámetros que toman valores absolutos al final. Por ejemplo:
+
+```sql
+INSERT INTO table_nane (EMPNO, EMPNAME, EMPUUID, EMPPHONE, EMPHIREDATE) 
+VALUES (#EMPNO, #EMPNAME, Sys_guid( ), NULL, SYSDATE)
+```
+
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_51.png" alt="oic" width="700">
 </div>
+
+**Página de Importación de Tablas**
+
+Filtre y seleccione las tablas a importar basadas en el esquema seleccionado. Estas tablas se utilizan para generar una declaración SQL basada en la operación seleccionada.
+
+Puede importar el siguiente número de tablas:
+
+- Un máximo de tres tablas para acciones de inserción, actualización e inserción o actualización
+- Un máximo de cinco tablas para la función de operación en tabla de selección
 
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_52.png" alt="oic" width="700">
 </div>
 
+**Página de Relaciones**
+Revise las relaciones entre las tablas seleccionadas y opcionalmente cree, elimine o cambie el nombre de las relaciones. Estas relaciones se utilizan en las declaraciones SQL de inserción o actualización.
+
+**Página de Crear Relación**
+Especifique las relaciones padre e hijo a utilizar en la declaración SQL.
+
+Seleccione el tipo de asignación (uno a muchos, uno a uno o uno a uno con la clave externa en la tabla secundaria). Por ejemplo, si seleccionó Empleados como la tabla principal y Departamentos como la tabla secundaria, se muestran las siguientes opciones:
+
+- Empleados tiene una relación 1:1 con Departamentos
+- Empleados tiene una relación 1:1 con Departamentos (Clave externa en la tabla secundaria)
+- Empleados tiene una relación 1:M con Departamentos
+
+**Página de Filtrado de Atributos**
+
+Filtre los atributos a excluir.
+
+**Página de Opciones Avanzadas**
+
+Proporcione opciones avanzadas adicionales comosecuenciación. Esto solo es válido para las operaciones de inserción y combinación.
+
 <div align="center">
     <img src="../../IMG/OIC/ORA_UNI/PT_3/pic_53.png" alt="oic" width="700">
 </div>
+
+**Opción de Revisión y Edición de Consulta SQL**
+
+Haga clic para editar la consulta en el Generador de Expresiones.
+
+- **Agregar Nuevo:** Haga clic para agregar nuevos criterios a la consulta SQL.
+- Haga clic en **Agregar Nuevo**.
+- En el campo **Primer Argumento/First Argument**, haga clic en **Editar** y seleccione el argumento a agregar (por ejemplo, **deptno**).
+- En el campo **Operador/Operator**, seleccione el operador a utilizar para la comparación desde la lista desplegable (por ejemplo, =).
+- En el campo **Segundo Argumento/Second Argument**, seleccione la opción a utilizar:
+    - **Literal:** Haga clic para especificar un valor. Si se selecciona, se le solicitará que seleccione el tipo de datos (por ejemplo, entero) y especifique el valor.
+    - **Parámetro:** Haga clic para especificar un parámetro de enlace.
+    - **Clave de Consulta/Query Key:** Haga clic para ejecutar la comparación contra otra columna en la tabla. 
+    
+        Los nuevos criterios se agregan a la consulta SQL con una cláusula WHERE. Si agrega consultas SQL subsiguientes, se agregan a la consulta SQL con una cláusula AND.
+
+- **Agregar Anidado/Add Nested:** Haga clic para agregar criterios anidados a la consulta SQL.
+- **Editar:** Haga clic para editar los criterios SQL que especificó.
+- **Eliminar:** Haga clic para eliminar los criterios SQL que especificó.
 
 # [Parte 4](./Notas_4.md)
