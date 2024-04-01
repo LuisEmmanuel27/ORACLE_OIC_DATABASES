@@ -54,7 +54,7 @@ Imagina que Oracle Integration es un cartero que quiere entregar un paquete en u
 
 ---
 
-## DMZ
+# DMZ
 
 Una DMZ es una subred de una red informática que se encuentra entre la red interna (de confianza) y la red externa (no confiable). Es como un "cortafuegos" que protege los datos sensibles de tu empresa de accesos no autorizados.
 
