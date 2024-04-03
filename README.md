@@ -69,33 +69,56 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ---
 
-## Oracle University
+## Oracle University - OIC
 
-### OIC
+### [Become An Application Integration Professional (2023) - Parte 1](./ORACLE_UNI_NOTES/OIC/Notas_1.md)
 
-#### [Become An Application Integration Professional (2023) - Parte 1](./ORACLE_UNI_NOTES/OIC/Notas_1.md)
+- #### OIC Architectural Overview - Architectual Overview & Use Cases
+- #### Integrations Life Cycle & Packages - Packaging & Versioning Integrations
 
-#### [Become An Application Integration Professional (2023) - Parte 2](./ORACLE_UNI_NOTES/OIC/Notas_2.md)
+### [Become An Application Integration Professional (2023) - Parte 2](./ORACLE_UNI_NOTES/OIC/Notas_2.md)
 
-#### [Become An Application Integration Professional (2023) - Parte 3](./ORACLE_UNI_NOTES/OIC/Notas_3.md)
+- #### Fundamentals of Creating Integrations - Integration Design Fundamentals
+- #### Creating OIC Adapter Connections - Defining OIC Adapter Connections
+- #### Creating OIC Adapter Connections - Exploring Additional Adapter Connections
+- #### Creating OIC Adapter Connections - Using the On-Premises Connectivity Agent
 
-#### [Become An Application Integration Professional (2023) - Parte 4](./ORACLE_UNI_NOTES/OIC/Notas_4.md)
+### [Become An Application Integration Professional (2023) - Parte 3](./ORACLE_UNI_NOTES/OIC/Notas_3.md)
 
-#### [Become An Application Integration Professional (2023) - Parte 5](./ORACLE_UNI_NOTES/OIC/Notas_5.md)
+- #### Configuring Trigger Connections - Configuring Integration Triggers (Concepts & SaaS Adapters)
+- #### Configuring Trigger Connections - Configuring Integration Triggers (Technology Adapters)
+- #### Configuring Invoke Connections - Using the Configuration Wizard (SaaS & DB Adapters)
 
-#### [Become An Application Integration Professional (2023) - Parte 6](./ORACLE_UNI_NOTES/OIC/Notas_6.md)
+### [Become An Application Integration Professional (2023) - Parte 4](./ORACLE_UNI_NOTES/OIC/Notas_4.md)
 
-#### [Become An Application Integration Professional (2023) - Parte 7](./ORACLE_UNI_NOTES/OIC/Notas_7.md)
+- #### Configuring Invoke Connections - Using the Configuration Wizard (Technology Adapters)
+- #### Data Mapping - Using the OIC Data Mapper
+- #### Data Mapping - Configuring Transformations & Lookups
 
-#### [Become An Application Integration Professional (2023) - Parte 8](./ORACLE_UNI_NOTES/OIC/Notas_8.md)
+### [Become An Application Integration Professional (2023) - Parte 5](./ORACLE_UNI_NOTES/OIC/Notas_5.md)
 
-#### [Become An Application Integration Professional (2023) - Parte 9](./ORACLE_UNI_NOTES/OIC/Notas_9.md)
+- #### Orchestration Integration Actions - Using Orchestration Actions (Part 1)
+- #### Orchestration Integration Actions - Using Orchestration Actions (Part 2)
 
-### Become An Oracle Cloud Data Management Foundations Associate (2023)
+### [Become An Application Integration Professional (2023) - Parte 6](./ORACLE_UNI_NOTES/OIC/Notas_6.md)
 
-#### 1. <a href="./ORACLE_UNI_NOTES/OTROS/1_COUD_DATA_MANAGEMENT_FOUNDATIONS/1_Notas_1.md">Oracle´s Data Managment Strategy</a>
+- #### Additional OIC Capabilities - Creating Scheduled Integrations and Monitoring Instances & Messages
+- #### Additional OIC Capabilities - Managing Errors and Leveraging the OIC REST API
 
-#### 2. <a href="./ORACLE_UNI_NOTES/OTROS/1_COUD_DATA_MANAGEMENT_FOUNDATIONS/2_Notas_2.md">Oracle Database Offerings</a>
+### [Become An Application Integration Professional (2023) - Parte 7](./ORACLE_UNI_NOTES/OIC/Notas_7.md)
+
+- #### File Handling Concepts and Options - Leveraging Options for Handling Files
+- #### File Handling Concepts and Options - Reviewing Example Solutions for Files
+
+### [Become An Application Integration Professional (2023) - Parte 8](./ORACLE_UNI_NOTES/OIC/Notas_8.md)
+
+- #### Orchestration Scopes and Fault Handling - Understanding Scope Containers & Using Fault Handlers
+- #### Orchestration Scopes and Fault Handling - Managing Failed Instances
+- #### Orchestration Scopes and Fault Handling - OIC Integration Best Practices
+
+### [Become An Application Integration Professional (2023) - Parte 9](./ORACLE_UNI_NOTES/OIC/Notas_9.md)
+
+### [Preguntas de práctica para certificación](./ORACLE_UNI_NOTES/OIC/Preguntas.md)
 
 ---
 
