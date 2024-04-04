@@ -2,17 +2,29 @@
 
 ## Preguntas curso OIC
 
-### 1 - 5: Skill Check: Module 2 - OIC Architectural Overview
-### 6 - 10: Skill Check: Module 3 - Integrations Life Cycle & Packages
-### 11 - 15: Skill Check: Module 4 - Fundamentals of Creating Integrations
-### 16 - 20: Skill Check: Module 5 - Creating OIC Adapter Connections
-### 21 - 25: Skill Check: Module 6 - Configuring Trigger Connections
-### 26 - 30: Skill Check: Module 7 - Configuring Invoke Connections
-### 31 - 35: Skill Check: Module 8 - Data Mapping
-### 36 - 40: Skill Check: Module 9 - Orchestration Integration Actions
-### 41 - 45: Skill Check: Module 10 - Additional OIC Capabilities
-### 46 - 50: Skill Check: Module 11 - File Handling Concepts and Options
-### 51 - 55: Skill Check: Module 12 - Orchestration Scopes and Fault Handling
+`1 - 5: Skill Check: Module 2 - OIC Architectural Overview`
+
+`6 - 10: Skill Check: Module 3 - Integrations Life Cycle & Packages`
+
+`11 - 15: Skill Check: Module 4 - Fundamentals of Creating Integrations`
+
+`16 - 20: Skill Check: Module 5 - Creating OIC Adapter Connections`
+
+`21 - 25: Skill Check: Module 6 - Configuring Trigger Connections`
+
+`26 - 30: Skill Check: Module 7 - Configuring Invoke Connections`
+
+`31 - 35: Skill Check: Module 8 - Data Mapping`
+
+`36 - 40: Skill Check: Module 9 - Orchestration Integration Actions`
+
+`41 - 45: Skill Check: Module 10 - Additional OIC Capabilities`
+
+`46 - 50: Skill Check: Module 11 - File Handling Concepts and Options`
+
+`51 - 55: Skill Check: Module 12 - Orchestration Scopes and Fault Handling`
+
+`56 - 60: Skill Check: Module 13 - OIC Feature Updates and Enhancements`
 
 1. **Which icon associated with an integration shown on the Integrations page must you click to access the Test link for testing an integration based on a REST trigger?**
    1. Run
@@ -262,6 +274,37 @@
     2.  You can place the Throw New Fault action inside the Global Fault handler.
     3.  If the conditional expression for the skip condition is empty, the fault will never be thrown.
     4.  You are required to define a fault code when configuring the Throw New Fault action.
+56. **What is Oracle's recommended alternative for the deprecated Read Multiple Files operation that was previously available for the FTP adapter?**
+    1.  Use the Read File in Segments operation of a Stage File action within the integration. 
+    2.  Use a File adapter with a Connectivity Agent installed to achieve the same functionality.
+    3.  Use the FTP adapter's Read File operation within a looping construct.
+    4.  Use the FTP adapter's List File operation to retrieve all files within a directory instead.
+57. **What is the name of the log file that will be stored for up to 30 days in OCI Logging when you enable logging for the OIC instance?**
+    1.  activity-stream-json.log
+    2.  oic-integration.log
+    3.  ics-flow.log
+    4.  integration-flow-json.log
+58. **Which is NOT available as a new OIC built-in adapter?**
+    1.  Jira
+    2.  Zendesk
+    3.  LinkedIn
+    4.  PeopleSoft
+59. **Considering that the Publish and Subscribe integration patterns have been deprecated, what is Oracle's recommended alternative for achieving a similar integration solution?**
+    1.  Use other integration styles in conjunction with FTP adapters to distribute messages as files in the OIC File Server.
+    2.  Deploy one or more JMS topics to SOA Cloud and leverage the WebLogic JMS adapters within new integrations.
+    3.  Use App-Driven or Scheduled orchestrations leveraging OCI Streaming Adapter connections.
+    4.  Use the new B2B feature to create "internal" trading partner agreements between two integrations.
+60. **Support for consuming platform events is now available as an enhancement to the SAP SuccessFactors adapter.**
+    1.  True
+    2.  False
+61. **You can use either an Append or an Assign operation in a Data Stitch action.**
+    1.  True
+    2.  False
+62. **In the scenario involving the synchronization of Opportunities in Salesforce to new Orders in Oracle NetSuite, what happens at the end of a successful opportunity-to-order integration flow instance?**
+    1.  The new NetSuite sales order number is returned to Salesforce.
+    2.  The Opportunity is updated with the new NetSuite order ID.
+    3.  The new NetSuite Order object is sent to Salesforce as a callback.
+    4.  A Boolean result is returned to Salesforce with a value of TRUE.
 
 ## Respuestas curso OIC
 
@@ -320,3 +363,14 @@
 53. `A pattern used for retrying failed messages`
 54. `Up to three nested scopes can be added to a basic scope action.` - This statement is FALSE because there is no limit to the number of nested scopes that can be added.
 55. `If the conditional expression for the skip condition is empty, the fault will never be thrown.` - This statement is FALSE because the fault will ALWAYS be thrown if the skip condition is empty.
+56. `Use the FTP adapter's Read File operation within a looping construct.` - This allows for all files to be read in sequence or in parallel (using For-Each or While actions).
+57. `activity-stream-json.log`
+58. `PeopleSoft`
+59. `Use App-Driven or Scheduled orchestrations leveraging OCI Streaming Adapter connections.`
+60. `False` - This is FALSE because that feature was added to the Salesforce adapter (not SAP SuccessFactors).
+61. `True`
+62. `The Opportunity is updated with the new NetSuite order ID.`
+
+---
+
+# [Parte 2](./Preguntas2.md)
