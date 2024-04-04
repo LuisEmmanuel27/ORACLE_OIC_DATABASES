@@ -2,6 +2,18 @@
 
 ## Preguntas curso OIC
 
+### 1 - 5: Skill Check: Module 2 - OIC Architectural Overview
+### 6 - 10: Skill Check: Module 3 - Integrations Life Cycle & Packages
+### 11 - 15: Skill Check: Module 4 - Fundamentals of Creating Integrations
+### 16 - 20: Skill Check: Module 5 - Creating OIC Adapter Connections
+### 21 - 25: Skill Check: Module 6 - Configuring Trigger Connections
+### 26 - 30: Skill Check: Module 7 - Configuring Invoke Connections
+### 31 - 35: Skill Check: Module 8 - Data Mapping
+### 36 - 40: Skill Check: Module 9 - Orchestration Integration Actions
+### 41 - 45: Skill Check: Module 10 - Additional OIC Capabilities
+### 46 - 50: Skill Check: Module 11 - File Handling Concepts and Options
+### 51 - 55: Skill Check: Module 12 - Orchestration Scopes and Fault Handling
+
 1. **Which icon associated with an integration shown on the Integrations page must you click to access the Test link for testing an integration based on a REST trigger?**
    1. Run
    2. Test
@@ -181,6 +193,75 @@
     1.  A defined location in the integration's runtime memory referenced by a variable
     2.  A specified directory on a remote file system accessible by a File or FTP adapter connection
     3.  A specified directory in the integration's virtual file system (VFS)
+41. **You can pause an integration schedule from the Monitoring console even if a run is already in progress.**
+    1.  True 
+    2.  False
+42. **What is the primary purpose of using business identifiers in Oracle Integration Cloud (OIC) integrations?**
+    1.  To provide a unique reference for tracking and monitoring integrations
+    2.  To enhance the security of integrations by encrypting data
+    3.  To improve the performance of integrations by reducing processing time
+    4.  To automate the deployment of integrations across multiple environments
+43. Which statement is NOT true about the OIC REST API?
+    1.  All REST API calls must be executed over secure sockets layer (SSL).
+    2.  For Connection resources, you can update both the connection URL as well as security credentials.
+    3.  You can deactivate an integration to stop it from processing any new messages to include pending requests.
+    4.  All REST API calls require valid credentials of an OIC user with the ServiceAdministrator role.
+44. **Which statement is NOT true about defining an advanced schedule for a Scheduled Orchestration?**
+    1.  You can choose both a basic and advanced schedule if needed.
+    2.  You must use iCal syntax to create the expression statement.
+    3.  You cannot define a frequency repetition of less than one minute.
+    4.  You can define multiple schedule frequencies within one expression.
+45. **Which statement is true about Scheduled Orchestration style integrations?**
+    1.  The design canvas is identical as when creating an App Driven style orchestration to include options for configuring a Trigger connection.
+    2.  You can resubmit failed runs only for scheduled orchestrations by using the REST API.
+    3.  You must define a basic or advanced schedule before activation.
+    4.  You can initiate an integration run by creating an ad hoc request or in sequence with a scheduled run.
+46. **Which scenario is a valid use case for utilizing schedule parameters in a Scheduled Orchestration style integration in Oracle Integration Cloud (OIC)?**
+    1.  To monitor the file transfer progress between two integration instances
+    2.  To define which file was last processed in a batch when limiting the number of files in each scheduled run
+    3.  To trigger an integration for processing a file when it is uploaded to an FTP server
+    4.  To enable real-time file transfer between two different cloud applications
+47. **Which can be leveraged to create a native schema (NXSD) file for complex files containing records whose fields have multiple delimiter types?**
+    1.  Stage File Action
+    2.  Native Format Builder
+    3.  Data Mapper
+    4.  File Adapter Expression Builder
+48. **The configuration and usage of a trigger or invoke connection based on a File adapter requires the deployment of an OIC Connectivity Agent.**
+    1.  True
+    2.  False
+49. **Which is NOT a configuration option when defining the Download File operation of an invoke connection based on an FTP adapter?**
+    1.  Specifying a schema for structured files less than 10 MB
+    2.  Specifying the VFS directory to use for the downloaded file
+    3.  Performing unzip on a compressed file
+    4.  Performing PGP decryption on an encrypted file
+50. **Which OIC adapter enables you to decrypt a file being read or downloaded using PGP cryptography?**
+    1.  File
+    2.  FTP
+    3.  Both File and FTP
+    4.  Neither File nor FTP
+51. **Which End action CANNOT be used to return errors back to a client of a synchronous integration flow?**
+    1.  Re-Throw Fault
+    2.  Return
+    3.  Callback
+    4.  Fault Return
+52. **The Global fault handler has a default implementation that rethrows the fault to the OIC error hospital.**
+    1.  True
+    2.  False
+53. **What is the Parking Lot design pattern in the context of handling errors in OIC integrations?**
+    1.  A pattern used for retrying failed messages
+    2.  A pattern used for temporarily storing failed messages for later processing
+    3.  A pattern used for propagating errors back to the calling application
+    4.  A pattern used for routing messages based on message content
+54. **Which statement is NOT true about the Scope action in an OIC integration?**
+    1.  A scope action can be added in the integration's Global fault handler.
+    2.  Up to three nested scopes can be added to a basic scope action.
+    3.  Scope actions provide for adding scope-level fault handling logic.
+    4.  A scope action can be repositioned to another location in the integration if it is collapsed.
+55. **Which is NOT true about leveraging the Throw New Fault action in an integration flow?**
+    1.  You can place the Throw New Fault action directly on the main flow path.
+    2.  You can place the Throw New Fault action inside the Global Fault handler.
+    3.  If the conditional expression for the skip condition is empty, the fault will never be thrown.
+    4.  You are required to define a fault code when configuring the Throw New Fault action.
 
 ## Respuestas curso OIC
 
@@ -224,3 +305,18 @@
 38. `It optimizes the call in-memory before traversing the network stack.` - The optimized call does NOT traverse the network stack.
 39. `Assign`
 40. `A specified directory in the integration's virtual file system (VFS)` - All newly created files will be stored in the VFS. You can later send that file to an external file system.
+41. `True` - If a run is already in progress, pausing a schedule will also pause that instance as well.
+42. `To provide a unique reference for tracking and monitoring integrations` - Business identifiers are used to uniquely identify instances of a specific integration. This helps in tracking and monitoring the progress of these instances, enabling users to search, filter, and correlate instances based on specific business identifiers.
+43. `All REST API calls require valid credentials of an OIC user with the ServiceAdministrator role.` - This is FALSE because the ServiceAdministrator role is not required for "view-only" APIs.
+44. `You can choose both a basic and advanced schedule if needed.` - This is FALSE because you must choose either the basic or advanced option when defining a schedule.
+45. `You can initiate an integration run by creating an ad hoc request or in sequence with a scheduled run.` - If a schedule is already defined, it can be done in sequence with a scheduled run.
+46. `To define which file was last processed in a batch when limiting the number of files in each scheduled run` - This specific example was used in the lecture.
+47. `Native Format Builder` - The Native Format Builder Wizard (available in JDeveloper or OEPE) is the recommended tool for creating more complex NXSD files.
+48. `True` - The Connectivity Agent is required when configuring a File adapter for either role.
+49. `Specifying a schema for structured files less than 10 MB` - Specifying the schema for structured files is available only when you attempt to read the file into memory using the Read File operation.
+50. `FTP`
+51. `Callback` - This action cannot be used at all in synchronous integration orchestrations.
+52. `True`
+53. `A pattern used for retrying failed messages`
+54. `Up to three nested scopes can be added to a basic scope action.` - This statement is FALSE because there is no limit to the number of nested scopes that can be added.
+55. `If the conditional expression for the skip condition is empty, the fault will never be thrown.` - This statement is FALSE because the fault will ALWAYS be thrown if the skip condition is empty.
