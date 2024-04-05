@@ -16,7 +16,7 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 # Índice
 
-## Oracle OIC: Gen 2
+## Oracle OIC: Gen 2 - Fast Review
 
 ### 1. <a href="./OIC_GEN_2/1_Introduccion.md">Introducción</a>
 
@@ -73,48 +73,48 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ### [Become An Application Integration Professional (2023) - Parte 1](./ORACLE_UNI_NOTES/OIC/Notas_1.md)
 
-- #### OIC Architectural Overview - Architectual Overview & Use Cases
-- #### Integrations Life Cycle & Packages - Packaging & Versioning Integrations
+- `OIC Architectural Overview - Architectual Overview & Use Cases`
+- `Integrations Life Cycle & Packages - Packaging & Versioning Integrations`
 
 ### [Become An Application Integration Professional (2023) - Parte 2](./ORACLE_UNI_NOTES/OIC/Notas_2.md)
 
-- #### Fundamentals of Creating Integrations - Integration Design Fundamentals
-- #### Creating OIC Adapter Connections - Defining OIC Adapter Connections
-- #### Creating OIC Adapter Connections - Exploring Additional Adapter Connections
-- #### Creating OIC Adapter Connections - Using the On-Premises Connectivity Agent
+- `Fundamentals of Creating Integrations - Integration Design Fundamentals`
+- `Creating OIC Adapter Connections - Defining OIC Adapter Connections`
+- `Creating OIC Adapter Connections - Exploring Additional Adapter Connections`
+- `Creating OIC Adapter Connections - Using the On-Premises Connectivity Agent`
 
 ### [Become An Application Integration Professional (2023) - Parte 3](./ORACLE_UNI_NOTES/OIC/Notas_3.md)
 
-- #### Configuring Trigger Connections - Configuring Integration Triggers (Concepts & SaaS Adapters)
-- #### Configuring Trigger Connections - Configuring Integration Triggers (Technology Adapters)
-- #### Configuring Invoke Connections - Using the Configuration Wizard (SaaS & DB Adapters)
+- `Configuring Trigger Connections - Configuring Integration Triggers (Concepts & SaaS Adapters)`
+- `Configuring Trigger Connections - Configuring Integration Triggers (Technology Adapters)`
+- `Configuring Invoke Connections - Using the Configuration Wizard (SaaS & DB Adapters)`
 
 ### [Become An Application Integration Professional (2023) - Parte 4](./ORACLE_UNI_NOTES/OIC/Notas_4.md)
 
-- #### Configuring Invoke Connections - Using the Configuration Wizard (Technology Adapters)
-- #### Data Mapping - Using the OIC Data Mapper
-- #### Data Mapping - Configuring Transformations & Lookups
+- `Configuring Invoke Connections - Using the Configuration Wizard (Technology Adapters)`
+- `Data Mapping - Using the OIC Data Mapper`
+- `Data Mapping - Configuring Transformations & Lookups`
 
 ### [Become An Application Integration Professional (2023) - Parte 5](./ORACLE_UNI_NOTES/OIC/Notas_5.md)
 
-- #### Orchestration Integration Actions - Using Orchestration Actions (Part 1)
-- #### Orchestration Integration Actions - Using Orchestration Actions (Part 2)
+- `Orchestration Integration Actions - Using Orchestration Actions (Part 1)`
+- `Orchestration Integration Actions - Using Orchestration Actions (Part 2)`
 
 ### [Become An Application Integration Professional (2023) - Parte 6](./ORACLE_UNI_NOTES/OIC/Notas_6.md)
 
-- #### Additional OIC Capabilities - Creating Scheduled Integrations and Monitoring Instances & Messages
-- #### Additional OIC Capabilities - Managing Errors and Leveraging the OIC REST API
+- `Additional OIC Capabilities - Creating Scheduled Integrations and Monitoring Instances & Messages`
+- `Additional OIC Capabilities - Managing Errors and Leveraging the OIC REST API`
 
 ### [Become An Application Integration Professional (2023) - Parte 7](./ORACLE_UNI_NOTES/OIC/Notas_7.md)
 
-- #### File Handling Concepts and Options - Leveraging Options for Handling Files
-- #### File Handling Concepts and Options - Reviewing Example Solutions for Files
+- `File Handling Concepts and Options - Leveraging Options for Handling Files`
+- `File Handling Concepts and Options - Reviewing Example Solutions for Files`
 
 ### [Become An Application Integration Professional (2023) - Parte 8](./ORACLE_UNI_NOTES/OIC/Notas_8.md)
 
-- #### Orchestration Scopes and Fault Handling - Understanding Scope Containers & Using Fault Handlers
-- #### Orchestration Scopes and Fault Handling - Managing Failed Instances
-- #### Orchestration Scopes and Fault Handling - OIC Integration Best Practices
+- `Orchestration Scopes and Fault Handling - Understanding Scope Containers & Using Fault Handlers`
+- `Orchestration Scopes and Fault Handling - Managing Failed Instances`
+- `Orchestration Scopes and Fault Handling - OIC Integration Best Practices`
 
 ### [Become An Application Integration Professional (2023) - Parte 9](./ORACLE_UNI_NOTES/OIC/Notas_9.md)
 

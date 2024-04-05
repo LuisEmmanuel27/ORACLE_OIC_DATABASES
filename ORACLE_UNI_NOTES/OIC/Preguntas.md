@@ -213,7 +213,7 @@
     2.  To enhance the security of integrations by encrypting data
     3.  To improve the performance of integrations by reducing processing time
     4.  To automate the deployment of integrations across multiple environments
-43. Which statement is NOT true about the OIC REST API?
+43. **Which statement is NOT true about the OIC REST API?**
     1.  All REST API calls must be executed over secure sockets layer (SSL).
     2.  For Connection resources, you can update both the connection URL as well as security credentials.
     3.  You can deactivate an integration to stop it from processing any new messages to include pending requests.
