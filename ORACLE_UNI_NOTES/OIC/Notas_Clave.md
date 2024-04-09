@@ -1,4 +1,4 @@
-# Notas Clave
+# Notas/Ideas Clave
 
 Serie de notas que considero importantes a resaltar de toda la información dada en el curso. Ya sean ideas muy puntuales o conceptos que si o si debemos tener memorizados o prensetes en todo momento a la hora de aprender y trabajar con Oracle OIC
 
@@ -55,4 +55,70 @@ Serie de notas que considero importantes a resaltar de toda la información dada
 - Después de crear el grupo de agentes, NO podrás editar el identificador del grupo de agentes. En su lugar, debes eliminar y volver a crear otro grupo de agentes para asociarlo con un identificador de grupo de agentes diferente.
 - El agente de conectividad se utiliza con un proxy SSL.
 - El agente de conectividad se utiliza para invocar puntos finales locales seguros (SSL).
+- `Patrones de intercambio de mensajes/Message Exchange Patterns:` Las integraciones de OIC acomodan múltiples paradigmas de mensajería y admiten los tipos, _Synchronous request/response, Asynchronous request/response, Asynchronous request (one-ay) & Event based_
+- EL patron de intercambio de mensajes esta determinado por:
+  - Que adaptador uses como conexión de disparador/trigger
+  - Como decides configurar el disparador/trigger
+- Algunos soportan un solo tipo de patrón, otros dos, tres o los cuatro
+- Son 27 adaptadores los que se pueden utilizar como disparadores/triggers
+- `Oracle Service Cloud (Right Now) Adapter` - Puede ser configurado en para definir uno de los siguientes patrones:
+  - `Business object request`
+    - Synchronous (request/response)
+    - Asynchronous (one-way)
+    - Asynchronous w/ callbacks
+  - `Event document request`
+    - Asynchronous (one-way)
+    - Asunchronous w/ callbacks
+- `Objeto de negocio:` Representa un documento de negocio independiente que puede ser manipulado por la integración. Una integración puede enviar solicitudes para crear un nuevo registro para ese objeto de negocio. También pueden enviar una solicitud para actualizar o eliminar un registro existente para un objeto de negocio. Las integraciones también pueden enviar solicitudes para recuperar información sobre uno o más registros que representan ese objeto de negocio.
+- `Suscripción a eventos:` Representa un documento de evento al que te suscribes cuando el Adaptador de Oracle Service Cloud (RightNow) está configurado en la dirección de disparador (fuente). La suscripción a eventos es generada por la aplicación Oracle Service Cloud (RightNow).
+- La aplicación Oracle Service Cloud (RightNow) tiene un límite de `20 suscripciones` para cada suscripción de evento disponible. Por ejemplo, puedes construir un máximo de 20 integraciones, todas suscritas al evento de Creación de Cliente, y 20 integraciones suscritas al evento de Destrucción de Contacto. Si creas una 21va integración para la misma suscripción de evento, esto puede provocar errores durante la activación de la integración.
+- `Oracle Engagement Cloud Adapter:` Oracle Engagement Cloud incluye un conjunto de características para crear y rastrear campañas de ventas, desarrollar clientes potenciales en oportunidades comerciales y perseguir oportunidades para generar ingresos. Las cuentas de ventas, los clientes potenciales y las oportunidades pueden asignarse a territorios y equipos de ventas. _Puede ser configurado en para definir uno de los siguientes patrones_:
+  - `Business object request`
+    - Synchronous (request/response)
+    - Asynchronous (one-way)
+    - Asynchronous w/ callbacks
+  - `Event document request`
+    - Asynchronous (one-way)
+    - Asunchronous w/ callbacks
+- `Request Page:` Similar a (Right Now) pero con más eventos disponibles (65), manejar los eventos hijos y especificar una condicion de filtrdo
+- `Response Page:` Tenemos la opción de configurar un Restraso/Delayed
+- `Oracle ERP Cloud Adapter` - Puede ser configurado en para definir uno de los siguientes patrones:
+  - `Business object request`
+    - Asynchronous (one-way)
+    - Asynchronous w/ callbacks
+  - `Recive Callback`
+    - Asynchronous (one-way)
+  - `Recive requests`
+    - Synchronous (req/res)
+    - Asynchronous (one-way)
+    - Asunchronous w/ callbacks
+- Revise o edite operaciones existentes o agregue una nueva operación. Cada operación representa una rama de acción de selección diferente en una sola integración. El número máximo de operaciones (ramas) que puede crear en una integración es seis (_Parte 3 - 5. (Generic) Rest Adapter_).
+- El `File Adapter` admite el procesamiento de archivos de menos de 10 MB de tamaño. Tenga en cuenta que el tamaño de los archivos CSV aumenta al traducirse en un mensaje. Por lo tanto, el tamaño del archivo debe ser inferior a 10 MB para que, después de la traducción, el tamaño del mensaje no supere los 10 MB.
+- [Archivos XSD](./Extras.md/#archivos-xsd)
+- En una interacción síncrona, la integración de OIC invoca el servicio externo y luego espera una respuesta a la solicitud. Mientras OIC espera, el canal de comunicación entre las partes queda abierto hasta que se recibe la respuesta.
+- En una interacción asíncrona, la integración de OIC invoca el servicio externo pero no espera una respuesta antes de continuar. Las operaciones asíncronas abren un canal de comunicación entre las partes, realizan la solicitud y cierran el canal antes de que se reciba la respuesta.
+- `Oracle Service Cloud (RightNow) - Invoke:` las invocaciones pueden configurarce de las siguientes maneras:
+  - `CRUD Operation`
+  - `ROQL Query`
+    - QueryCSV
+    - QueryObjects
+  - `File Attacment`
+- [FBDI](./Extras.md/#fbdi)
+- [Oracle Fusion Applications](./Extras.md/#oracle-fusion-applications)
+- `Oracle HCM Cloud - Invoke:` Admite la suscripción al `feed Atom de HCM`. Los `feeds Atom` te permiten realizar un seguimiento de los cambios realizados en los recursos habilitados para feed en Oracle Global Human Resources Cloud. Para cualquier actualización de interés para las aplicaciones descendentes, como nuevas contrataciones, terminaciones, transferencias de empleados y promociones, Oracle Global Human Resources Cloud publica `feeds Atom`.
+- `Store Procedure:` Puede importar el siguiente número de tablas:
+  - Un máximo de tres tablas para acciones de inserción, actualización e inserción o actualización
+  - Un máximo de cinco tablas para la función de operación en tabla de selección
+- `mapper:` Los mapas que creas se llaman mapas de transformación y utilizan el lenguaje de hojas de estilo extensible (XSL) para describir los mapeos de datos, lo que te permite realizar manipulación y transformación de datos complejas. Se proporciona un conjunto estándar de constructos XSLT (por ejemplo, xsl:if, xsl:for-each, entre otros). También se proporciona una función especializada para que puedas hacer referencia a búsquedas directamente desde el mapeador.
+- [XPath](./Extras.md/#xpath)
+- [XSLT](./Extras.md/#xslt)
+- [XML, XPath, XSLT](./Extras.md/#tabla-comparativa-xml-xpath-y-xslt)
+- El mapeo recomendado basado en `Strength` tiene 3 niveles: Low, Medium and High
+- Puede haber escenarios en los que necesites realizar una tarea avanzada de XSLT (crear variables, usar plantillas, etc.) que no puedas realizar en el mapeador de OIC. Para estos casos, puedes exportar la integración, importarla en Oracle JDeveloper, realizar estas tareas avanzadas en el archivo de mapeo en el Editor de Mapas XSLT en Oracle JDeveloper, y luego guardar y volver a importar el archivo de mapeo en OIC. El archivo de mapeo debe ser de un Proyecto de Servicio de Oracle en Oracle JDeveloper.
+- [Oracle JDeveloper](./Extras.md/#oracle-jdeveloper)
+- [Oracle Service Bus (OSB)](./Extras.md/#oracle-service-bus-osb)
+- El Editor de Mapas XSLT admite completamente XSLT 1.0 y XPath 1.0. Si deseas usar XSLT 2.0, puedes cambiar la versión de XSLT en la vista de origen.
+- Un `lookup` asocia valores utilizados por una aplicación para un campo con los valores utilizados por otras aplicaciones para el mismo campo. Esto proporciona la capacidad de mapear valores entre vocabularios o sistemas. Por ejemplo, puedes mapear códigos de país, códigos de ciudad, códigos de moneda, y así sucesivamente.
+- Después de crear un `lookup`, puedes `clonarlo` para crear rápidamente un nuevo lookup y exportarlo a un archivo `CSV` para usarlo en otros entornos de OIC. Esto demuestra la facilidad con la que puedes crear y usar lookups para compartir información entre aplicaciones.
+- Los `lookups` no se implementan como parte de la activación de la integración. Por lo tanto, los cambios que realices en los lookups ya utilizados en integraciones activas generalmente se aplican de inmediato. No es necesario volver a activar las integraciones que utilizan un lookup cambiado para que el nuevo valor del lookup surta efecto.
 - 
