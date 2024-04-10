@@ -511,3 +511,66 @@ Oracle Service Bus (OSB) es un **Enterprise Service Bus (ESB)**, lo que signific
 * Cuando necesita aplicar transformaciones complejas a los datos durante la integración.
 * Cuando necesita un alto nivel de seguridad y control sobre la comunicación entre aplicaciones.
 * Cuando desea una arquitectura de integración escalable y flexible.
+
+---
+
+# Mapeo ad-hoc
+
+En Oracle Integration Cloud (OIC), un **mapeo ad-hoc** es una forma de crear una transformación de datos entre dos puntos de conexión sin utilizar un archivo de mapeo predefinido. Es una forma flexible de realizar transformaciones simples de datos sobre la marcha, sin necesidad de crear y mantener archivos de mapeo adicionales.
+
+## ¿Cuándo usar un mapeo ad-hoc?
+
+Los mapeos ad-hoc son útiles en las siguientes situaciones:
+
+* **Transformaciones simples:** Cuando necesita realizar una transformación simple de datos, como cambiar el nombre de un campo o eliminar un elemento, un mapeo ad-hoc puede ser una opción más rápida y sencilla que crear un archivo de mapeo completo.
+* **Pruebas y desarrollo:** Durante la fase de pruebas y desarrollo, puede usar mapeos ad-hoc para experimentar con diferentes transformaciones de datos sin modificar archivos de mapeo permanentes.
+* **Datos inconsistentes:** Si la estructura de sus datos no es consistente, un mapeo ad-hoc puede ser la mejor manera de manejar las discrepancias y convertir los datos al formato deseado.
+
+## Limitaciones de los mapeos ad-hoc:
+
+Los mapeos ad-hoc tienen algunas limitaciones:
+
+* **Menos flexibilidad:** No son tan flexibles como los archivos de mapeo predefinidos, que admiten una gama más amplia de funciones de transformación.
+* **Dificultad para compartir:** No se pueden compartir fácilmente con otros flujos o usuarios.
+* **Dificultad para mantener:** Pueden ser difíciles de mantener y actualizar a medida que cambia la estructura de sus datos.
+
+---
+
+# EDI Translate Action
+
+**EDI Translate Action** es una acción predefinida disponible en Oracle Integration Cloud (OIC) que se utiliza para traducir mensajes EDI (Electronic Data Interchange) entre formatos. Funciona como un intermediario, transformando mensajes de un formato EDI específico (por ejemplo, X12 o EDIFACT) a otro formato EDI o a un mensaje XML.
+
+## ¿Cómo funciona EDI Translate Action?
+
+1. **Configuración:**  Define la acción especificando:
+    * **Dirección de la traducción:** Indica si se traduce un mensaje EDI entrante a un mensaje XML de OIC (Inbound) o un mensaje XML de OIC a un mensaje EDI saliente (Outbound).
+    * **Estándar y versión del documento EDI:** Se selecciona el estándar EDI (por ejemplo, X12 o EDIFACT) y la versión específica del documento que se está traduciendo.
+    * **Definición del documento EDI:** Se define la estructura del documento EDI utilizando un archivo XSD (esquema XML) o seleccionando una definición predefinida.
+    * **Codificación de caracteres EDI:** Se especifica la codificación de caracteres del mensaje EDI (por ejemplo, UTF-8, ASCII).
+
+2. **Traducción:** Durante la ejecución del flujo, la acción EDI Translate Action procesa el mensaje entrante según la configuración.
+    * **Entrada EDI:** Si se trata de un mensaje EDI entrante, la acción lo analiza utilizando la definición del documento EDI y lo convierte en un mensaje XML estructurado.
+    * **Salida EDI:** Si se trata de un mensaje XML saliente, la acción lo convierte en un mensaje EDI según la definición del documento EDI y la codificación especificada.
+
+## Beneficios de usar EDI Translate Action:
+
+* **Simplifica la integración EDI:** Proporciona una forma fácil y sin código para traducir mensajes EDI a otros formatos.
+* **Reduce el tiempo de desarrollo:** Elimina la necesidad de escribir código personalizado para la traducción EDI.
+* **Mejora la escalabilidad:** Puede manejar grandes volúmenes de mensajes EDI de manera eficiente.
+* **Aumenta la flexibilidad:** Admite una variedad de estándares y versiones de documentos EDI.
+
+## Cuándo usar EDI Translate Action:
+
+* Cuando necesita integrar aplicaciones que utilizan formatos EDI para el intercambio de datos.
+* Cuando desea traducir mensajes EDI a un formato que sea comprensible para otras aplicaciones en su flujo de integración.
+* Cuando necesita procesar mensajes EDI de diferentes estándares y versiones.
+
+---
+
+# Virtual File System VFS
+
+El sistema de archivos virtual (VFS) es una capa de abstracción que permite a los sistemas operativos manejar múltiples sistemas de archivos de manera uniforme. En el contexto de Oracle Integration Cloud (OIC), el VFS se utiliza para almacenar archivos y utilizar internamente referencias a estos archivos en el payload del mensaje. Esto es especialmente útil en integraciones que involucran la transferencia de archivos, como aquellas que utilizan adaptadores FTP o REST.
+
+Por ejemplo, el adaptador FTP de OIC puede usar una `fileReference` para leer o escribir un archivo sin un esquema definido. Esta referencia es, en realidad, un apuntador a un archivo almacenado en el VFS. De manera similar, el adaptador REST soporta el uso de adjuntos multipartes y el tipo de contenido `application/octet-stream`. Los adjuntos se almacenan en un área de preparación y se genera una `attachmentReference`. Esta clave se envía como parte del payload del mensaje y posteriormente se utiliza para recuperar la instancia del adjunto del área de preparación.
+
+El VFS de OIC también permite mapear el contenido de un archivo adjunto a un elemento de cadena, convirtiendo el contenido a una cadena base64. Esto se logra mediante dos funciones XPath: `encodeReferenceToBase64`, que toma la referencia y devuelve el contenido codificado en base64 del archivo, y `decodeBase64ToReference`, que toma un valor codificado en base64 y devuelve la referencia o ubicación del archivo.

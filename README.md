@@ -120,6 +120,8 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ### [Preguntas de práctica para certificación](./ORACLE_UNI_NOTES/OIC/Preguntas.md)
 
+### [Notas/Ideas Clave](./ORACLE_UNI_NOTES/OIC/Notas_Clave.md)
+
 ---
 
 ## SQL

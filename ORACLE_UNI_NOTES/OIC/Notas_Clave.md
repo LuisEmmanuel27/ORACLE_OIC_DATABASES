@@ -4,7 +4,7 @@ Serie de notas que considero importantes a resaltar de toda la información dada
 
 ---
 
-- Oracle Integration se ejecuta en la infraestructura, en la nube Gen2 (actualmente la versión 3 en Gen3)
+- Oracle Integration se ejecuta en la infraestructura de la nube Gen2 (actualmente la versión 3 en Gen3)
 
 - `Bussines Accelerators:` Soluciones empresariales que son configurables y completamente gestionadas por Oracle
 - `Technical Accelerators`: Entregan patrones técnicos listos para usar que también son configurables
@@ -36,7 +36,7 @@ Serie de notas que considero importantes a resaltar de toda la información dada
 - `Oracle BPEL Process Manager:` Te permite definir cómo se ejecuta un proceso empresarial que involucra servicios web. Los mensajes `BPEL` invocan servicios remotos y orquestan la ejecución del proceso.
 - `Campo de seguimiento/Tracking Field:` Debemos asignar al menos uno (maximo 3). Uno de estos campos debe seleccionarse como el campo de identificación empresarial principal. El identificador empresarial principal te permite realizar un seguimiento de los campos a lo largo de los flujos de integración durante el tiempo de ejecución y siempre está disponible. Durante el tiempo de ejecución, el estado de los identificadores empresariales es visible en la página de Seguimiento y (si han ocurrido errores de integración) en la página de Errores.
 - [WSDL](./Extras.md/#¿qué-son-los-archivos-wsdl)
-- Crear una conexión solo requiere información básica y políticas de conexión y seguridad definidas.
+- Crear una conexión solo requiere información básica, políticas de conexión y seguridad definidas.
 - Los casos de uso específicos se facilitan más tarde al configurar una conexión para ser utilizada dentro de un flujo de integración.
 - Normalmente, se crea solo una conexión por cada sistema externo o aplicación.
 - OIC administra múltiples conexiones en tiempo de ejecución para cada flujo de integración según sea necesario.
@@ -121,4 +121,39 @@ Serie de notas que considero importantes a resaltar de toda la información dada
 - Un `lookup` asocia valores utilizados por una aplicación para un campo con los valores utilizados por otras aplicaciones para el mismo campo. Esto proporciona la capacidad de mapear valores entre vocabularios o sistemas. Por ejemplo, puedes mapear códigos de país, códigos de ciudad, códigos de moneda, y así sucesivamente.
 - Después de crear un `lookup`, puedes `clonarlo` para crear rápidamente un nuevo lookup y exportarlo a un archivo `CSV` para usarlo en otros entornos de OIC. Esto demuestra la facilidad con la que puedes crear y usar lookups para compartir información entre aplicaciones.
 - Los `lookups` no se implementan como parte de la activación de la integración. Por lo tanto, los cambios que realices en los lookups ya utilizados en integraciones activas generalmente se aplican de inmediato. No es necesario volver a activar las integraciones que utilizan un lookup cambiado para que el nuevo valor del lookup surta efecto.
+- [Mapeo ad-hoc](./Extras.md/#mapeo-ad-hoc)
+- `Sobre reposicionar:` Actualmente, solo se pueden reposicionar los ámbitos colapsados. Otras acciones contenedoras como acciones while, acciones de switch, acciones for-each, etc., no pueden ser reposicionadas.
+- No puedes eliminar una conexión de disparador en una integración. (La opción de eliminar no está disponible).
+- Las variables creadas dentro de una acción de ámbito o una acción de bucle (por ejemplo, un for-each o un while) no son accesibles directamente fuera de la acción de ámbito/bucle. Para acceder a las variables (locales) fuera de una acción de ámbito/bucle, crea una variable global utilizando una acción de asignación encima de la acción de ámbito/bucle. Asigna la variable local a esta variable global y luego úsala fuera de la acción de ámbito/bucle.
+- No se pueden asignar valores a otros tipos de variables, como tipos complejos.
+- [EDI Translate Actions](./Extras.md/#edi-translate-action)
+- `Stage File Action:`
+  - Puede leer (y eliminar cualquier remolque/trailer), escribir, comprimir, descomprimir y listar archivos en una ubicación en etapa conocida por Oracle Integration.
+  - También puede leer (y eliminar cualquier remolque) y descomprimir archivos referenciados en una ubicación en etapa.
+  - Es similar en funcionalidad a los adaptadores. Sin embargo, a diferencia de los adaptadores, no necesitas crear una conexión para utilizar la acción de archivo en etapa. No tiene propiedades de credenciales ni políticas de seguridad.
+  - También difiere del Adaptador de Archivo y del Adaptador FTP en que proporciona la capacidad de definir un formato de archivo para operaciones de lectura y escritura. Para que la acción de archivo en etapa procese o actúe sobre archivos y adjuntos, deben estar disponibles en Oracle Integration.
+- [Virtual File System](./Extras.md/#virtual-file-system-vfs)
+- `Todas las variables creadas en Oracle Integration actualmente son solo de tipo de datos string`. Usar estas variables directamente y aplicar expresiones de comparador matemático da como resultado un comportamiento inusual. Por ejemplo, en una acción de asignación, se crean dos variables, var1 y var2, con valores de 1 y 10, respectivamente. En una acción while, si luego estableces la condición como `$var1 > $var2`, el bucle termina después de dos iteraciones. El uso correcto es establecer la condición envolviendo las variables con la función XPath de número: `number($var1) < number($var2)`. Este bucle itera 10 veces antes de terminar.
+- `Notification Action:` Puedes enviar un correo electrónico de notificación a usuarios relevantes en puntos específicos durante la ejecución de una integración. Puedes configurar los campos para, de, y asunto de un correo electrónico. Puedes crear la parte del cuerpo de un correo electrónico utilizando parámetros definidos en el Constructor de Expresiones. También puedes agregar adjuntos al correo electrónico si tu integración los incluye. El límite total de tamaño en un correo electrónico de notificación es de `2 MB`. Tanto el cuerpo del correo electrónico como el adjunto se consideran al calcular el tamaño total.
+- `Wait Action:`
+  - La acción de espera te permite retrasar la ejecución de una integración durante un período de tiempo especificado. Utiliza esta acción en integraciones orquestadas programadas y asíncronas. Un uso típico para esta acción es invocar una operación específica en un momento determinado, o dentro de una estructura de bucle para retrasar el procesamiento dentro de cada iteración del bucle. Las acciones de espera solo están disponibles en integraciones asíncronas y de "fire-and-forget".
+  - Esta acción no está disponible en integraciones de estilo de orquestación impulsadas por aplicaciones que están configuradas con un disparador síncrono (patrón de intercambio de mensajes de solicitud-respuesta).
+  - Máximo 6 horas
+- `Stop Action:` No esta disponible en integraciones sincronas
+- `Creando cronograma/Schedule:` Puedes agregar un cronograma/schedule en la página Integraciones antes o después de que se haya activado la integración.
+- Si deseas programar ejecuciones de integración con una expresión `iCal`, haz clic en `Avanzado`.
+- Por ejemplo, la siguiente expresión indica que esta integración se ejecuta cada mes en los días 1, 10 y 15 del mes a las 5:15 a.m., 10:15 a.m., 3:15 p.m. y 8:15 p.m.:
+  - ```PREQ=MONTHLY ; BYMONTHDAY=1, 10 , 15; BYHOUR=5, 10, 15, 20; BYMINUTE-15;```
+- También puedes definir múltiples frecuencias de programación. La siguiente programación se ejecuta todos los días entre las 5:30 p.m. y las 7:30 p.m., y durante estas horas se ejecuta cada 10 minutos. Esta configuración requiere tres programaciones separadas por el signo `&`:
+
+```
+PREQ=DAILY ; BYHOUR=17 ; BYMINUTE=30,40,50 ; BYSECOND=0;
+& FREQ=DAILY ; BYHOUR=18 ; BYMINUTE=0,10,20,30,40,50 ; BYSECOND=0;
+& FREQ=DAILY ; BYHOUR=19; BYMINUTE=0,10,20,30 ; BYSECOND=0;
+```
+
+- Existe una `limitación` de un minuto en cuánta frecuencia puedes ejecutar integraciones programadas con una expresión iCal. No se admite nada por debajo de este límite.
+- Después de definir una programación/schedule, debes activarla. También puedes pausar (desactivar) una programación, según sea necesario.
+- `Resubmitting Failed Runs:` Si el reenvío falla, el estado de ejecución se actualiza con un recuento de reenvíos.
+- `Schedule Parameters:` Puedes crear y actualizar parámetros programados de tipo escalar en integraciones programadas que determinan cómo agrupar y leer datos recibidos desde una ubicación de origen. 
 - 
