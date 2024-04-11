@@ -80,7 +80,7 @@ Serie de notas que considero importantes a resaltar de toda la información dada
   - `Event document request`
     - Asynchronous (one-way)
     - Asunchronous w/ callbacks
-- `Request Page:` Similar a (Right Now) pero con más eventos disponibles (65), manejar los eventos hijos y especificar una condicion de filtrdo
+- `Request Page:` Similar a (Right Now) pero con más eventos disponibles (65), manejar los eventos hijos y especificar una condicion de filtrado
 - `Response Page:` Tenemos la opción de configurar un Restraso/Delayed
 - `Oracle ERP Cloud Adapter` - Puede ser configurado en para definir uno de los siguientes patrones:
   - `Business object request`
@@ -152,8 +152,48 @@ PREQ=DAILY ; BYHOUR=17 ; BYMINUTE=30,40,50 ; BYSECOND=0;
 & FREQ=DAILY ; BYHOUR=19; BYMINUTE=0,10,20,30 ; BYSECOND=0;
 ```
 
-- Existe una `limitación` de un minuto en cuánta frecuencia puedes ejecutar integraciones programadas con una expresión iCal. No se admite nada por debajo de este límite.
+- Existe una `limitación` de `un minuto` en cuánta frecuencia puedes ejecutar integraciones programadas con una expresión iCal. No se admite nada por debajo de este límite.
 - Después de definir una programación/schedule, debes activarla. También puedes pausar (desactivar) una programación, según sea necesario.
 - `Resubmitting Failed Runs:` Si el reenvío falla, el estado de ejecución se actualiza con un recuento de reenvíos.
 - `Schedule Parameters:` Puedes crear y actualizar parámetros programados de tipo escalar en integraciones programadas que determinan cómo agrupar y leer datos recibidos desde una ubicación de origen. 
-- 
+- `Stage File:`
+  - No es un adaptador y no puede ser añadido como un Disparador o Invocación.
+  - En su lugar, es una acción utilizada dentro de una integración de estilo de orquestación para manejar una de las seis operaciones basadas en archivos.
+  - La operación `Leer Archivo en Segmentos/Read File in Segments` se utiliza para manejar archivos grandes de hasta 1 GB.
+- `encodeReferenceToBase64:` Acepta la referencia de archivo del VFS como entrada y devuelve el contenido codificado en base64 del archivo como valor de retorno. Esta función tiene un límite de tamaño de archivo de 10 MB. Esto es muy útil al enviar contenido de archivo como adjunto en línea a puntos finales SOAP. También puede ser útil al enviar contenido de la acción de archivo de etapa a un servidor FTP remoto.
+- `decodeBase64ToReference:` Acepta el contenido codificado en base64 como entrada, lo decodifica, almacena el valor decodificado en base64 en un archivo en el VFS y devuelve la referencia a este archivo. No hay límite de tamaño porque el contenido ya está en memoria. Esta función se utiliza ampliamente para leer adjuntos de archivos de puntos finales basados en SOAP y luego enviarlos a servidores FTP remotos.
+- El `sistema de archivos virtual` (VFS, por sus siglas en inglés) te permite almacenar archivos y utilizar referencias internas a estos archivos en la carga del mensaje. También puedes mapear el contenido del archivo VFS a un elemento de cadena.
+- `Ejemplo VFS REST:` El Adaptador REST admite la característica de adjunto multipart y application/octet-stream. El adjunto se almacena en un área de preparación y se genera una attachmentReference (clave de cadena). La clave de attachmentReference se envía como parte de la carga del mensaje y más tarde recupera la instancia del adjunto desde el área de preparación.
+- El Adaptador `FTP` utiliza `fileReference` para leer/escribir un archivo sin un esquema. `fileReference` también es una referencia a un archivo almacenado en el `VFS`.
+- `Read/Write Native File Formats:` Los archivos de formato nativo necesitan ser representados por su correspondiente esquema nativo (nxsd)
+- [NXSD file](./Extras.md/#nxsd-file)
+- Todas las integraciones que involucran ERP FBDI, HCM HDL y CRM requieren un archivo de datos generado en base a la plantilla de objeto respectiva en formato de valores separados por comas (CSV). Este archivo puede ser creado por un sistema local o otras aplicaciones en la nube, y luego cargado en un servidor SFTP para ser consumido por Oracle Integration Cloud (OIC). Opcionalmente, el archivo también puede ser cargado en el Servidor de Contenido de Fusion Applications (UCM).
+- Por defecto, todos los fallos son capturados por el hospital de errores de OIC. Estos incluyen:
+  - Fallos explícitos de tiempo de ejecución o de negocio devueltos al invocar un servicio externo o sistema.
+  - Otros fallos de tiempo de ejecución encontrados por OIC
+      - (por ejemplo, tiempo de espera de la solicitud, carga de disparador de entrada inválida)
+  - Errores internos de tiempo de ejecución al ejecutar acciones de orquestación
+      - (por ejemplo, mapeo de datos, llamada a funciones JavaScript)
+- Además de los manejadores de fallos a nivel de ámbito, existe un manejador de fallos global/Global fault handler disponible a nivel general del flujo de integración, que actúa como un bloque de captura principal. Cualquier error no manejado en los ámbitos internos o errores encontrados en bloques no relacionados con ámbitos se elevan hasta este manejador de fallos global.
+- `Re-Throw Fault:`
+  - **Throw New Fault** - Condicionalmente mandar un error custom alh hospital de errores
+  - **Stop** - Sin falla
+  - **Fault Return** - mapea datos para la respuesta del error y enviarla al cliente
+  - **Return or Callback** - Mapea datos para la respuesta exitosa al cliente
+- Puedes enviar mensajes fallidos al hospital de errores para un análisis adicional con una acción de re-lanzamiento de fallos. Si la integración contiene un fallo global definido, el error capturado por la acción de re-lanzamiento de fallos se envía a través del manejador de fallos global y luego opcionalmente al hospital de errores para análisis. Si no se define ningún fallo global, el fallo se envía directamente al hospital de errores para análisis. La acción de re-lanzamiento de fallos opera como un bloque de captura general y se procesa si se lanza un fallo por una acción de invocación en el ámbito. Sin embargo, la acción de re-lanzamiento de fallos no tiene un nombre específico para capturarla.
+- Los ámbitos/scopes pueden tener manejadores de fallos en los cuales se pueden capturar y volver a lanzar fallos específicos. Sin embargo, en el caso de las invocaciones basadas en agentes de conectividad, los manejadores de fallos nombrados no se ejecutan. Todo el manejo de fallos debe hacerse en el manejador de fallos predeterminado.
+- `Catching Faults:` Los fallos son capturados por el `más cercano` manejador de fallos al lugar donde ocurrió el fallo.
+  - Si no hay manejadores de fallos configurados para un contenedor de Ámbito, todos los fallos serán capturados por el siguiente manejador de fallos de nivel superior.
+  - Cualquier fallo que ocurra dentro de un manejador de fallos será capturado por el siguiente manejador de fallos de nivel superior.
+- `Fault Migration:` Cualquier fallo que pueda ser mitigado o sea muy menor no necesariamente debe terminar el flujo de integración. Para continuar procesando después de su lógica de manejo o mitigación de fallos:
+  - No añadas una acción de `Fin/End` en el manejador de fallos del ámbito.
+  - La siguiente acción fuera del ámbito será ejecutada.
+- Si es necesario, puedes manejar lógica de manejo de errores más compleja agregando contenedores de Ámbito dentro de un manejador de fallos de Ámbito o incluso en el manejador de fallos Global.
+- Puedes crear y lanzar tus propios fallos en una integración con una acción de `throw new fault`. Durante la configuración de esta acción, defines la condición bajo la cual lanzar el fallo y el punto en la integración en el que lanzarlo.
+- `Resubmitting Failed Instances:` Las instancias de integración asíncrona pueden ser reenviadas en caso de fallo.
+  - Cuando sea posible, diseña para la idempotencia (repetible sin efectos secundarios).
+  - Puede ser necesario realizar un análisis manual para determinar si existen problemas de dependencias externas que necesiten resolverse antes de reenviar.
+- También puedes realizar `reenvíos en masa`. Usando la consola de monitoreo, puedes buscar instancias de flujo con errores por tiempo, duración, tipo de error, nombre de integración y otros criterios. La consola de monitoreo de OIC permite seleccionar todas esas instancias de flujo y reenviarlas en masa.
+- [Parking Lot Pattern](./Extras.md/#patrón-estacionamiento-parking-lot-pattern)
+- Actualmente, OIC no permite modelar un servicio de solicitud-respuesta asíncrona. Sin embargo, todos los patrones de orquestación programada internamente utilizan una solicitud-respuesta asíncrona. Por lo tanto, una integración síncrona que utiliza una orquestación programada es un anti-patrón.
+- Una integración síncrona que llama a múltiples servicios que abarcan `más de 5 minutos` se reporta como un hilo bloqueado en Oracle WebLogic Server.

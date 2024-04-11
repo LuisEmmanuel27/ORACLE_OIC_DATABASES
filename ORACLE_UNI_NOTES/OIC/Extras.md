@@ -574,3 +574,72 @@ El sistema de archivos virtual (VFS) es una capa de abstracción que permite a l
 Por ejemplo, el adaptador FTP de OIC puede usar una `fileReference` para leer o escribir un archivo sin un esquema definido. Esta referencia es, en realidad, un apuntador a un archivo almacenado en el VFS. De manera similar, el adaptador REST soporta el uso de adjuntos multipartes y el tipo de contenido `application/octet-stream`. Los adjuntos se almacenan en un área de preparación y se genera una `attachmentReference`. Esta clave se envía como parte del payload del mensaje y posteriormente se utiliza para recuperar la instancia del adjunto del área de preparación.
 
 El VFS de OIC también permite mapear el contenido de un archivo adjunto a un elemento de cadena, convirtiendo el contenido a una cadena base64. Esto se logra mediante dos funciones XPath: `encodeReferenceToBase64`, que toma la referencia y devuelve el contenido codificado en base64 del archivo, y `decodeBase64ToReference`, que toma un valor codificado en base64 y devuelve la referencia o ubicación del archivo.
+
+---
+
+# NXSD file
+
+Un archivo `NXSD` es un tipo de archivo de **esquema XML** utilizado en Oracle Integration Cloud (OIC) para definir la estructura y el contenido de mensajes XML. Es una extensión del estándar XML Schema Definition (XSD) que ofrece funcionalidades adicionales para facilitar el desarrollo de integraciones en OIC.
+
+## Características clave de los archivos NXSD:
+
+* **Soporte para tipos de datos específicos de OIC:** NXSD define tipos de datos específicos para OIC, como `dateTime` y `base64Binary`, que se utilizan para representar datos comunes en las integraciones.
+* **Funciones de mapeo simplificadas:** NXSD proporciona funciones para simplificar el mapeo de datos entre diferentes estructuras XML, como la coincidencia de nombres de elementos por significado y la inferencia de tipos de datos.
+* **Validación de mensajes mejorada:** NXSD ofrece una validación más robusta de mensajes XML para garantizar que cumplan con la estructura definida y los tipos de datos.
+* **Integración con Oracle SOA Suite:** NXSD se integra con Oracle SOA Suite, lo que permite usar archivos NXSD para definir la estructura de mensajes en flujos de BPEL.
+
+## Beneficios de usar archivos NXSD:
+
+* **Desarrollo más rápido:** Los archivos NXSD simplifican el proceso de desarrollo de integraciones al proporcionar definiciones de estructura y mapeo predefinidas.
+* **Mayor confiabilidad:** La validación mejorada de mensajes reduce el riesgo de errores en las integraciones.
+* **Mejor interoperabilidad:** El uso de NXSD facilita la interoperabilidad entre diferentes aplicaciones y sistemas que utilizan OIC.
+
+## Cuándo usar archivos NXSD:
+
+* Cuando se desarrollan integraciones en OIC que necesitan definir la estructura de mensajes XML.
+* Cuando se desea simplificar el mapeo de datos entre diferentes estructuras XML.
+* Cuando se requiere una validación robusta de mensajes XML para garantizar la calidad de los datos.
+
+---
+
+# Patrón Estacionamiento (Parking Lot Pattern)
+
+El Patrón Estacionamiento es una técnica utilizada en flujos de trabajo de integración para administrar el procesamiento de datos y controlar el flujo de mensajes. Actúa como un área de almacenamiento temporal para mensajes antes de que sean procesados por sistemas posteriores.
+
+## Así es como funciona el Patrón Estacionamiento en OIC:
+
+1. **Llegada de Datos:** Los mensajes llegan al flujo de integración desde diversas fuentes, como bases de datos, aplicaciones o sistemas externos.
+2. **Estacionamiento de Datos:** Cada mensaje se almacena temporalmente en un "estacionamiento" designado. Este estacionamiento se puede implementar utilizando diferentes tecnologías:
+    * **Tabla de Base de Datos:** Una tabla de base de datos con columnas para la carga útil del mensaje y metadatos adicionales (por ejemplo, hora de llegada).
+    * **Cola de Mensajes:** Una cola de mensajes como Oracle Advanced Queuing (AQ) para almacenar mensajes en un orden FIFO (First-In, First-Out).
+    * **Sistema de Archivos:** Los archivos se pueden almacenar en un directorio temporal en el servidor OIC.
+
+3. **Retraso del Procesamiento:** Los mensajes permanecen estacionados durante un período predefinido o hasta que se cumplan condiciones específicas. Este retraso permite:
+    * **Limitación:** Limitar la cantidad de mensajes enviados a sistemas posteriores simultáneamente, evitando la sobrecarga.
+    * **Procesamiento por Lotes:** Acumular mensajes antes de procesarlos por lotes para mejorar la eficiencia.
+    * **Manejo de Errores:** Implementar lógica de reintentos para mensajes fallidos antes de volver a enviarlos.
+
+4. **Recuperación de Datos:** Un proceso separado recupera mensajes del estacionamiento según criterios definidos. Esto puede involucrar:
+    * **Sondeo:** Revisar regularmente el estacionamiento en busca de nuevos mensajes.
+    * **Basado en eventos:** Desencadenar la recuperación ante un evento específico, como alcanzar un número umbral de mensajes.
+
+5. **Procesamiento Posterior:** Los mensajes recuperados luego son procesados por sistemas posteriores, como aplicaciones, bases de datos u otras integraciones.
+
+## Beneficios del uso del Patrón Estacionamiento en OIC:
+
+* **Escalabilidad Mejorada:** Administra grandes volúmenes de datos al desacoplar la llegada de mensajes del procesamiento, evitando que los sistemas posteriores se sobrecarguen.
+* **Mayor Confiabilidad:** Permite la lógica de reintentos y el manejo de errores antes de enviar mensajes a sistemas posteriores.
+* **Rendimiento Controlado:** Regula el flujo de mensajes a los sistemas posteriores, evitando cuellos de botella.
+* **Eficiencia del Procesamiento por Lotes:** Permite procesar mensajes por lotes para mejorar el rendimiento.
+
+## Consideraciones de Implementación:
+
+* **Elegir la Tecnología del Estacionamiento:** Seleccionar la tecnología (tabla de base de datos, cola, sistema de archivos) en función de factores como el volumen de mensajes, los requisitos de procesamiento y las necesidades de persistencia.
+* **Definir el Tiempo de Estacionamiento:** Determinar el período de retraso óptimo o las condiciones para recuperar mensajes del estacionamiento.
+* **Estrategia de Manejo de Errores:** Implementar mecanismos para manejar mensajes fallidos, incluidos reintentos y notificaciones de errores.
+
+## Ejemplos de Casos de Uso:
+
+* **Procesamiento de Pedidos:** Los pedidos recibidos de una tienda en línea se estacionan antes de enviarlos al sistema de cumplimiento por lotes para mayor eficiencia.
+* **Procesamiento de Eventos:** Los datos del sensor se estacionan antes de enviarlos a un motor de análisis para evitar sobrecargar el sistema durante las horas pico.
+* **Transformación de Datos:** Los datos entrantes se estacionan antes de procesos de transformación complejos para garantizar una integración fluida posterior.
