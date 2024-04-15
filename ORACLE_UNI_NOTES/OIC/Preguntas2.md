@@ -348,3 +348,7 @@
 53. `Select the Repeating Element field and map the source element that contains the orders.`
 54. `If the conditional expression for the skip condition is empty, the fault will never be thrown.`
 55. `Implement a Scope fault handler to catch the runtime fault, and then use the Fault Return action providing mapped data for the custom fault.`
+
+---
+
+# [Parte 3](./Preguntas3.md)
