@@ -145,12 +145,12 @@
     2.  The general assumption is that SOAP/WSDL are key specifications for defining the API.
     3.  The code to execute business logic needs to exist and be exposed as an API first before you build a strategy around it.
     4.  The API needs to be developed before any UI or new business logic is created.<br><br>
-28. **You are working on an integration within Oracle Integration Cloud (OIC) that includes several connections to external systems. As part ofyour development work, you need to implement global fault handling to ensure that any unexpected errors are caught and handled correctly. Which approach shouldyou use to add global fault handling within your integration?**
+28. **You are working on an integration within Oracle Integration Cloud (OIC), which includes several connections to external systems. As part of your development work, you need to implement global fault handling to ensure that any unexpected errors are caught and handled correctly. Which approach should you use to add global fault handling within your integration?**
     1.  Create a separate integration solely for the purpose of handling faults and configure your main integration to call it when necessary.
     2.  Use the Raise Fault action within your integration flow to generate custom faults and handle them accordingly.
     3.  Add a Try-Catch action to your integration flow and configure it to catch and handle any faults.
     4.  Open the Global Fault Handler page on the integration canvas and add actions as needed to handle unexpected faults.<br><br>
-29. **In Oracle Integration Cloud (OIC), you are designing an integration flow that processes customer orders. You need to enforce a specific validation rule that ifan order contains more than 10 items, it must be rejected with an appropriate error message. </br> Which is the most appropriate approach for leveraging the Throw New Fault action in your integration to achieve this requirement?**
+29. **In Oracle Integration Cloud (OIC), you are designing an integration flow that processes customer orders. You need to enforce a specific validation rule that if an order contains more than 10 items, it must be rejected with an appropriate error message. </br> Which is the most appropriate approach for leveraging the Throw New Fault action in your integration to achieve this requirement?**
     1.  Implement the validation rule using a Switch action, and then use the Throw New Fault action within the default branch ifthe validation rule is not met.
     2.  Use the Throw New Fault action directly in the main flow, checking the order item count, and throwing the fault if the validation rule is not met.
     3.  Create a scope within the main flow, add the Throw New Fault action, and use an if-then branch to check the order item count, and throw the fault if the validation rule is not met.
@@ -219,7 +219,7 @@
 42. **You can recover unsaved changes in an Oracle Integration Cloud (OIC) integration that crashes during design time because of a browser crash, loss of network connectivity, or a server going down. <br> Which statement is NOT true about the unsaved changes feature in OIC?**
     1.  A backup copy is created after each completed task, therefore there is no time limit to logging back in and recovering your changes.
     2.  Changes made while working inside Data Mapper cannot be recovered.
-    3.  A user with the serviceAdministrator role can recover the unsaved changes.
+    3.  A user with the serviceAdministrator role can recover all unsaved changes.
     4.  A user with the serviceAdministrator role can unlock an integration that has unsaved changes.
     5.  Changes made while editing a Connections page cannot be recovered.<br><br>
 43. **Which Oracle Integration Cloud (OIC) setvice role does NOT have permission to run an OIC integration flow?**
@@ -244,7 +244,7 @@
     2.  Design a custom script to perform the transformation, and then use the Lookup function within a Map action to reference the script and transform the customer status codes.
     3.  Create a connection between the two systems, then use a SQL query to access the Lookup table directly. and map the customer Status codes.
     4.  Create a Lookup table with the mappings of customer status codes, and then use the Lookup function within a Map action to reference the table and perform the transformation.<br><br>
-47. **You created a scheduled integration in Oracle Integration Cloud (OIC) that uses scheduled parameters named startDate and endDate to determine the date range for a data synchronization process. The default values for these parameters are set to the previous day for startDate and the current day for endDate. However, you now want to schedule a run of the instance with a different start date. <br> What should you do?**
+47. **You have created a Scheduled integration in Oracle Integration Cloud (OIC), which uses schedule parameters named startDate and endDate to determine the date range for a data synchronization process. The default values for these parameters are set to the previous and current dates. However, you now want to schedule a run of the instance with different start and end dates. </br> What should you do to achieve this?**
     1.  Modify the parameter value in the instance's integration proFrties and the instance.
     2.  Modify the parameter value in the integration code and redeploy the integration.
     3.  Override the parameter value when scheduling the integration instance.
@@ -280,6 +280,16 @@
     2.  Select the Sequential Processing option and set the batch size to the number of orders.
     3.  Select the Parallel Processing option and set the number of threads to the number of orders.
     4.  Select the Repeating Element field and map the source element that contains the orders.
+54. **Which is NOT a valid consideration when leveraging the Throw New Fault action in an integration flow?**
+    1.  If the conditional expression for the skip condition is empty, the fault will never be thrown.
+    2.  You are required to define a fault code when configuring the Throw New Fault action.
+    3.  You can place the Throw New Fault action inside the Global Fault hander.
+    4.  You can place the Throw New Fault action directly on the main flow path.
+55. **You have a use case that requires the design of a synchronous Oracle Integration Cloud (OIC) integration flow that returns a custom business fault message to the client if processing fails due to an external runtime fault encountered during the integration instance execution. Which implementation strategy best satisfies this requirement?**
+    1.  Implement a Scope fault handler to catch the runtime fault, and then use the Fault Return action providing mapped data for the custom fault.
+    2.  Implement a Scope fault handler to catch the runtime fault, then allow the Global fault handler to automatically send the runtime fault to the Error Hospital.
+    3.  Create a custom Scope fault handler to catch the runtime fault, and then use the Re-throw Fault action to send the fault to the Error Hospital.
+    4.  Implement the Global fault handler to catch the runtime fault, and then use the Re-throw Fault action to send the custom fault to the client.
 
 ## Respuestas Examen de Prueba YT
 
@@ -324,16 +334,17 @@
 39. `Specify the corresponding Lookup`
 40. `Import the JavaScript library file to the OIC Console, and then use the JavaScript action within the integration flow to reference the library function.`
 41. `The JavaScript action has a timeout threshold of 60 seconds.`
-42. `A user with the serviceAdministrator role can recover the unsaved changes.`
+42. `A user with the serviceAdministrator role can recover all unsaved changes.`
 43. `Servicelnvoker`
 44. `New packages can created by clicking the Create button on the Packages page in the OIC console.`
-45. `Packages cannot be locked to deny Other users access to your integrations.`
-46. `lookupValue`
-47. `Create a Lookup table with the mappings of customer status codes, and then use the Lookup function within a Map action to reference the table and perform the transformation.`
-48. `Override the parameter value when scheduling the integration instance.`
-49. `Updates to Schedule Parameter values made dynamically in an Assign action will not persist on to the next instance run of the integration.`
-50. `Use the "Test" button in the integration designer to create a request, validate the response, and review the execution logs.`
-51. `Configure the REST Adapter with a Basic Authentication or OAuth 2.0 security policy and provide the required credentials.`
-52. `Data objects returned from actions within a branch of a Switch action are not visible in the main flow of the integration after the switch action.`
-53. `i, iv, v`
-54. `Select the Repeating Element field and map the source element that contains the orders.`
+45. `lookupValue`
+46. `Create a Lookup table with the mappings of customer status codes, and then use the Lookup function within a Map action to reference the table and perform the transformation.`
+47. `Override the parameter value when scheduling the integration instance.`
+48. `Updates to Schedule Parameter values made dynamically in an Assign action will not persist on to the next instance run of the integration.`
+49. `Use the "Test" button in the integration designer to create a request, validate the response, and review the execution logs.`
+50. `Configure the REST Adapter with a Basic Authentication or OAuth 2.0 security policy and provide the required credentials.`
+51. `Data objects returned from actions within a branch of a Switch action are not visible in the main flow of the integration after the switch action.`
+52. `i, iv, v`
+53. `Select the Repeating Element field and map the source element that contains the orders.`
+54. `If the conditional expression for the skip condition is empty, the fault will never be thrown.`
+55. `Implement a Scope fault handler to catch the runtime fault, and then use the Fault Return action providing mapped data for the custom fault.`

@@ -643,3 +643,37 @@ El Patrón Estacionamiento es una técnica utilizada en flujos de trabajo de int
 * **Procesamiento de Pedidos:** Los pedidos recibidos de una tienda en línea se estacionan antes de enviarlos al sistema de cumplimiento por lotes para mayor eficiencia.
 * **Procesamiento de Eventos:** Los datos del sensor se estacionan antes de enviarlos a un motor de análisis para evitar sobrecargar el sistema durante las horas pico.
 * **Transformación de Datos:** Los datos entrantes se estacionan antes de procesos de transformación complejos para garantizar una integración fluida posterior.
+
+---
+
+# Flujo de Autorización Basado en Token (TBA)
+
+El Flujo de Autorización Basado en Token (TBA) es un método de autenticación y autorización para acceder a recursos web.  Funciona mediante la emisión de tokens a los usuarios para que los presenten en lugar de sus credenciales (como nombre de usuario y contraseña).  Esto ofrece mayor seguridad y flexibilidad en comparación con la autenticación básica.
+
+## Cómo funciona el TBA:
+
+1. **Solicitud de Token:** Un usuario inicia una solicitud de token a un servidor de autorización. Esto puede hacerse a través de una interfaz web, una aplicación móvil o una API.
+2. **Autenticación:** El servidor de autorización verifica la identidad del usuario, generalmente mediante nombre de usuario y contraseña, o usando otros métodos como biometría o autenticación de dos factores.
+3. **Emisión de Token:** Si la autenticación es exitosa, el servidor emite un token al usuario. El token es una cadena de caracteres que contiene información sobre el usuario, sus permisos y la fecha de caducidad.
+4. **Acceso a Recursos:** El usuario presenta el token al servidor web que desea acceder. El servidor web valida el token y, si es válido, concede acceso al recurso solicitado.
+
+## Tipos de Tokens:
+
+* **Token de Acceso (AccessToken):** Permite al usuario acceder a recursos específicos.
+* **Token de Actualización (RefreshToken):** Se utiliza para obtener un nuevo token de acceso cuando el actual caduca.
+* **Token de Identidad (ID Token):** Contiene información sobre la identidad del usuario, pero no permite acceder a recursos.
+
+## Beneficios del TBA:
+
+* **Mayor Seguridad:** Los tokens no contienen credenciales del usuario, lo que reduce el riesgo de robo de contraseñas.
+* **Flexibilidad:** Permite implementar diferentes mecanismos de autenticación y autorización.
+* **Escalabilidad:** Soporta un gran número de usuarios y recursos.
+* **Sin Estado:** No requiere que el servidor web mantenga el estado de sesión del usuario.
+
+## Casos de Uso del TBA:
+
+* **API RESTful:** El TBA es un método común para proteger las API RESTful.
+* **Aplicaciones Web:** Se puede usar para autenticar y autorizar usuarios en aplicaciones web.
+* **Aplicaciones Móviles:** Permite a las aplicaciones móviles acceder a recursos de forma segura.
+
+---

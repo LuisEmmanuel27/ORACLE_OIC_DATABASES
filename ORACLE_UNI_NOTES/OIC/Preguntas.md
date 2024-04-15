@@ -65,7 +65,7 @@
    2.  If dependent connection resources already exist in the target OIC, the imported integration can be immediately activated.
    3.  Imported integrations can be reconfigured using the OIC REST API.
    4.  Imported connection resources will contain all connection properties and credentials.
-10. **Which scenario is NOT true about two OIC integrations being in an active state at the same time?**
+10. **Which scenario is NOT true about to OIC integrations being in an active state at the same time?**
     1.  Same identifier, different minor version numbers.
     2.  Different identifiers, same minor version numbers.
     3.  Same identifier, different major version number.
@@ -367,9 +367,10 @@
 57. `activity-stream-json.log`
 58. `PeopleSoft`
 59. `Use App-Driven or Scheduled orchestrations leveraging OCI Streaming Adapter connections.`
-60. `False` - This is FALSE because that feature was added to the Salesforce adapter (not SAP SuccessFactors).
-61. `True`
-62. `The Opportunity is updated with the new NetSuite order ID.`
+60. 
+61. `False` - This is FALSE because that feature was added to the Salesforce adapter (not SAP SuccessFactors).
+62. `True`
+63. `The Opportunity is updated with the new NetSuite order ID.`
 
 ---
 
