@@ -86,11 +86,12 @@
     2.  3
     3.  5
     4.  10 <br><br>
-15. **What are the requirements for authentication credentials when testing a SOAP-trigger integration by using the SoapUI client?**
+15. **What are the requirements for authentication credentials when testing a SOAP-trigger integration by using the SoapUI client? (_[WSS](./Extras.md/#extensiones-de-seguridad-para-servicios-web-wss)_)**
     1.  OIC credentials can be passed as an WSS Username Token in the HTTP header.
     2.  Authentication is not required when testing integrations.
     3.  OIC credentials can be passed as a WSS Username Token in the SOAP body.
-    4.  OIC credentials can be passed as a WSS Username Token in the SOAP header. <br><br>
+    4.  OIC credentials can be passed as a WSS Username Token in the SOAP header.<br><br>
+
 16. **Which feature is NOT available with most Oracle Cloud Adapters?**
     1.  Session management during runtime interactions
     2.  Native support via object query languages for integration use cases

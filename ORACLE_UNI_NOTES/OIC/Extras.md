@@ -712,3 +712,37 @@ El Marco de Pruebas Oracle Asserter es una herramienta integrada en Oracle Integ
 * **Validar el cumplimiento de reglas de negocio:** Verificar que la integración cumpla con las reglas de negocio definidas.
 
 ---
+
+# Extensiones de Seguridad para Servicios Web (WSS)
+
+**WSS**, siglas de **Web Services Security**, es un conjunto de especificaciones que define cómo agregar seguridad a los mensajes SOAP utilizados en los Servicios Web.  Proporciona mecanismos para autenticar, autorizar, proteger la integridad y confidencialidad de los mensajes que se intercambian entre aplicaciones.
+
+## Funciones Clave de WSS:
+
+* **Autenticación:** Verificar la identidad de los usuarios y entidades que acceden a los servicios web.
+* **Autorización:** Controlar el acceso a los recursos y operaciones de los servicios web.
+* **Integridad de Mensajes:** Garantizar que los mensajes no hayan sido manipulados durante la transmisión.
+* **Confidencialidad de Mensajes:** Proteger el contenido de los mensajes para que no sea accesible a terceros no autorizados.
+
+## Componentes de WSS:
+
+* **Firma Digital XML:** Permite verificar la integridad del origen y la autenticidad del firmante de un mensaje.
+* **Cifrado XML:** Protege el contenido de un mensaje para que solo pueda ser leído por el destinatario previsto.
+* **Señales de Seguridad:** Contienen información sobre las políticas de seguridad aplicables a un mensaje.
+* **Tokens de Seguridad:** Representan la identidad y los permisos de usuarios o entidades.
+
+## Beneficios de WSS:
+
+* **Mejora la seguridad de las comunicaciones de servicios web.**
+* **Protege contra ataques como interceptación de mensajes, suplantación de identidad y alteración de datos.**
+* **Facilita el intercambio seguro de información entre diferentes dominios.**
+* **Cumple con los estándares de seguridad de la industria.**
+
+## Casos de Uso de WSS:
+
+* **Acceso a servicios web financieros.**
+* **Intercambio de datos de salud.**
+* **Comunicaciones entre empresas.**
+* **Aplicaciones de comercio electrónico.**
+
+---
