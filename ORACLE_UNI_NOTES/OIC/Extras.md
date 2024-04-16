@@ -677,3 +677,38 @@ El Flujo de Autorización Basado en Token (TBA) es un método de autenticación 
 * **Aplicaciones Móviles:** Permite a las aplicaciones móviles acceder a recursos de forma segura.
 
 ---
+
+# Marco de Pruebas Oracle Asserter
+
+El Marco de Pruebas Oracle Asserter es una herramienta integrada en Oracle Integration Cloud (OIC) que permite crear y ejecutar pruebas para validar el funcionamiento de integraciones.  Funciona mediante la grabación de la interacción entre diferentes componentes de la integración y la definición de aserciones que verifican el comportamiento esperado.
+
+## Características del Marco de Pruebas Oracle Asserter:
+
+* **Grabación de Pruebas:** Permite grabar el flujo de mensajes y las acciones realizadas en una integración durante su ejecución.
+* **Definición de Aserciones:** Ofrece una variedad de aserciones para verificar diferentes aspectos de la integración, como la estructura de los mensajes, el contenido de los datos, el estado de los componentes y el cumplimiento de reglas de negocio.
+* **Ejecución de Pruebas:** Permite ejecutar pruebas de forma manual o automática, ya sea como parte de un proceso de desarrollo o como parte de una estrategia de integración continua.
+* **Generación de Informes:** Genera informes detallados que muestran los resultados de las pruebas, incluyendo los éxitos, los fallos y los detalles de las aserciones que no se cumplieron.
+
+## Beneficios del Marco de Pruebas Oracle Asserter:
+
+* **Mejora la Calidad de las Integraciones:** Ayuda a detectar y corregir errores en las integraciones antes de que se implementen en producción.
+* **Reduce el Riesgo de Fallos:** Permite validar el comportamiento de las integraciones en diferentes escenarios y condiciones.
+* **Aumenta la Confianza en las Integraciones:** Proporciona evidencia del correcto funcionamiento de las integraciones.
+* **Acelera el Desarrollo de Integraciones:** Permite crear y ejecutar pruebas de forma rápida y eficiente.
+
+## Cómo usar el Marco de Pruebas Oracle Asserter:
+
+1. **Crear una Prueba:** Seleccione la integración que desea probar y cree una nueva prueba.
+2. **Grabar la Interacción:** Ejecute la integración y grabe su interacción con diferentes componentes.
+3. **Definir Aserciones:** Agregue aserciones para verificar el comportamiento esperado de la integración.
+4. **Ejecutar la Prueba:** Ejecute la prueba para verificar si las aserciones se cumplen.
+5. **Analizar los Resultados:** Revise los informes generados para identificar cualquier error o problema.
+
+## Casos de Uso del Marco de Pruebas Oracle Asserter:
+
+* **Validar la estructura de los mensajes:** Asegurar que los mensajes enviados y recibidos por la integración cumplen con el formato especificado.
+* **Verificar el contenido de los datos:** Comprobar que los datos procesados por la integración sean correctos y completos.
+* **Confirmar el estado de los componentes:** Asegurar que los componentes de la integración funcionen correctamente.
+* **Validar el cumplimiento de reglas de negocio:** Verificar que la integración cumpla con las reglas de negocio definidas.
+
+---
