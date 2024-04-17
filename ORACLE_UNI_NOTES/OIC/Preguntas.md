@@ -111,7 +111,7 @@
     3.  HCM Cloud
     4.  Eloqua Cloud
     5.  ERP Cloud <br><br>
-20. **The Integrated SOA Gateway (ISG) is required to provide bi-directional connectivity to an E-Business Suite application and OIC.**
+20. **The [Integrated SOA Gateway (ISG)](./Extras.md/#integrated-soa-gateway-isg-en-oracle-e-business-suite) is required to provide bi-directional connectivity to an E-Business Suite application and OIC.**
     1.  True
     2.  False <br><br>
 21. **A Connection resource configured as an inbound trigger for an integration using the File Adapter will require an OIC Connectivity Agent to be deployed.**
@@ -368,10 +368,9 @@
 57. `activity-stream-json.log`
 58. `PeopleSoft`
 59. `Use App-Driven or Scheduled orchestrations leveraging OCI Streaming Adapter connections.`
-60. 
-61. `False` - This is FALSE because that feature was added to the Salesforce adapter (not SAP SuccessFactors).
-62. `True`
-63. `The Opportunity is updated with the new NetSuite order ID.`
+60. `False` - This is FALSE because that feature was added to the Salesforce adapter (not SAP SuccessFactors).
+61. `True`
+62. `The Opportunity is updated with the new NetSuite order ID.`
 
 ---
 

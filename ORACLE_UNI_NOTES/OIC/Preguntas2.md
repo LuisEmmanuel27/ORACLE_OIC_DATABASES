@@ -31,7 +31,7 @@
    6. B2B Trading Partner agreements<br><br>
 6. **Your team is responsible for an OIC package that contains five integrations. Currently, three of these integrations are active while the other two are inactive. Which statement is valid if you were to replace a connection used in this package?**
    1. You can only replace the connections used by the three active integrations.
-   2. You cannot replace connections unless atl integrations in the package are in an active state.
+   2. You cannot replace connections unless all integrations in the package are in an active state.
    3. You can only replace the connections used by the two inactive integrations.
    4. You cannot replace connections unless all integrations in the package are in an inactive state.<br><br>
 7. **Your organization has a number of active integrations in Oracle Integration Cloud (OIC). Your advice is sought on the consequences of deactivating integration instances. Which statement concerning integration deactivation is NOT valid?**
@@ -56,7 +56,7 @@
     3.  The minimum wait time cannot be less than five seconds when configuring a wait action in any integration flow. 
     4.  The maximum wait time cannot exceed two minutes when configuring a wait action in a synchronous flow.<br><br>
 11. **Which operation is NOT supported by an Oracle Integration Cloud (OIC) Connection resource configured with the FTP Adapter in the Invoke role?**
-    1.  WriteFi1e
+    1.  Write File
     2.  Delete File
     3.  Download File
     4.  Last File
@@ -84,11 +84,11 @@
     3.  "FREQ=DAILY;BYDAY=MO-FR;BYHOUR=15"
     4.  "FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;BYHOUR=15"<br><br>
 16. **The Oracle Integration Cloud (OIC) integration design editor provides a data mapper UI tool that is available for Map actions. Which statements are TRUE regarding the use ofthe Mapper tool? Select TWO**
-    1.  You cannot drag and drop an XPath fitnction activity directly to a target node element.
+    1.  You cannot drag and drop an XPath function activity directly to a target node element.
     2.  You can drag and drop a source data element to multiple target node elements.
     3.  You cannot drag and drop a source data element to a target node element that is already mapped.
     4.  You cannot drag and drop an XSLT flow control statement directly to a target node element.<br><br>
-17. **There are use cases in which you need to perform an advanced XSLT task that you cannot perform in the Oracle Integration Cloud (OIC) data mapper. To perform the advanced mapping tasks, you decide to use an external XSLT mapper and then import the .XSI file back to your integration. Which is NOT a valid consideration when handling this use case?**
+17. **There are use cases in which you need to perform an advanced XSLT task that you cannot perform in the Oracle Integration Cloud (OIC) data mapper. To perform the advanced mapping tasks, you decide to use an external XSLT mapper and then import the .XSL file back to your integration. Which is NOT a valid consideration when handling this use case?**
     1.  The exported archive must be imported into an Oracle Service Bus project in JDeveloper.
     2.  The exprted archive file can include a map file that is largely complete in content or a map file that is empty of content.
     3.  Once the advanced mapping is complete, you must import the entire integration that contains the updated.xsl files.
@@ -129,18 +129,18 @@
     3.  You should install the connectivity agents on the same host as the target application, and then specify different Agent group identifiers for each Agent during its installation.
     4.  File Adapter is not supported in high availability environments. When using File Adapter and if some groups have multiple instances, use a dedicated Agent group (with one agent only).
     5.  You need to have the OIC Service Deployer role permissions to download and install the OIC on- premise connectivity agent.<br><br>
-25. **You are designing an OIC integration that files in a shared file system located within your on-premises data center. You have decided to leverage various Stage File Action operations within the integration flow in conjunction with an on-premises OIC connectivity agent. </br> Which statement is not valid concerning file operation capabilities with regard to restrictions on using Stage File Action operations with the file and attachment features ofthe Connectivity agent?**
+25. **You are designing an OIC integration that files in a shared file system located within your on-premises data center. You have decided to leverage various Stage File Action operations within the integration flow in conjunction with an on-premises OIC connectivity agent. </br> Which statement is not valid concerning file operation capabilities with regard to restrictions on using Stage File Action operations with the file and attachment features of the Connectivity agent?**
     1.  Files uploaded through the Connectivity agent are not available with the zip File operation.
     2.  Files uploaded through the Connectivity agent can only be read with a file reference, with regard to both the Read Entire File and Read File in Segments operations.
     3.  Files uploaded through the Connectivity agent are not available with the List File operation.
     4.  Files uploaded through the Connectivity agent cannot be unzipped using a file reference.<br><br>
-26. **Which are TRUE about WSDL? </br> SelectTWO.**
+26. **Which are TRUE about WSDL? </br> Select TWO.**
     1.  It stands for "Web Service Description Language" and is a document written in Object Notation.
     2.  It uses XML to define the service layer document which consists of origin of the web service, headers, port types, request and response data.
     3.  It uses XML or JSON to define the service layer document which consists oforigin ofthe web service, headers, port types, request and response
     4.  It is a wrapper for a SOAP message.
     5.  It stands for 'Web Service Description Language" and is a document written in XML.<br><br>
-27. **Which statements are TRUE concerning the implementation ofan API-first stratew? </br> Select TWO.**
+27. **Which statements are TRUE concerning the implementation of an API-first stratew? </br> Select TWO.**
     1.  You define the API definition/contract first any work on its implementation or any applications that use it, allowing teams to work in parallel.
     2.  The general assumption is that SOAP/WSDL are key specifications for defining the API.
     3.  The code to execute business logic needs to exist and be exposed as an API first before you build a strategy around it.
@@ -164,7 +164,7 @@
     1.  You must explicitly specify the target server TLS version for the external web service outbound Invoke connection configuration.
     2.  The SAML and OAuth security policies are available options for creating the inbound Trigger connection.
     3.  The WSDL URL property value can be defined by uploading a file for either the inbound Trigger connection or the outbound Invoke connection configuration.<br><br>
-32. **A company has using Oracle Integration Cloud (OIC) to integrate its business applications, such as Oracle HCM Cloud, Oracle ERP Cloud, and Salesforce. However, they are planning to migrate some oftheir integration workloads from their current OIC instance to a new instance in a different region to comply with data sovereignty regulations. Which statement is true regarding the exporting and importing of integrations?**
+32. **A company has using Oracle Integration Cloud (OIC) to integrate its business applications, such as Oracle HCM Cloud, Oracle ERP Cloud, and Salesforce. However, they are planning to migrate some of their integration workloads from their current OIC instance to a new instance in a different region to comply with data sovereignty regulations. Which statement is true regarding the exporting and importing of integrations?**
     1.  You can import a package containing activated integrations.
     2.  You can export an integration either as a separate file (IAR) or bundled in a package (PAR) and it will still contain the connection resources.
     3.  You cannot import an integration if it already exists with the same identifier and version.
@@ -206,15 +206,15 @@
     4.  SFcify an adapter type
     5.  SFcify the Connection role
     6.  Configure the Connection properties<br><br>
-40. **In an Oracle Integration Cloud (OIC) project, you are asked to leverage a custom JavaScript library function to be used within an application-driven orchestration integration flow. Which set ofsteps should you follow to correctly use the JavaScript librarywithin your OIC integration?**
+40. **In an Oracle Integration Cloud (OIC) project, you are asked to leverage a custom JavaScript library function to be used within an application-driven orchestration integration flow. Which set of steps should you follow to correctly use the JavaScript library within your OIC integration?**
     1.  Copy and paste the entire JavaScript function code into a new JavaScript stage within the integration flow, and then map the inbound and outbound data elements in the corresponding map action.
     2.  Import the JavaScript library file into your OIC instance's database schema, and then use a Local Invoke action to call the library function.
     3.  Import the JavaScript library file to the OIC Console, and then use the JavaScript action within the integration flow to reference the library function.
     4.  Use the Function Call action within the integration flow to reference an external URL that is hosting the JavaScript library function.<br><br>
-41. **Your team is using a JavaScript library function within an Oracle Integration Cloud (OIC) integration flow. Because of business requirements, one ofthe functions needs to be updated with additional code to incorporate new logic. <br> Which consideration regarding JavaScript library functions is NOT valid?**
+41. **Your team is using a JavaScript library function within an Oracle Integration Cloud (OIC) integration flow. Because of business requirements, one of the functions needs to be updated with additional code to incorporate new logic. <br> Which consideration regarding JavaScript library functions is NOT valid?**
     1.  Active integrations using a function that has been updated must be reactivated.
     2.  The JavaScript action has a timeout threshold of 60 seconds.
-    3.  JavaScript frnctions are not allowed to make outbound calls to external sewices.
+    3.  JavaScript functions are not allowed to make outbound calls to external services.
     4.  Network, disk, or thread access is not supported from within a JavaScript function.<br><br>
 42. **You can recover unsaved changes in an Oracle Integration Cloud (OIC) integration that crashes during design time because of a browser crash, loss of network connectivity, or a server going down. <br> Which statement is NOT true about the unsaved changes feature in OIC?**
     1.  A backup copy is created after each completed task, therefore there is no time limit to logging back in and recovering your changes.
@@ -222,7 +222,7 @@
     3.  A user with the serviceAdministrator role can recover all unsaved changes.
     4.  A user with the serviceAdministrator role can unlock an integration that has unsaved changes.
     5.  Changes made while editing a Connections page cannot be recovered.<br><br>
-43. **Which Oracle Integration Cloud (OIC) setvice role does NOT have permission to run an OIC integration flow?**
+43. **Which Oracle Integration Cloud (OIC) service role does NOT have permission to run an OIC integration flow?**
     1.  Servicelnvoker
     2.  ServiceAdministrator
     3.  ServiceDeveloper
@@ -239,7 +239,7 @@
     2.  lookupValue
     3.  get-value-from-lookup
     4.  getLookup<br><br>
-46. **You are developing an integration in Oracle Integration Cloud (OIC) to integrate two systems and wish to use an OIC Lookup. The goal is to transform customer status codes between the two systems. Which set ofsteps are essential for correctly utilizing the Lookup?**
+46. **You are developing an integration in Oracle Integration Cloud (OIC) to integrate two systems and wish to use an OIC Lookup. The goal is to transform customer status codes between the two systems. Which set of steps are essential for correctly utilizing the Lookup?**
     1.  Define a Lookup table containing the customer status code mappings, and then use the Invoke action to call a web service for the transformation.
     2.  Design a custom script to perform the transformation, and then use the Lookup function within a Map action to reference the script and transform the customer status codes.
     3.  Create a connection between the two systems, then use a SQL query to access the Lookup table directly. and map the customer Status codes.
@@ -250,11 +250,11 @@
     3.  Override the parameter value when scheduling the integration instance.
     4.  Create a new version of the integration by modifing the parameter value, and then deploy the new scheduled integration version.<br><br>
 48. **Which statement is NOT true Schedule Parameters in Oracle Integration Cloud (OIC) integration flows?**
-    1.  Wates to Schedule Parameter values can be made manually when starting a schedule.
+    1.  Updates to Schedule Parameter values can be made manually when starting a schedule.
     2.  Updates to Schedule Parameter values can be made manually submitting an ad hoc request.
     3.  Schedule Parameters are always visible as an additional data source in the Sources section of the mappers and expression editors within the integration.
-    4.  Updates to Schedule Parameter values made dynamically in an Assign action will not persist on to the next instance run of the integration.
-49. **You are tasked with testing an integration that uses a REST trigger in Oracle Integration Cloud (OIC). You have successfully configured the REST Adapter, and now you want to verify that the integration frnctions correctly. <br> What should you do to test the integration?**
+    4.  Updates to Schedule Parameter values made dynamically in an Assign action will not persist on to the next instance run of the integration.<br><br>
+49. **You are tasked with testing an integration that uses a REST trigger in Oracle Integration Cloud (OIC). You have successfully configured the REST Adapter, and now you want to verify that the integration functions correctly. <br> What should you do to test the integration?**
     1.  Manually trigger the integration by sending an email to a specified email address with the required REST parameters.
     2.  Export the integration as a .jar file and run it in a local development environment.
     3.  Perform a SQL query on the associated database to ensure that the expected data is present.

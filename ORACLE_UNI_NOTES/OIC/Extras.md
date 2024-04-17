@@ -746,3 +746,29 @@ El Marco de Pruebas Oracle Asserter es una herramienta integrada en Oracle Integ
 * **Aplicaciones de comercio electrónico.**
 
 ---
+
+# Integrated SOA Gateway (ISG) en Oracle E-Business Suite
+
+**Integrated SOA Gateway (ISG)** es un conjunto completo de infraestructura de servicio diseñado para proporcionar, consumir y administrar servicios web de Oracle E-Business Suite. Funciona como un intermediario clave para habilitar la conectividad bidireccional entre la suite y aplicaciones externas, como Oracle Integration Cloud (OIC), facilitando la integración y el intercambio de datos de forma segura y confiable.
+
+## Funciones clave de ISG:
+
+* **Publicación de Servicios Web:** Permite exponer funcionalidades de Oracle E-Business Suite como servicios web SOAP y REST, haciendo que los datos y procesos internos sean accesibles a aplicaciones externas, incluida Oracle Integration Cloud (OIC).
+* **Consumo de Servicios Web:** Proporciona la capacidad de consumir servicios web ofrecidos por aplicaciones externas, como OIC, integrando datos y funcionalidades externas a Oracle E-Business Suite.
+* **Transformación de Mensajes:** ISG puede transformar mensajes entre diferentes formatos, como XML, EDI y estructuras de datos personalizadas, garantizando la compatibilidad entre Oracle E-Business Suite y otros sistemas, incluido OIC.
+* **Seguridad:** ISG ofrece funciones de seguridad para proteger los servicios web, incluyendo autenticación, autorización y cifrado de mensajes, asegurando la comunicación segura entre E-Business Suite y OIC.
+* **Monitorización y Gestión:** Permite monitorizar el rendimiento y la salud de los servicios web, además de gestionar aspectos como el registro y la configuración.
+
+## Beneficios de usar ISG:
+
+* **Conectividad Bidireccional con OIC:**  **The Integrated SOA Gateway (ISG) is required to provide bi-directional connectivity to an E-Business Suite application and OIC.** Esto permite el flujo de datos e invocaciones en ambas direcciones, facilitando la integración completa entre los sistemas.
+* **Simplifica la integración:** Proporciona una forma estandarizada y centralizada para integrar Oracle E-Business Suite con aplicaciones externas, como OIC.
+* **Mejora la agilidad empresarial:** Facilita la automatización de procesos de negocio al permitir el intercambio de datos de manera eficiente entre E-Business Suite y OIC.
+* **Reduce los costes de desarrollo:** ISG reduce la necesidad de desarrollar código personalizado para la integración, haciendo que el proceso sea más rápido y rentable.
+* **Aumenta la flexibilidad:** Admite una amplia variedad de formatos de mensaje y estándares de servicio web, permitiendo la integración con diversos sistemas, incluida OIC.
+
+**Cuándo usar ISG:**
+
+* Cuando necesita integrar Oracle E-Business Suite con aplicaciones en la nube como OIC o sistemas empresariales locales.
+* Cuando desea automatizar procesos de negocio que involucran el intercambio de datos entre E-Business Suite y sistemas externos, como OIC.
+* Cuando necesita exponer funcionalidades de Oracle E-Business Suite como servicios web para que los consuma OIC u otras aplicaciones externas.
