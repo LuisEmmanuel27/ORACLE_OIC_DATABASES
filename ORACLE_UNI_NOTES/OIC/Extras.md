@@ -772,3 +772,29 @@ El Marco de Pruebas Oracle Asserter es una herramienta integrada en Oracle Integ
 * Cuando necesita integrar Oracle E-Business Suite con aplicaciones en la nube como OIC o sistemas empresariales locales.
 * Cuando desea automatizar procesos de negocio que involucran el intercambio de datos entre E-Business Suite y sistemas externos, como OIC.
 * Cuando necesita exponer funcionalidades de Oracle E-Business Suite como servicios web para que los consuma OIC u otras aplicaciones externas.
+
+---
+
+# Vista de tipos de negocio en Oracle Integration Cloud (OIC)
+
+La vista de tipos de negocio (_**Business Types View**_) en Oracle Integration Cloud (OIC) es una herramienta que permite a los desarrolladores de integraciones definir y administrar los tipos de datos que se utilizan en sus integraciones. 
+
+Los tipos de negocio se utilizan para representar estructuras de datos complejas y reutilizables. Esto puede ayudar a mejorar la legibilidad y el mantenimiento de las integraciones, y también puede facilitar la reutilización de código.
+
+## Características principales de la vista de tipos de negocio:
+
+* **Definición de tipos de negocio:** Permite crear y definir tipos de negocio personalizados que representan estructuras de datos complejas.
+* **Gestión de atributos:** Permite agregar, editar y eliminar atributos de los tipos de negocio.
+* **Validación de datos:** Permite validar los datos que se pasan a las integraciones para asegurarse de que cumplen con los requisitos de los tipos de negocio.
+* **Reutilización de código:** Permite reutilizar tipos de negocio en diferentes integraciones.
+* **Mejora de la legibilidad:** Los tipos de negocio pueden hacer que las integraciones sean más fáciles de leer y entender.
+* **Mantenimiento simplificado:** Los cambios en los tipos de negocio se pueden propagar automáticamente a todas las integraciones que los utilizan.
+
+## Beneficios de usar la vista de tipos de negocio:
+
+* **Mejora de la legibilidad y el mantenimiento:** Los tipos de negocio pueden hacer que las integraciones sean más fáciles de leer y entender, lo que facilita su mantenimiento.
+* **Reutilización de código:** Los tipos de negocio se pueden reutilizar en diferentes integraciones, lo que puede ahorrar tiempo y esfuerzo.
+* **Validación de datos:** Los tipos de negocio se pueden utilizar para validar los datos que se pasan a las integraciones, lo que ayuda a garantizar la calidad de los datos.
+
+---
+

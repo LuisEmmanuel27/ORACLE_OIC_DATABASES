@@ -65,9 +65,9 @@
     2. Metadata
     3. Orchestration
     4. Map Data </br></br>
-12. **What task can NOT be performed on Business Types View?**
+12. **What task can NOT be performed on [Business Types View](./Extras.md/#vista-de-tipos-de-negocio-en-oracle-integration-cloud-oic)?**
     1. Create business exceptions
-    2. Create business objeets
+    2. Create business objects
     3. Business rules
     4. Import business objects
     5. Create enum objects </br></br>
@@ -91,8 +91,8 @@
     1. Storage Cloud service and Computer cloud service
     2. Integration cloud service
     3. Database cloud service (DBCS) and Storage cloud service
-    4. Java cloud service(JCS) and Database cloud service(DBCS) </br></br>
-17. **Which three are created and managed using the Integration page in Process Cloud Service (PCS)?**
+    4. Java cloud service (JCS) and Database cloud service (DBCS) </br></br>
+17. **Which three are created and managed using the Integration page in Process Cloud Service (PCS, servicio ya no disponible)?**
     1. ICS Integrations
     2. Java Cloud Serviees
     3. Rest Connectors
@@ -176,7 +176,7 @@
     2. WSS Username Token
     3. OAuth2
     4. BasicAuth </br></br>
-32. **Q : Which two are On-prem Connectivity Options with Oracle Integration Cloud (OIC)?**
+32. **Which two are On-premise Connectivity Options with Oracle Integration Cloud (OIC)?**
     1. VPN
     2. Connectivity Agent
     3. PaaS Agent
