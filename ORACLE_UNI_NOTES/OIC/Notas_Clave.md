@@ -14,7 +14,7 @@ Serie de notas que considero importantes a resaltar de toda la información dada
 - La mejor practica es organizar integraciones similares en paquetes, los cuales podrán ser exportados/importados facilmente
 - No se pueden crear paquetes vacios
 - Identificadores de Integración deben ser unicos
-- No existen fronteras (boundaries) administrativas no de seguridad
+- No existen fronteras (boundaries) administrativas ni de seguridad
 - Todas las integraciones son visibles entre si, independientemente de su paquete asignado
 - Exportaciones de integraciones (o un paquete de integraciones) incluyen todos sus recursos de conexión dependientes.
 - Los recursos de conexión están definidos por un tipo de adaptador y un identificador único.
