@@ -43,7 +43,7 @@ Serie de notas que considero importantes a resaltar de toda la información dada
 - [Oracle Service Cloud (RightNow)](./Extras.md/#oracle-service-cloud-rightnow)
 - [Clave CSF](./Extras.md/#clave-csf-en-oracle-engagement-cloud)
 - [Oracle ERP Cloud Adapter](./Extras.md/#adaptador-oracle-erp-cloud)
-- El algoritmo compatible para la Clave Pública es RSA para encriptación y el tamaño de la clave debe ser de 1024 bits de longitud
+- Cargar un archivo encriptado en Oracle WebCenter Content (Gestión de contenido universal, UCM): El algoritmo compatible para la Clave Pública es RSA para encriptación y el tamaño de la clave debe ser de 1024 bits de longitud
 - [Oracle HCM Cloud Adapter](./Extras.md/#oracle-hcm-cloud)
 - [DVM](./Extras.md/#dvm)
 - [DMZ](./Extras.md/#dmz)
