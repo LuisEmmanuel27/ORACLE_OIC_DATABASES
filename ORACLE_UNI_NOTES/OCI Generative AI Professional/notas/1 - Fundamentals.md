@@ -1,4 +1,4 @@
-# Introduction to Large Language Models
+# Fundamentals of Large Language Models
 
 # Language Models (LMs)
 
@@ -137,3 +137,4 @@ En general es sobre cuando las respuestas dadas por un modelo son erronéas o no
 
 # LLM Applications
 
+[Siguiente](./2%20-%20Generative.md)
