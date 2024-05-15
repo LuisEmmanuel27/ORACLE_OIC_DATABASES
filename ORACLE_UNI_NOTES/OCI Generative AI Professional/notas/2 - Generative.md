@@ -37,3 +37,20 @@
 ![pic_13](../img/pic_13.png)
 ![pic_14](../img/pic_14.png)
 ![pic_15](../img/pic_15.png)
+
+# Embedding Models
+
+## Embeddings
+
+- Embeddings are numerical representations of a piece of text converted to number sequences.
+- A piece of text could be a word, phrase, sentence, paragraph or one or more paragraphs.
+- Embeddings make it easy for computers to understand the relationships between pieces of text.
+
+![pic_16](../img/pic_16.png)
+![pic_17](../img/pic_17.png)
+![pic_18](../img/pic_18.png)
+![pic_19](../img/pic_19.png)
+![pic_20](../img/pic_20.png)
+
+# Prompt Engineering
+
