@@ -124,4 +124,10 @@ Por lo mismo muchas partes prácticas seran tomadas directamente de videos de yo
 
 ---
 
+## Oracle University - OCI Generative AI Professional
+
+### [Ver curso](./ORACLE_UNI_NOTES/OCI%20Generative%20AI%20Professional/indice.md)
+
+---
+
 ## SQL
