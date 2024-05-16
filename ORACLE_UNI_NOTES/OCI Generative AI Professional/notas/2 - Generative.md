@@ -1,8 +1,8 @@
 # Generative AI Service
 
-# Introduction to OCI Generative AI Service
+## Introduction to OCI Generative AI Service
 
-## OCI Generative AI Service
+### OCI Generative AI Service
 
 - `Fully managed service` that provides a set of customizable Large Language Models (LLMs) available via a single API to build generative Al applications.
 - `Choice of Models:` high performing pretrained foundational models from Meta and Cohere.
@@ -13,11 +13,11 @@
 ![pic_8](../img/pic_8.png)
 ![pic_9](../img/pic_9.png)
 
-# Generation Models
+## Generation Models
 
 ![pic_10](../img/pic_10.png)
 
-## Cuadro comparativo de modelos de generación preentrenados en IA Generativa
+### Cuadro comparativo de modelos de generación preentrenados en IA Generativa
 
 | Modelo               | Parámetros del modelo | Tamaño de ventana de contexto | Casos de uso                                | Ventajas                                                                             | Desventajas               |
 | -------------------- | --------------------- | ----------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------- |
@@ -38,9 +38,9 @@
 ![pic_14](../img/pic_14.png)
 ![pic_15](../img/pic_15.png)
 
-# Embedding Models
+## Embedding Models
 
-## Embeddings
+### Embeddings
 
 - Embeddings are numerical representations of a piece of text converted to number sequences.
 - A piece of text could be a word, phrase, sentence, paragraph or one or more paragraphs.
@@ -52,5 +52,25 @@
 ![pic_19](../img/pic_19.png)
 ![pic_20](../img/pic_20.png)
 
-# Prompt Engineering
+## Prompt Engineering
 
+## Customize LLMs with your data
+
+![pic_21](../img/pic_21.png)
+![pic_22](../img/pic_22.png)
+
+## Fine Tuning and Inference in OCI Generative AI
+
+## Dedicated AI Cluster Sizing and Pricing
+
+![pic_23](../img/pic_23.png)
+
+## Fine-tuning configuration
+
+![pic_25](../img/pic_25.png)
+
+## OCI Generative AI Security
+
+![pic_26](../img/pic_26.png)
+![pic_27](../img/pic_27.png)
+![pic_28](../img/pic_28.png)
