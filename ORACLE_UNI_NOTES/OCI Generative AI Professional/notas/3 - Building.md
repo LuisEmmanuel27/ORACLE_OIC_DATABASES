@@ -60,3 +60,24 @@ Para implementar RAG en Oracle OCI, se pueden seguir varios pasos técnicos:
    - Monitorear el rendimiento del sistema y realizar ajustes necesarios para mejorar la precisión y la relevancia de las respuestas generadas.
 
 ## Vector Databases
+
+![pic_35](../img/pic_35.png)
+![pic_36](../img/pic_36.png)
+![pic_37](../img/pic_37.png)
+![pic_38](../img/pic_38.png)
+![pic_39](../img/pic_39.png)
+![pic_40](../img/pic_40.png)
+
+### Role of Vector Databases with LLMs
+
+- Cheaper than fine-tuning LLMs, which can be expensive to update
+- Real-time updated knowledge base
+- Cache previous LLM prompts/responses to improve performance and reduce costs
+
+## Keyword Search
+
+![pic_41](../img/pic_41.png)
+
+## Semantic Search
+
+![pic_42](../img/pic_42.png)
