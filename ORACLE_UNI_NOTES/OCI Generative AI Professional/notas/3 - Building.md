@@ -81,3 +81,30 @@ Para implementar RAG en Oracle OCI, se pueden seguir varios pasos técnicos:
 ## Semantic Search
 
 ![pic_42](../img/pic_42.png)
+![pic_43](../img/pic_43.png)
+
+El diagrama ilustra un proceso de búsqueda híbrida que combina modelos de representación esparsa y densa para mejorar la búsqueda semántica. Este proceso es parte de la construcción de aplicaciones basadas en Modelos de Lenguaje Grande (LLM, por sus siglas en inglés) dentro del contexto del curso de inteligencia artificial generativa de Oracle.
+
+### Desglose del Diagrama:
+
+1. **Entrada de Datos (Input Data):**
+   - La entrada consiste en datos textuales u otros tipos de datos que serán procesados por los modelos de incrustación.
+
+2. **Modelos de Incrustación:**
+   - **Modelo de Incrustación Densa (Dense Embedding Model):** Este modelo convierte los datos de entrada en vectores densos de baja dimensionalidad. Estos vectores capturan relaciones semánticas complejas entre las palabras.
+   - **Modelo de Incrustación Esparsa (Sparse Embedding Model):** Este modelo representa los datos de entrada en vectores esparsos de alta dimensionalidad, donde las palabras se codifican en base a su frecuencia y contexto específico.
+
+3. **Vectores de Incrustación:**
+   - Los modelos de incrustación generan dos tipos de vectores:
+     - **Vectores Densos:** Ejemplificados como [0.01, 0.74, …], [0.52, 0.19, …], etc.
+     - **Vectores Esparsos:** Ejemplificados como {"712": 4, "6124": 1, …}, {"9331": 2, "303": 7, …}, etc.
+
+4. **Índice Híbrido (Hybrid Index):**
+   - Ambos conjuntos de vectores (densos y esparsos) se almacenan en una base de datos híbrida.
+
+5. **Normalización (Normalization):**
+   - Los vectores de incrustación se normalizan para unificar las escalas y mejorar la comparación y búsqueda.
+
+6. **Índice Final (Hybrid Index):**
+   - Finalmente, los vectores normalizados se almacenan en un índice híbrido que se utiliza para realizar búsquedas más precisas y eficientes.
+
