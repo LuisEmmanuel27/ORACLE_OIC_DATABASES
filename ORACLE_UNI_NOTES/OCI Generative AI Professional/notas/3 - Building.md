@@ -108,3 +108,4 @@ El diagrama ilustra un proceso de búsqueda híbrida que combina modelos de repr
 6. **Índice Final (Hybrid Index):**
    - Finalmente, los vectores normalizados se almacenan en un índice híbrido que se utiliza para realizar búsquedas más precisas y eficientes.
 
+[Siguiente](./4%20-%20BuilBot.md)

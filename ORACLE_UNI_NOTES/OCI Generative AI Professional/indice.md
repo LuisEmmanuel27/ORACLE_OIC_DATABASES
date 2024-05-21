@@ -6,4 +6,6 @@
 
 ## [3. Building Blocks for an LLM Application](./notas/3%20-%20Building.md)
 
+## [4. Build an LLM Application using OCI Generative AI Service](./notas/4%20-%20BuilBot.md)
+
 # [Cuestionarios](./notas/Preguntas_1.md)
