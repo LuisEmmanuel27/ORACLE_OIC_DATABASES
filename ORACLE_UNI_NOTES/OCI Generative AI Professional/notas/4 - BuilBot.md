@@ -21,3 +21,7 @@
 ## Extending Chatbot by adding  RAG + Memory
 
 ![pic_50](../img/pic_50.png)
+
+## Chatbot Technical Architecture
+
+![pic_51](../img/pic_51.png)

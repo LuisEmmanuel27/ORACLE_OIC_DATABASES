@@ -3,6 +3,7 @@
 ## 1 - 5 Fundamentals of Large Language Models
 ## 6 - 10 Generative AI Service
 ## 11 - 15 Building Blocks for an LLM Application
+## 16 - 20 Build an LLM Application using OCI Generative AI Service
 
 1. What is prompt engineering in the context of Large Language Models (LLMs)?
    1. Iteratively refining the ask to elicit a desired response
@@ -79,6 +80,32 @@
     2.  It evaluates and prioritizes the information retrieved by the Retriever.
     3.  It interacts with the user to understand the query better.
     4.  It generates the final text based on the user's query.<br><br>
+16. How are chains traditionally created in LangChain?
+    1.  Declaratively, with no coding required
+    2.  By using machine learning algorithms
+    3.  Exclusively through third-party software integrations
+    4.  Using Python classes, such as LLM Chain and others<br><br>
+17. What is the function of "Prompts" in the chatbot system?
+    1.  They store the chatbot's linguistic knowledge.
+    2.  They are used to initiate and guide the chatbot's responses.
+    3.  They handle the chatbot's memory and recall abilities.
+    4.  They are responsible for the underlying mechanics of the chatbot.<br><br>
+18. How are prompt templates typically designed for language models?
+    1.  As complex algorithms that require manual compilation
+    2.  To work only with numerical data instead of textual content
+    3.  To be used without any modification or customization
+    4.  As predefined recipes that guide the generation of language model prompts<br><br>
+19.  What is the purpose of memory in the LangChain framework?
+     1.   To retrieve user input and provide real-time output only
+     2.   To perform complex calculations unrelated to user interaction
+     3.   To act as a static database for storing permanent records
+     4.   To store various types of data and provide algorithms for summarizing past interactions<br><br>
+20.  What is LECL in the context of LangChain Chains?
+     1.   A declarative way to compose chains together using LangChain Expression Language
+     2.   A programming language used to write documentation for LangChain
+     3.   A legacy method for creating chains in LangChain
+     4.   An older Python library for building Large Language Models<br><br>
+
 
 # Respuestas
 
@@ -97,3 +124,8 @@
 13. `It involves understanding the intent and context of the search.` - Semantic search differs from traditional keyword search in that it involves understanding the intent and context of the search query, rather than relying solely on matching exact keywords in the content.
 14. `They rely on internal knowledge learned during pretraining on a large text corpus.` - Large Language Models (LLMs) without Retrieval Augmented Generation (RAG) primarily rely on internal knowledge learned during pretraining on a large text corpus. These models are trained on vast amounts of text data, which enables them to learn complex patterns, structures, and relationships within language.
 15. `It evaluates and prioritizes the information retrieved by the Retriever.` - The Ranker in a text generation system evaluates and prioritizes the information retrieved by the Retriever. After the Retriever sources relevant information from a large corpus or database, the Ranker assesses the retrieved information to determine its relevance, quality, and suitability for the specific task or context. The Ranker may use various criteria and algorithms to evaluate the retrieved information, such as relevance to the user's query, credibility of the source, recency of the information, and other contextual factors.
+16. `Using Python classes, such as LLM Chain and others` - Traditionally, chains are created in LangChain using Python classes, such as LLM Chain. LangChain provides a programming interface that allows developers to define and configure processing pipelines, or chains, using Python code. These chains are typically implemented as classes, where each class represents a specific component or module within the processing pipeline.
+17. `They are used to initiate and guide the chatbot's responses.` - Prompts serve as cues or triggers for the chatbot to understand the user's intent and generate appropriate responses. Prompts can take various forms, including questions, commands, or statements, and are designed to elicit specific types of responses from the chatbot.
+18. `As predefined recipes that guide the generation of language model prompts` - Prompt templates for language models are typically designed as predefined recipes that guide the generation of prompts. By using predefined templates, developers can ensure consistency and coherence in the prompts generated for the language model. These templates can include placeholders or variables representing different components of the prompt, such as user queries, context, or response options.
+19. `To store various types of data and provide algorithms for summarizing past interactions` - In the LangChain framework, memory serves as a dynamic repository for retaining and managing information throughout the system's operation. It allows the framework to maintain state and context, enabling chains to access, reference, and use past interactions and information in their decision-making processes.
+20. `A declarative way to compose chains together using LangChain Expression Language` - LECL, or LangChain Expression Language, is a declarative way to compose chains together within the LangChain framework. It provides a structured and expressive syntax for defining the composition of chains, specifying the sequence of components and their interactions in a clear and concise manner.
