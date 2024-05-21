@@ -1,9 +1,9 @@
 # Preguntas curso
 
-## 1 - 5 Fundamentals of Large Language Models
-## 6 - 10 Generative AI Service
-## 11 - 15 Building Blocks for an LLM Application
-## 16 - 20 Build an LLM Application using OCI Generative AI Service
+- **1 - 5 Fundamentals of Large Language Models**
+- **6 - 10 Generative AI Service**
+- **11 - 15 Building Blocks for an LLM Application**
+- **16 - 20 Build an LLM Application using OCI Generative AI Service**
 
 1. What is prompt engineering in the context of Large Language Models (LLMs)?
    1. Iteratively refining the ask to elicit a desired response
@@ -129,3 +129,5 @@
 18. `As predefined recipes that guide the generation of language model prompts` - Prompt templates for language models are typically designed as predefined recipes that guide the generation of prompts. By using predefined templates, developers can ensure consistency and coherence in the prompts generated for the language model. These templates can include placeholders or variables representing different components of the prompt, such as user queries, context, or response options.
 19. `To store various types of data and provide algorithms for summarizing past interactions` - In the LangChain framework, memory serves as a dynamic repository for retaining and managing information throughout the system's operation. It allows the framework to maintain state and context, enabling chains to access, reference, and use past interactions and information in their decision-making processes.
 20. `A declarative way to compose chains together using LangChain Expression Language` - LECL, or LangChain Expression Language, is a declarative way to compose chains together within the LangChain framework. It provides a structured and expressive syntax for defining the composition of chains, specifying the sequence of components and their interactions in a clear and concise manner.
+
+# [Parte 2](./Preguntas_2.md)
