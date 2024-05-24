@@ -151,6 +151,56 @@
     2. It shifts the basis of their responses from pretrained internal knowledge to real-time data retrieval.
     3. It enables them to bypass the need for pretraining on text corpora.
     4. It limits their ability to understand and generate natural language.<br><br>
+31. How do Dot Product and Cosine Distance differ in their application to comparing text embeddings in natural language processing?
+    1. Dot Product assesses the overall similarity in content, whereas Cosine Distance measures topical relevance.
+    2. Dot Product is used for semantic analysis, whereas Cosine distance is used for syntactic comparisons.
+    3. Dot Product measures the magnitude and direction of vectors, whereas Cosine Distance focuses on the orientation regardless of magnitude.
+    4. Dot Product calculates the literal overlap of words, whereas Cosine Distance evaluates the stylistic similarity.<br><br>
+32. Which is a cost-related benefit of using vector databases with Large Language Models (LLMs)?
+    1. They require frequent manual updates, which increase operational costs.
+    2. They offer real-time updated knowledge bases and are cheaper than fine-tuned LLMs.
+    3. They increase the cost due to the need for real-time updates.
+    4. They are more expensive but provide higher quality data.<br><br>
+33. An AI development company is working on an advanced AI assistant capable of handling queries in a seamless manner. Their goal is to create an assistant that can analyze images provided by users and generate descriptive text, as well as take text descriptions and produce accurate visual representations. Considering the capabilities, which type of model would the company likely focus on integrating into assistant?
+    1. A diffusion model that specializes in producing complex outputs
+    2. A Large Language Model based agent that focuses textual responses
+    3. A language model that on a token-by-token output basis
+    4. Retrieval-Augmented Generation (RAG) model that uses text as input and output<br><br>
+34. Which statement describes the role of encoder and decoder models in natural language processing?
+    1. Encoder models and decoder models both convert sequences of words into vector representations without generating new text.
+    2. Encoder models are used only for numerical calculations, whereas decoder models are used to interpret the calculated numerical values back into text.
+    3. Encoder models take a sequence of words and predict the next word in the sequence, whereas decoder models convert a sequence of words into a numerical representation.
+    4. Encoder models convert a sequence of words into a vector representation, and decoder models take this vector representation to generate a sequence of words.<br><br>
+35. What issue might arise from using small data sets with the Vanilla fine-tuning method in the OCI Generative AI service?
+    1. Overfiting
+    2. Underfiting
+    3. Data Leakage
+    4. Model Drift<br><br>
+36. Which is a key characteristic ofthe annotation process used in T-Few fine-tuning?
+    1. T-Few fine-tuning uses annotated data to adjust a fraction of model weights.
+    2. T-Few fine-tuning requires manual annotation of input-output pairs
+    3. T-Few fine-tuning involves updating the weight of all layers in the model.
+    4. T-Few fine-tuning relies on unsupervised learning techniques for annotation.<br><br>
+37. When should you use the T-Few fine-tuning method for training a model?
+    1. For complicated semantical understanding improvement
+    2. For models that require their own hosting dedicated AI cluster
+    3. For data sets with a few thousand samples or less
+    4. For data sets with hundreds of thousands to millions of samples<br><br>
+38. Which is a key advantage of using T-Few over Vanilla fine-tuning in the OCI Generative Al service?
+    1. Reduced model complexity
+    2. Enhanced generalization to unseen data
+    3. Increased model interpretability
+    4. Faster training time and lower cost<br><br>
+39. How does the utilization of T-Few transformer layers contribute to the eficiency of the fine-tuning process?
+    1. By incorporating additional layers to the base model
+    2. By allowing updates across all layers of the model
+    3. By excluding transformer layers from the fine-tuning process entirely
+    4. By restricting updates to only a specific group of transformer layers<br><br>
+40. What does "Loss" measure in the evaluation of OCI Generative AI fine-tuned models? The difference between the accuracy of the model at the beginning of training and the accuracy of the deployed model
+    1. The difference between the accuracy of the model at the beginning of training and the accuracy of the deployed model
+    2. The percentage of incorrect predictions made by the model compared with the total number of predictions in the evaluation
+    3. The improvement in accuracy achieved by the model during training on the user-uploaded data set
+    4. The level ofincorrectness in the model's predictions, with lower values indicating better performance<br><br>
 
 ## Respuestas
 
@@ -184,3 +234,13 @@
 28. `To debug issues in language model outputs`
 29. `Assending code readability`
 30. `It shifts the basis of their responses from pretrained internal knowledge to real-time data retrieval.`
+31. `Dot Product measures the magnitude and direction of vectors, whereas Cosine Distance focuses on the orientation regardless of magnitude.`
+32. `They offer real-time updated knowledge bases and are cheaper than fine-tuned LLMs.`
+33. `Retrieval-Augmented Generation (RAG) model that uses text as input and output`
+34. `Encoder models convert a sequence of words into a vector representation, and decoder models take this vector representation to generate a sequence of words.`
+35. `Overfiting`
+36. `T-Few fine-tuning uses annotated data to adjust a fraction of model weights.`
+37. `For data sets with a few thousand samples or less`
+38. `Faster training time and lower cost`
+39. `By restricting updates to only a specific group of transformer layers`
+40. `The level ofincorrectness in the model's predictions, with lower values indicating better performance`
